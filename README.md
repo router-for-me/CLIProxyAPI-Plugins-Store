@@ -17,7 +17,6 @@ must stay in each plugin author's own GitHub repository.
       "name": "Sample Provider",
       "description": "Adds sample provider support.",
       "author": "author-name",
-      "version": "0.1.0",
       "repository": "https://github.com/author-name/cliproxy-sample-provider",
       "logo": "https://raw.githubusercontent.com/author-name/cliproxy-sample-provider/main/logo.png",
       "homepage": "https://github.com/author-name/cliproxy-sample-provider",
@@ -34,11 +33,12 @@ Required fields:
 - `name`
 - `description`
 - `author`
-- `version`
 - `repository`
 
 Optional fields:
 
+- `version` (legacy; only used as a display fallback when the latest release
+  cannot be queried)
 - `logo`
 - `homepage`
 - `license`
@@ -51,16 +51,19 @@ Optional fields:
   digit, then use only ASCII letters, digits, `.`, `_`, or `-`, up to 128
   characters total.
 - `id` values must be unique.
-- `version` must not start with `v`.
+- `version`, when present, must not start with `v`.
 - `repository` must be exactly `https://github.com/{owner}/{repo}`.
 
 ## Release Requirements
 
-Plugin authors publish binaries in their own GitHub Releases. The release tag
-must be `v<version>`, for example `v0.1.0`.
+Plugin authors publish binaries in their own GitHub Releases. CLIProxyAPI
+reads the repository's latest release: the release tag defines the plugin
+version and must be `v<version>` with a dotted numeric version, for example
+`v0.1.0`. Publishing a new release is all it takes to ship an update; the
+registry does not need to change.
 
 Each release must include one `checksums.txt` and one zip per supported platform.
-Asset names must use:
+Asset names must use the release tag version without the leading `v`:
 
 ```text
 <id>_<version>_<goos>_<goarch>.zip
@@ -99,6 +102,6 @@ Open a pull request that updates only `registry.json` unless documentation also
 needs clarification. The pull request should include:
 
 - The plugin's GitHub repository URL.
-- The release tag matching `v<version>`.
+- The latest release tag in `v<version>` form, for example `v0.1.0`.
 - Evidence that the required zip asset and `checksums.txt` exist in the release.
 - A short description of what capability the plugin adds.

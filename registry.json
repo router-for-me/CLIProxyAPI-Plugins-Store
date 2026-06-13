@@ -17,7 +17,7 @@
       "id": "codex-invite",
       "name": "Codex Invite",
       "description": "Sends Codex referral invite emails from CPA using a selected Codex OAuth credential.",
-      "author": "LTbinglingfeng",
+      "author": "Supra4E8C",
       "version": "0.1.0",
       "repository": "https://github.com/LTbinglingfeng/cpa-plugin-codex-invite",
       "homepage": "https://github.com/LTbinglingfeng/cpa-plugin-codex-invite",

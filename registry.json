@@ -39,6 +39,18 @@
         "Interceptor",
         "Security"
       ]
+    },
+    {
+      "id": "antigravity-coding-filter",
+      "name": "Antigravity Coding Filter",
+      "description": "Intercept requests from mainstream programming software, especially reverse-engineering-related requests from Google Antigravity, to prevent account bans.",
+      "author": "jellyfish-p",
+      "repository": "https://github.com/jellyfish-p/cpa-plugin-antigravity-coding-filter",
+      "homepage": "https://github.com/jellyfish-p/cpa-plugin-antigravity-coding-filter",
+      "license": "MIT",
+      "tags": [
+        "Interceptor"
+      ]
     }
   ]
 }

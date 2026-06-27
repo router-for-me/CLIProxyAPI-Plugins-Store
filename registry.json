@@ -28,6 +28,21 @@
       ]
     },
     {
+      "id": "codex-quota-scheduler",
+      "name": "Codex Quota Scheduler",
+      "description": "Optimizes Codex account scheduling in CPA with quota-aware Fill First ordering, usage feedback, and a bilingual management UI.",
+      "author": "Jeffery",
+      "version": "0.1.0",
+      "repository": "https://github.com/JefferyZhang2019/cpa-plugin-codex-quota-scheduler",
+      "homepage": "https://github.com/JefferyZhang2019/cpa-plugin-codex-quota-scheduler",
+      "license": "MIT",
+      "tags": [
+        "Scheduler",
+        "Management",
+        "Codex"
+      ]
+    },
+    {
       "id": "privacyfilter",
       "name": "Privacy Filter",
       "description": "Intercepts model requests and redacts emails, phone numbers, API keys, tokens, and other secrets before they reach upstream providers, using embedded Gitleaks rules.",

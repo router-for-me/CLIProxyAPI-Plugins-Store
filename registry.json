@@ -86,6 +86,22 @@
       ]
     },
     {
+      "id": "codex-token-usage",
+      "name": "CPA Token Usage",
+      "description": "Codex account usage, quota tracking, 429 autoban and provider cost dashboard.",
+      "author": "zhumengling",
+      "version": "0.1.6",
+      "repository": "https://github.com/zhumengling/codex-token-usage",
+      "homepage": "https://github.com/zhumengling/codex-token-usage",
+      "license": "MIT",
+      "tags": [
+        "Usage",
+        "Codex",
+        "Quota",
+        "Dashboard"
+      ]
+    },
+    {
       "id": "codex-429-autoban",
       "name": "Codex 429 Auto Ban",
       "description": "Auto-disables Codex credentials on 429 and auto re-enables them after the exhausted rate-limit window (5-hour or weekly) refreshes, using upstream x-codex-* response headers.",

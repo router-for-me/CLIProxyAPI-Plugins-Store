@@ -86,6 +86,22 @@
       ]
     },
     {
+      "id": "codex-quota-guard",
+      "name": "Codex Quota Guard",
+      "description": "Soft-blocks Codex credentials near 5-hour or weekly quota limits and returns them after reset.",
+      "author": "quyen.eth",
+      "version": "0.1.0",
+      "repository": "https://github.com/quyendang/codex-quota-guard",
+      "homepage": "https://github.com/quyendang/codex-quota-guard",
+      "license": "MIT",
+      "tags": [
+        "Scheduler",
+        "Usage",
+        "Management",
+        "Codex"
+      ]
+    },
+    {
       "id": "codex-429-autoban",
       "name": "Codex 429 Auto Ban",
       "description": "Auto-disables Codex credentials on 429 and auto re-enables them after the exhausted rate-limit window (5-hour or weekly) refreshes, using upstream x-codex-* response headers.",

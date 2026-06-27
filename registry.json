@@ -97,6 +97,22 @@
         "Scheduler",
         "Codex"
       ]
+    },
+    {
+      "id": "model-fallback-router",
+      "name": "Model Fallback Router",
+      "description": "Retries matching model requests through configured fallback model names when the primary model fails with quota, rate-limit, transport, or configured HTTP status errors.",
+      "author": "thebtf",
+      "repository": "https://github.com/thebtf/cpa-model-fallback-router",
+      "homepage": "https://github.com/thebtf/cpa-model-fallback-router",
+      "license": "MIT",
+      "tags": [
+        "Router",
+        "Model Router",
+        "Fallback",
+        "Claude",
+        "OpenAI"
+      ]
     }
   ]
 }

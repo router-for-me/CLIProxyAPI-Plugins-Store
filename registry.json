@@ -90,7 +90,7 @@
       "name": "Codex Quota Guard",
       "description": "Soft-blocks Codex credentials near 5-hour or weekly quota limits and returns them after reset.",
       "author": "quyen.eth",
-      "version": "0.1.3",
+      "version": "0.1.4",
       "repository": "https://github.com/quyendang/codex-quota-guard",
       "homepage": "https://github.com/quyendang/codex-quota-guard",
       "license": "MIT",

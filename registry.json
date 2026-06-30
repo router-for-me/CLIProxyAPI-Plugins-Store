@@ -113,6 +113,22 @@
         "Claude",
         "OpenAI"
       ]
+    },
+    {
+      "id": "credential-priority",
+      "name": "Credential Priority",
+      "description": "Automatically sorts Antigravity and Codex credentials by fresh quota evidence.",
+      "author": "Cody292",
+      "version": "1.0.0",
+      "repository": "https://github.com/Cody292/credential-priority",
+      "homepage": "https://github.com/Cody292/credential-priority",
+      "license": "MIT",
+      "tags": [
+        "Credential",
+        "Priority",
+        "Quota",
+        "Management"
+      ]
     }
   ]
 }

@@ -142,7 +142,7 @@
         "Auth"
       ]
     },
-    { 
+    {
       "id": "embeddings-forward",
       "name": "Embeddings Forward",
       "description": "Forwards OpenAI-compatible /v1/embeddings requests to an upstream provider via a Management API route, enabling embedding support without server-side route changes.",
@@ -153,6 +153,21 @@
       "tags": [
         "Management",
         "Embeddings"
+      ]
+    },
+    {
+      "id": "model-mapper",
+      "name": "Model Mapper",
+      "description": "Maps requested CLIProxyAPI model names to upstream models across Claude, OpenAI Chat Completions, and OpenAI Responses.",
+      "author": "DoingDog",
+      "repository": "https://github.com/DoingDog/cpa-plugin-model-mapper",
+      "homepage": "https://github.com/DoingDog/cpa-plugin-model-mapper",
+      "license": "Unlicense",
+      "tags": [
+        "Router",
+        "Model Router",
+        "Claude",
+        "OpenAI"
       ]
     }
   ]

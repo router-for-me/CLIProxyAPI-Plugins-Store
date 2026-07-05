@@ -187,6 +187,25 @@
         "Claude",
         "OpenAI"
       ]
+    },
+    {
+      "id": "provider-family-quota-router",
+      "name": "Provider Family Quota Router",
+      "description": "Passively cools down failed OAuth credentials per provider and model family, so one Antigravity Claude failure does not disable the same account for Gemini or GPT-OSS.",
+      "author": "Jason Zahng QQ:350400138",
+      "version": "0.1.0",
+      "repository": "https://github.com/fastnas2023/provider-family-quota-router",
+      "homepage": "https://github.com/fastnas2023/provider-family-quota-router",
+      "license": "MIT",
+      "tags": [
+        "Router",
+        "Scheduler",
+        "Model Router",
+        "Fallback",
+        "Antigravity",
+        "Claude",
+        "Gemini"
+      ]
     }
   ]
 }

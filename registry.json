@@ -187,6 +187,20 @@
         "Claude",
         "OpenAI"
       ]
+    },
+    {
+      "id": "codex-fail-autoban",
+      "name": "Codex Fail Autoban",
+      "description": "Auto-disables or deletes a Codex credential when its OAuth token is invalidated (authentication_error / auth_unavailable), keeping the pool healthy.",
+      "author": "tsunheimat",
+      "repository": "https://github.com/tsunheimat/codex-fail-autoban",
+      "homepage": "https://github.com/tsunheimat/codex-fail-autoban",
+      "license": "MIT",
+      "tags": [
+        "Scheduler",
+        "Codex",
+        "Management"
+      ]
     }
   ]
 }

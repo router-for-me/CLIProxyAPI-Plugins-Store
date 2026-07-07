@@ -30,6 +30,21 @@
       ]
     },
     {
+      "id": "codex-quota-scheduler",
+      "name": "Codex Quota Scheduler",
+      "description": "Optimizes Codex account scheduling in CPA with quota-aware Fill First ordering, reset probing, and a Management-key-gated bilingual UI.",
+      "author": "Jeffery",
+      "version": "0.1.4",
+      "repository": "https://github.com/JefferyZhang2019/cpa-plugin-codex-quota-scheduler",
+      "homepage": "https://github.com/JefferyZhang2019/cpa-plugin-codex-quota-scheduler",
+      "license": "MIT",
+      "tags": [
+        "Scheduler",
+        "Management",
+        "Codex"
+      ]
+    },
+    {
       "id": "keeper",
       "name": "CPA Usage Keeper",
       "description": "Adds a CPAMC entry for opening CPA Usage Keeper from the management center. Requires CPA Usage Keeper v1.12.2 or later.",

@@ -34,7 +34,6 @@
       "name": "Codex Reset Warmup",
       "description": "Schedules lightweight Codex warmup requests at known reset boundaries so CLIProxyAPI Codex auths stay ready after 5-hour and weekly resets.",
       "author": "Golfrey",
-      "version": "0.1.3",
       "repository": "https://github.com/Golfrey/codex-reset-warmup",
       "homepage": "https://github.com/Golfrey/codex-reset-warmup",
       "license": "MIT",

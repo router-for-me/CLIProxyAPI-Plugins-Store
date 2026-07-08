@@ -202,6 +202,20 @@
         "Claude",
         "OpenAI"
       ]
+    },
+    {
+      "id": "codex-continue-thinking",
+      "name": "Codex Continue Thinking",
+      "description": "Detects Codex reasoning truncation and automatically folds multiple upstream Codex rounds into a single downstream streaming response.",
+      "author": "TwitterIsGood",
+      "version": "0.1.0",
+      "repository": "https://github.com/TwitterIsGood/cpa-continue-thinking",
+      "homepage": "https://github.com/TwitterIsGood/cpa-continue-thinking",
+      "license": "MIT",
+      "tags": [
+        "Executor",
+        "Codex"
+      ]
     }
   ]
 }

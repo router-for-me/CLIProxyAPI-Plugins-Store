@@ -202,6 +202,20 @@
         "Claude",
         "OpenAI"
       ]
+    },
+    {
+      "id": "codexcont",
+      "name": "CodexCont",
+      "description": "Continues gpt-5.5 folded reasoning streams inside CLIProxyAPI when upstream truncation matches the CodexCont heuristic.",
+      "author": "cwzsquare",
+      "version": "0.1.2",
+      "repository": "https://github.com/cwzsquare/cpa-plugin-codexcont",
+      "homepage": "https://github.com/cwzsquare/cpa-plugin-codexcont",
+      "tags": [
+        "Interceptor",
+        "Codex",
+        "Responses"
+      ]
     }
   ]
 }

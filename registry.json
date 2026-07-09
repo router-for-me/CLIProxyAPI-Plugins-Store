@@ -211,6 +211,7 @@
       "version": "0.1.2",
       "repository": "https://github.com/cwzsquare/cpa-plugin-codexcont",
       "homepage": "https://github.com/cwzsquare/cpa-plugin-codexcont",
+      "license": "MIT",
       "tags": [
         "Interceptor",
         "Codex",

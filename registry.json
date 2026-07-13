@@ -6,7 +6,7 @@
       "name": "Panel Updater",
       "description": "Manually update the management center panel (management.html) from the configured panel repository via a browser page.",
       "author": "berry-shake",
-      "version": "0.1.2",
+      "version": "0.1.3",
       "repository": "https://github.com/berry-shake/cliproxy-panel-updater",
       "homepage": "https://github.com/berry-shake/cliproxy-panel-updater",
       "tags": [

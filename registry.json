@@ -250,7 +250,7 @@
       "name": "Grok Inspection",
       "description": "Background xAI/Grok account inspection for CPA, with permission, quota, login, and health classification.",
       "author": "ywddd",
-      "version": "0.1.2",
+      "version": "0.1.3",
       "repository": "https://github.com/ywddd/grok-inspection",
       "homepage": "https://github.com/ywddd/grok-inspection",
       "license": "MIT",

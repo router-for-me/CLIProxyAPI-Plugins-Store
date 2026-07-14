@@ -236,7 +236,7 @@
       "name": "Grok Panel",
       "description": "Provides a Chinese Grok account dashboard for usage statistics, Free/Super/Heavy subscription classification, health checks, protected-account rules, and safe credential cleanup.",
       "author": "TizenryA",
-      "version": "1.1.23",
+      "version": "1.1.24",
       "repository": "https://github.com/TizenryA/cpa-plugin-grok-panel",
       "homepage": "https://github.com/TizenryA/cpa-plugin-grok-panel",
       "license": "MIT",

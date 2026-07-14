@@ -246,6 +246,22 @@
       ]
     },
     {
+      "id": "cap-token-usage-tracker",
+      "name": "CAP Token Usage Tracker",
+      "description": "Persistent token usage tracking with hourly aggregation, multi-dimensional statistics (model, provider, executor, alias, origin, auth type, service tier, reasoning effort, failure), and an embedded Chinese dashboard in Management Center.",
+      "author": "AITNR",
+      "version": "0.0.1",
+      "repository": "https://github.com/AITNR/cap-token-usage-tracker",
+      "homepage": "https://github.com/AITNR/cap-token-usage-tracker",
+      "license": "MIT",
+      "tags": [
+        "Management",
+        "Usage",
+        "Statistics",
+        "Dashboard"
+      ]
+    },
+    {
       "id": "grok-inspection",
       "name": "Grok Inspection",
       "description": "Background xAI/Grok account inspection for CPA, with permission, quota, login, and health classification; supports full/incremental/classify-scoped re-inspect and bulk actions.",

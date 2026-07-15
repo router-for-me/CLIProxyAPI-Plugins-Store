@@ -34,7 +34,7 @@
       "name": "Codex Quota Scheduler",
       "description": "Optimizes Codex account scheduling in CPA with quota-aware Fill First ordering, reset probing, and a Management-key-gated bilingual UI.",
       "author": "Jeffery",
-      "version": "0.1.4",
+      "version": "0.2.0",
       "repository": "https://github.com/JefferyZhang2019/cpa-plugin-codex-quota-scheduler",
       "homepage": "https://github.com/JefferyZhang2019/cpa-plugin-codex-quota-scheduler",
       "license": "MIT",

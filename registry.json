@@ -8,6 +8,7 @@
       "author": "berry-shake",
       "version": "0.2.1",
       "repository": "https://github.com/berry-shake/cpa-panel-updater-plugin",
+      "logo": "https://raw.githubusercontent.com/berry-shake/cpa-panel-updater-plugin/main/logo.png",
       "homepage": "https://github.com/berry-shake/cpa-panel-updater-plugin",
       "tags": [
         "Management",
@@ -21,6 +22,7 @@
       "author": "berry-shake",
       "version": "0.1.2",
       "repository": "https://github.com/berry-shake/cpa-model-limiter-plugin",
+      "logo": "https://raw.githubusercontent.com/berry-shake/cpa-model-limiter-plugin/main/logo.png",
       "homepage": "https://github.com/berry-shake/cpa-model-limiter-plugin",
       "tags": [
         "Auth",

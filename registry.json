@@ -275,6 +275,36 @@
         "Grok",
         "xAI"
       ]
+    },
+    {
+      "id": "kiro",
+      "name": "Kiro",
+      "description": "CLIProxyAPI provider plugin for Kiro API. Supports chat completions with streaming, thinking/reasoning modes, multi-endpoint routing (Kiro, CodeWhisperer, Amazon Q), and OAuth token-based auth.",
+      "author": "gavanduffy",
+      "version": "1.0.0",
+      "repository": "https://github.com/gavanduffy/cliproxy-plugin-kiro",
+      "homepage": "https://github.com/gavanduffy/cliproxy-plugin-kiro",
+      "license": "MIT",
+      "tags": [
+        "Provider",
+        "Kiro",
+        "AmazonQ",
+        "CodeWhisperer"
+      ]
+    },
+    {
+      "id": "commandcode",
+      "name": "Command Code",
+      "description": "CLIProxyAPI provider plugin for Command Code API. Supports chat completions with streaming, dynamic model discovery, and API-key-based auth.",
+      "author": "gavanduffy",
+      "version": "0.2.0",
+      "repository": "https://github.com/gavanduffy/cliproxy-plugin-cmd",
+      "homepage": "https://github.com/gavanduffy/cliproxy-plugin-cmd",
+      "license": "MIT",
+      "tags": [
+        "Provider",
+        "CommandCode"
+      ]
     }
   ]
 }

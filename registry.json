@@ -275,6 +275,23 @@
         "Grok",
         "xAI"
       ]
+    },
+    {
+      "id": "cpa-account-config-manager",
+      "name": "CPA Account Config Manager",
+      "description": "Manages CLIProxyAPI account configurations with redacted account inspection, multi-format import and export, usage visibility, safe batch edits, persistent defaults, and in-plugin account CRUD.",
+      "author": "Mxucc",
+      "version": "0.2.0",
+      "repository": "https://github.com/Mxucc/cpa-account-config-manager",
+      "homepage": "https://github.com/Mxucc/cpa-account-config-manager",
+      "license": "MIT",
+      "tags": [
+        "Management",
+        "Accounts",
+        "Import",
+        "Export",
+        "Codex"
+      ]
     }
   ]
 }

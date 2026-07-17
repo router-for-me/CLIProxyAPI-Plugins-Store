@@ -252,6 +252,7 @@
       "author": "AITNR",
       "version": "0.0.1",
       "repository": "https://github.com/AITNR/cap-token-usage-tracker",
+      "logo": "https://github.com/AITNR/cap-token-usage-tracker/blob/main/log-1024x1024.png",
       "homepage": "https://github.com/AITNR/cap-token-usage-tracker",
       "license": "MIT",
       "tags": [

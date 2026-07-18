@@ -275,6 +275,22 @@
         "Grok",
         "xAI"
       ]
+    },
+    {
+      "id": "codex-model-discovery",
+      "name": "Codex Model Discovery",
+      "description": "Discovers the Codex models available to each CLIProxyAPI OAuth account.",
+      "author": "Niklaus1911",
+      "version": "0.1.1",
+      "repository": "https://github.com/Niklaus1911/cpa-plugin-codex-model-discovery",
+      "homepage": "https://github.com/Niklaus1911/cpa-plugin-codex-model-discovery#readme",
+      "license": "MIT",
+      "tags": [
+        "Codex",
+        "Models",
+        "OAuth",
+        "Discovery"
+      ]
     }
   ]
 }

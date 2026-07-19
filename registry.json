@@ -275,6 +275,22 @@
         "Grok",
         "xAI"
       ]
+    },
+    {
+      "id": "cpaimage",
+      "name": "CPA ChatGPT Web Image",
+      "description": "Intercepts gpt-image-2 Images API requests and generates images through the ChatGPT web picture_v2 flow using CPA-managed Codex OAuth credentials.",
+      "author": "wmn1525",
+      "version": "0.1.8",
+      "repository": "https://github.com/wmn1525/cpa-plugin-chatgptimage2",
+      "homepage": "https://github.com/wmn1525/cpa-plugin-chatgptimage2",
+      "license": "MIT",
+      "tags": [
+        "Executor",
+        "Model Router",
+        "Images",
+        "Codex"
+      ]
     }
   ]
 }

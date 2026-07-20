@@ -309,6 +309,44 @@
         "Export",
         "Codex"
       ]
+    },
+    {
+      "id": "workbuddy",
+      "name": "Workbuddy",
+      "description": "Wraps Tencent CodeBuddy (copilot.tencent.com) as an OpenAI/Anthropic-compatible provider. Supports GLM, Kimi, Minimax, and DeepSeek models with smart system prompt cloaking for Claude Code.",
+      "author": "lovingfish",
+      "repository": "https://github.com/lovingfish/workbuddy-cliproxy",
+      "homepage": "https://github.com/lovingfish/workbuddy-cliproxy",
+      "license": "MIT",
+      "tags": [
+        "Provider",
+        "Claude",
+        "DeepSeek"
+      ]
+    },
+    {
+      "id": "commandcode",
+      "name": "Command Code",
+      "description": "Exposes Command Code (commandcode.ai) models through an OpenAI-compatible chat completions interface.",
+      "author": "gavanduffy",
+      "repository": "https://github.com/gavanduffy/cliproxy-plugin-cmd",
+      "homepage": "https://github.com/gavanduffy/cliproxy-plugin-cmd",
+      "license": "MIT",
+      "tags": [
+        "Provider"
+      ]
+    },
+    {
+      "id": "kiro",
+      "name": "Kiro",
+      "description": "Adds Kiro API upstream provider support to CLIProxyAPI via the Cybx-GatewayQue proxy.",
+      "author": "gavanduffy",
+      "repository": "https://github.com/gavanduffy/cliproxy-plugin-kiro",
+      "homepage": "https://github.com/gavanduffy/cliproxy-plugin-kiro",
+      "license": "MIT",
+      "tags": [
+        "Provider"
+      ]
     }
   ]
 }

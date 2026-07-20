@@ -277,6 +277,22 @@
       ]
     },
     {
+      "id": "opencode-go-pool",
+      "name": "OpenCode Go Pool",
+      "description": "Quota-aware cross-protocol account pooling and failover for OpenCode Go subscriptions.",
+      "author": "hrz6976",
+      "version": "0.2.0",
+      "repository": "https://github.com/hrz6976/cpa-plugin-opencode-go-pool",
+      "homepage": "https://github.com/hrz6976/cpa-plugin-opencode-go-pool",
+      "license": "MIT",
+      "tags": [
+        "Scheduler",
+        "Management",
+        "Usage",
+        "OpenCode"
+      ]
+    },
+    {
       "id": "cpa-account-config-manager",
       "name": "CPA Account Config Manager",
       "description": "Manages CLIProxyAPI account configurations with redacted account inspection, multi-format import and export, usage visibility, safe batch edits, persistent defaults, and in-plugin account CRUD.",

@@ -309,6 +309,66 @@
         "Export",
         "Codex"
       ]
+    },
+    {
+      "id": "cpa-xai-quota-guard",
+      "name": "xAI Quota Guard",
+      "description": "Manages xAI credentials - cooldown, patrol, auto-delete on 401/403, and auto-recovery for xAI/Grok rate limits. Includes a bilingual management UI.",
+      "author": "Mortal520",
+      "version": "0.3.27",
+      "repository": "https://github.com/Mortal520/cpa-xai-quota-guard",
+      "homepage": "https://github.com/Mortal520/cpa-xai-quota-guard",
+      "license": "MIT",
+      "tags": [
+        "Scheduler",
+        "Management",
+        "Grok",
+        "xAI"
+      ]
+    },
+    {
+      "id": "retry-gateway",
+      "name": "Retry Gateway",
+      "description": "Intercepts reasoning model requests (gpt-5.5/o1/claude-thinking) and automatically retries requests if reasoning truncation or premature folding is detected.",
+      "author": "Av1anJay",
+      "version": "0.1.0",
+      "repository": "https://github.com/Av1anJay/cliproxyapi-retry-gateway",
+      "homepage": "https://github.com/Av1anJay/cliproxyapi-retry-gateway",
+      "license": "MIT",
+      "tags": [
+        "Interceptor",
+        "Fallback",
+        "Responses",
+        "Reasoning"
+      ]
+    },
+    {
+      "id": "model-limiter",
+      "name": "Model Limiter",
+      "description": "Provides simple model access rules (allow/deny lists) for inbound API keys.",
+      "author": "berry-shake",
+      "version": "0.1.0",
+      "repository": "https://github.com/berry-shake/cpa-model-limiter-plugin",
+      "homepage": "https://github.com/berry-shake/cpa-model-limiter-plugin",
+      "license": "MIT",
+      "tags": [
+        "Management",
+        "Auth",
+        "Security"
+      ]
+    },
+    {
+      "id": "panel-updater",
+      "name": "Panel Updater",
+      "description": "Enables manually updating the management.html control panel directly from the UI.",
+      "author": "berry-shake",
+      "version": "0.1.0",
+      "repository": "https://github.com/berry-shake/cpa-panel-updater-plugin",
+      "homepage": "https://github.com/berry-shake/cpa-panel-updater-plugin",
+      "license": "MIT",
+      "tags": [
+        "Management"
+      ]
     }
   ]
 }

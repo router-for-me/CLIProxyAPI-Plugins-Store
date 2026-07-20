@@ -309,6 +309,21 @@
         "Export",
         "Codex"
       ]
+    },
+    {
+      "id": "cpa-auth-inspect",
+      "name": "CPA Auth Inspect",
+      "description": "Multi-provider authentication inspector and management-menu plugin for CLIProxyAPI. Inspects xAI, Codex, Claude, and Gemini auth tokens, deletes invalid 401s, handles automatic OAuth re-auth via Chromium, and exposes a beautiful audit UI.",
+      "author": "YOUYCG",
+      "version": "0.2.0",
+      "repository": "https://github.com/YOUYCG/cpa-auth-inspect",
+      "homepage": "https://github.com/YOUYCG/cpa-auth-inspect",
+      "license": "MIT",
+      "tags": [
+        "Management",
+        "Accounts",
+        "Inspector"
+      ]
     }
   ]
 }

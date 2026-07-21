@@ -309,6 +309,23 @@
         "Export",
         "Codex"
       ]
+    },
+    {
+      "id": "cursor-provider",
+      "name": "Cursor Provider",
+      "description": "Routes Cursor models through the Cursor Connect API with OpenAI-compatible Chat Completions, PKCE OAuth, MCP tool calling, session affinity, and a quota management page.",
+      "author": "shuuul",
+      "version": "0.1.3",
+      "repository": "https://github.com/shuuul/cursor-provider",
+      "logo": "https://raw.githubusercontent.com/shuuul/cursor-provider/main/logo.png",
+      "homepage": "https://github.com/shuuul/cursor-provider",
+      "license": "MIT",
+      "tags": [
+        "Provider",
+        "Cursor",
+        "OpenAI",
+        "OAuth"
+      ]
     }
   ]
 }

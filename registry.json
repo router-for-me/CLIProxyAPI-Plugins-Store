@@ -232,6 +232,22 @@
       ]
     },
     {
+      "id": "grok-panel",
+      "name": "Grok Panel",
+      "description": "Provides a Chinese Grok account dashboard for usage statistics, Free/Super/Heavy subscription classification, health checks, protected-account rules, and safe credential cleanup.",
+      "author": "TizenryA",
+      "version": "1.1.25",
+      "repository": "https://github.com/TizenryA/cpa-plugin-grok-panel",
+      "homepage": "https://github.com/TizenryA/cpa-plugin-grok-panel",
+      "license": "MIT",
+      "tags": [
+        "Management",
+        "Usage",
+        "Grok",
+        "Dashboard"
+      ]
+    },
+    {
       "id": "usage-statistics",
       "name": "Usage Statistics",
       "description": "Persists per-request usage (tokens, latency, TTFT, reasoning effort, service tier, and failures) to a local SQLite database, and exposes management-key-gated query and delete APIs.",

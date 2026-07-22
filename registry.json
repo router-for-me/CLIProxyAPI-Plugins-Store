@@ -309,6 +309,22 @@
         "Export",
         "Codex"
       ]
+    },
+    {
+      "id": "codex-agent-identity",
+      "name": "Codex Agent Identity",
+      "description": "Adds CPA-native management for Codex Agent Identity and Personal Access Token credentials with encrypted storage, batch import, and a CPAMC dashboard; uses a companion sidecar for AgentAssertion and token forwarding.",
+      "author": "simplez2",
+      "version": "0.3.1",
+      "repository": "https://github.com/simplez2/cpa-codex-agent-identity",
+      "logo": "https://raw.githubusercontent.com/simplez2/cpa-codex-agent-identity/main/assets/logo.svg",
+      "homepage": "https://github.com/simplez2/cpa-codex-agent-identity",
+      "license": "MIT",
+      "tags": [
+        "Management",
+        "Auth",
+        "Codex"
+      ]
     }
   ]
 }

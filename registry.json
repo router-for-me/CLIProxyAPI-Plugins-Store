@@ -325,6 +325,21 @@
         "Export",
         "Codex"
       ]
+    },
+    {
+      "id": "credential-manager",
+      "name": "Credential Manager",
+      "description": "Safely classifies host credentials and previews or confirms batch per-credential excluded_models updates.",
+      "author": "vaynebobby-crypto",
+      "version": "0.1.0",
+      "repository": "https://github.com/vaynebobby-crypto/cpa-plugin-credential-manager",
+      "homepage": "https://github.com/vaynebobby-crypto/cpa-plugin-credential-manager",
+      "license": "MIT",
+      "tags": [
+        "Management",
+        "Security",
+        "Credentials"
+      ]
     }
   ]
 }

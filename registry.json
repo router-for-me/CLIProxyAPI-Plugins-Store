@@ -325,6 +325,22 @@
         "Export",
         "Codex"
       ]
+    },
+    {
+      "id": "cpa-token-manager",
+      "name": "CPA Token Manager",
+      "description": "Creates account-bound Codex API keys with percentage-based weekly quotas, official usage synchronization, SQLite persistence, and admin and public quota pages.",
+      "author": "kokojacket",
+      "version": "0.1.4",
+      "repository": "https://github.com/kokojacket/cpa-token-manager",
+      "homepage": "https://github.com/kokojacket/cpa-token-manager",
+      "tags": [
+        "Scheduler",
+        "Management",
+        "Usage",
+        "Auth",
+        "Codex"
+      ]
     }
   ]
 }

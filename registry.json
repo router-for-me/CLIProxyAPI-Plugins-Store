@@ -356,6 +356,24 @@
         "Auth",
         "Codex"
       ]
+    },
+    {
+      "id": "multi-protocol-provider",
+      "name": "Multi-Protocol Provider",
+      "description": "Adds a configurable upstream provider with OpenAI Chat Completions, OpenAI Responses, Anthropic Messages, and Gemini protocols, multi-key routing, model aliases, image endpoints, thinking parameters, proxies, and an embedded management GUI.",
+      "author": "Hamster-Prime",
+      "version": "0.2.0",
+      "repository": "https://github.com/Hamster-Prime/cpa-plugin-provider",
+      "logo": "https://avatars.githubusercontent.com/u/60058434?s=64&v=4",
+      "homepage": "https://github.com/Hamster-Prime/cpa-plugin-provider",
+      "license": "MIT",
+      "tags": [
+        "Provider",
+        "Management",
+        "OpenAI",
+        "Anthropic",
+        "Gemini"
+      ]
     }
   ]
 }

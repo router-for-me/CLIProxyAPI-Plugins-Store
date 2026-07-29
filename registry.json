@@ -465,6 +465,24 @@
         "Auth",
         "Codex"
       ]
+    },
+    {
+      "id": "ollama-cloud-monitor",
+      "name": "Ollama Cloud Quota Monitor",
+      "description": "Monitors per-account Ollama Cloud rolling and weekly quota usage, reset times, balances, and per-model request counts, with optional CPA provider key synchronization and cleanup.",
+      "author": "jacklee-code",
+      "version": "0.1.0",
+      "repository": "https://github.com/jacklee-code/ollama-cloud-quota-monitor",
+      "logo": "https://ollama.com/public/icon-32.png",
+      "homepage": "https://github.com/jacklee-code/ollama-cloud-quota-monitor",
+      "license": "LGPL-3.0",
+      "tags": [
+        "Management",
+        "Usage",
+        "Quota",
+        "Ollama",
+        "Dashboard"
+      ]
     }
   ]
 }

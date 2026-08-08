@@ -590,6 +590,33 @@
         "Compaction",
         "OpenAI"
       ]
+    },
+    {
+      "id": "prompt-rules",
+      "name": "Prompt Rules",
+      "description": "Injects or strips system and user prompt text before provider translation, with model and protocol scoping.",
+      "author": "markhuangai",
+      "repository": "https://github.com/markhuangai/cpa-plugin-prompt-rules",
+      "homepage": "https://github.com/markhuangai/cpa-plugin-prompt-rules",
+      "license": "MIT",
+      "tags": [
+        "Interceptor",
+        "Prompt"
+      ]
+    },
+    {
+      "id": "model-router",
+      "name": "Model Router",
+      "description": "Adds logical model aliases with priority or round-robin selection, cooldowns, and failover across CPA model targets.",
+      "author": "markhuangai",
+      "repository": "https://github.com/markhuangai/cpa-plugin-model-router",
+      "homepage": "https://github.com/markhuangai/cpa-plugin-model-router",
+      "license": "MIT",
+      "tags": [
+        "Router",
+        "Model Router",
+        "Fallback"
+      ]
     }
   ]
 }

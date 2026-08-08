@@ -2,6 +2,21 @@
   "schema_version": 1,
   "plugins": [
     {
+      "id": "auth-inspect",
+      "name": "CPA Auth Inspect",
+      "description": "Adds a management menu for a local multi-provider authentication inspector supporting xAI, Codex, Claude, and Gemini. Requires the companion inspector service from the same repository on port 18318.",
+      "author": "YOUYCG",
+      "version": "0.2.0",
+      "repository": "https://github.com/YOUYCG/cpa-auth-inspect",
+      "homepage": "https://github.com/YOUYCG/cpa-auth-inspect",
+      "license": "MIT",
+      "tags": [
+        "Management",
+        "Auth",
+        "Dashboard"
+      ]
+    },
+    {
       "id": "jshandler",
       "name": "JS Handler",
       "description": "A CLIProxyAPI plugin that executes external JavaScript scripts to intercept and modify requests, responses, and streaming chunks using the Goja VM engine.",

@@ -465,6 +465,23 @@
         "Auth",
         "Codex"
       ]
+    },
+    {
+      "id": "glm-vision-bridge",
+      "name": "GLM Vision Bridge",
+      "description": "Bridges vision models with text models: independent vision candidates extract untrusted image facts, then a primary text model generates the final answer. Supports OpenAI Chat, Responses, and Claude Messages with on-demand history image restoration and safe auto-compression.",
+      "author": "wangwq7",
+      "version": "1.0.0",
+      "repository": "https://github.com/wangwq7/cpa-glm-vision-bridge",
+      "homepage": "https://github.com/wangwq7/cpa-glm-vision-bridge",
+      "license": "MIT",
+      "tags": [
+        "Executor",
+        "Vision",
+        "Router",
+        "Claude",
+        "OpenAI"
+      ]
     }
   ]
 }

@@ -617,6 +617,22 @@
         "Model Router",
         "Fallback"
       ]
+    },
+    {
+      "id": "ark-429-autoban",
+      "name": "ARK 429 Autoban",
+      "description": "Auto-isolates Volcano Engine ARK API keys on HTTP 429 with precise reset-time parsing, per-error-code fallback durations, key label auto-compute from config comments, and a management UI for monitoring and manual unban.",
+      "author": "wyx1818",
+      "repository": "https://github.com/wyx1818/ark-429-autoban",
+      "homepage": "https://github.com/wyx1818/ark-429-autoban",
+      "license": "MIT",
+      "tags": [
+        "Scheduler",
+        "Usage",
+        "ARK",
+        "Volcano Engine",
+        "429"
+      ]
     }
   ]
 }

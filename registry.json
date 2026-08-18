@@ -617,6 +617,23 @@
         "Model Router",
         "Fallback"
       ]
+    },
+    {
+      "id": "glm-vision-bridge",
+      "name": "GLM Vision Bridge",
+      "description": "Bridges vision and text models with bounded persistent visual memory, parallel image-tool batch handling, explicit reanalysis, and safe history compression across OpenAI Chat, Responses, and Claude Messages.",
+      "author": "wangwq7",
+      "version": "1.1.2",
+      "repository": "https://github.com/wangwq7/cpa-glm-vision-bridge",
+      "homepage": "https://github.com/wangwq7/cpa-glm-vision-bridge",
+      "license": "MIT",
+      "tags": [
+        "Executor",
+        "Vision",
+        "Router",
+        "Claude",
+        "OpenAI"
+      ]
     }
   ]
 }

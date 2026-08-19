@@ -732,6 +732,20 @@
         "Codex",
         "Responses"
       ]
+    },
+    {
+      "id": "kiro-provider",
+      "name": "Kiro Provider",
+      "description": "Adds Kiro provider support with OAuth, dynamic model discovery, quota reporting, and OpenAI Chat Completions translation.",
+      "author": "ViceEye",
+      "repository": "https://github.com/ViceEye/cpa-kiro-provider",
+      "homepage": "https://github.com/ViceEye/cpa-kiro-provider",
+      "license": "AGPL-3.0-or-later",
+      "tags": [
+        "Provider",
+        "Kiro",
+        "OAuth"
+      ]
     }
   ]
 }

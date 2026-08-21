@@ -732,6 +732,23 @@
         "Codex",
         "Responses"
       ]
+    },
+    {
+      "id": "cursor",
+      "name": "Cursor Provider",
+      "description": "Exposes the models on a Cursor subscription to any OpenAI-compatible client, by speaking Cursor's agent backend directly.",
+      "author": "davidfarah2003",
+      "repository": "https://github.com/davidfarah2003/cliproxy-cursor-provider",
+      "logo": "https://raw.githubusercontent.com/davidfarah2003/cliproxy-cursor-provider/master/logo.svg",
+      "homepage": "https://github.com/davidfarah2003/cliproxy-cursor-provider",
+      "license": "MIT",
+      "tags": [
+        "Provider",
+        "Cursor",
+        "OAuth",
+        "Usage",
+        "Quota"
+      ]
     }
   ]
 }

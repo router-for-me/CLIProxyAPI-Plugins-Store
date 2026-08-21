@@ -732,6 +732,20 @@
         "Codex",
         "Responses"
       ]
+    },
+    {
+      "id": "cpa-account-vault",
+      "name": "CPA Account Vault",
+      "description": "CLIProxyAPI 原生插件，用于管理账号文件(非CPA认证文件)、复制账号密码、查看凭证状态和快速登录。",
+      "author": "Solon.Z",
+      "version": "0.1.5",
+      "repository": "https://github.com/zhangshilun/CPA-Account-Vault",
+      "homepage": "https://github.com/zhangshilun/CPA-Account-Vault",
+      "license": "MIT",
+      "tags": [
+        "Accounts",
+        "OAuth"
+      ]
     }
   ]
 }

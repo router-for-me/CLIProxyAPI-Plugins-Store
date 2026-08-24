@@ -738,9 +738,10 @@
       "name": "StickyProxy",
       "description": "Manages account-scoped sticky upstream proxy URLs for selected CLIProxyAPI accounts.",
       "author": "MarvekG",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "repository": "https://github.com/MarvekG/CPAStickyProxy",
       "homepage": "https://github.com/MarvekG/CPAStickyProxy",
+      "license": "MIT",
       "tags": [
         "Management",
         "Proxy",

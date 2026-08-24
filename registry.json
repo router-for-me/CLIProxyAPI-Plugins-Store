@@ -732,6 +732,21 @@
         "Codex",
         "Responses"
       ]
+    },
+    {
+      "id": "stickyproxy",
+      "name": "StickyProxy",
+      "description": "Manages account-level sticky proxies for CLIProxyAPI, deriving stable per-account sessions and selectively synchronizing proxy settings through native host.auth callbacks.",
+      "author": "MarvekG",
+      "version": "0.1.3",
+      "repository": "https://github.com/MarvekG/CPAStickyProxy",
+      "homepage": "https://github.com/MarvekG/CPAStickyProxy",
+      "license": "MIT",
+      "tags": [
+        "Management",
+        "Proxy",
+        "Account"
+      ]
     }
   ]
 }

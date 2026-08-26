@@ -746,6 +746,20 @@
         "Accounts",
         "OAuth"
       ]
+    },
+    {
+      "id": "cpa-balance-pilot",
+      "name": "CPA Balance Pilot",
+      "description": "CLIProxyAPI 原生插件，用于读取 CPA 管理 API 中配置的静态 AI 供应商，并跟踪被选供应商的余额。",
+      "author": "Solon.Z",
+      "version": "1.0.1",
+      "repository": "https://github.com/zhangshilun/CPA-Balance-Pilot",
+      "homepage": "https://github.com/zhangshilun/CPA-Balance-Pilot",
+      "license": "MIT",
+      "tags": [
+        "provider",
+        "balance"
+      ]
     }
   ]
 }

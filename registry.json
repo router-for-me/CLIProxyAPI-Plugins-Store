@@ -2,73 +2,18 @@
   "schema_version": 1,
   "plugins": [
     {
-      "id": "jshandler",
-      "name": "JS Handler",
-      "description": "A CLIProxyAPI plugin that executes external JavaScript scripts to intercept and modify requests, responses, and streaming chunks using the Goja VM engine.",
-      "author": "easyatm",
-      "version": "1.0.1",
-      "repository": "https://github.com/router-for-me/cpa-plugin-jshandler",
-      "logo": "https://avatars.githubusercontent.com/u/233033915?s=64&v=4",
-      "homepage": "https://github.com/router-for-me/cpa-plugin-jshandler",
+      "id": "anti-model-fallback",
+      "name": "Anti Model Fallback",
+      "description": "Blocks upstream model fallback: detects when a different model served the request, retries until the processing model matches the requested one, and returns an error once the retry budget is exhausted.",
+      "author": "lkangd",
+      "version": "0.2.0",
+      "repository": "https://github.com/lkangd/cpa-plugin-anti-model-fallback",
+      "homepage": "https://github.com/lkangd/cpa-plugin-anti-model-fallback",
       "license": "MIT",
       "tags": [
-        "Interceptor"
-      ]
-    },
-    {
-      "id": "codex-invite",
-      "name": "Codex Invite",
-      "description": "Sends Codex referral invite emails from CPA using a selected Codex OAuth credential.",
-      "author": "Supra4E8C",
-      "version": "0.1.0",
-      "repository": "https://github.com/LTbinglingfeng/cpa-plugin-codex-invite",
-      "homepage": "https://github.com/LTbinglingfeng/cpa-plugin-codex-invite",
-      "license": "MIT",
-      "tags": [
-        "Management",
-        "Codex"
-      ]
-    },
-    {
-      "id": "codex-quota-scheduler",
-      "name": "Codex Quota Scheduler",
-      "description": "Optimizes Codex account scheduling in CPA with quota-aware Fill First ordering, reset probing, and a Management-key-gated bilingual UI.",
-      "author": "Jeffery",
-      "version": "0.2.1",
-      "repository": "https://github.com/JefferyZhang2019/cpa-plugin-codex-quota-scheduler",
-      "homepage": "https://github.com/JefferyZhang2019/cpa-plugin-codex-quota-scheduler",
-      "license": "MIT",
-      "tags": [
-        "Scheduler",
-        "Management",
-        "Codex"
-      ]
-    },
-    {
-      "id": "keeper",
-      "name": "CPA Usage Keeper",
-      "description": "Adds a CPAMC entry for opening CPA Usage Keeper from the management center. Requires CPA Usage Keeper v1.12.2 or later.",
-      "author": "Willxup",
-      "version": "0.1.0",
-      "repository": "https://github.com/Willxup/cpa-plugin-usage-keeper",
-      "homepage": "https://github.com/Willxup/cpa-plugin-usage-keeper",
-      "license": "MIT",
-      "tags": [
-        "Management",
-        "Keeper"
-      ]
-    },
-    {
-      "id": "privacyfilter",
-      "name": "Privacy Filter",
-      "description": "Intercepts model requests and redacts emails, phone numbers, API keys, tokens, and other secrets before they reach upstream providers, using embedded Gitleaks rules.",
-      "author": "rheodev",
-      "repository": "https://github.com/rheodev/cpa-plugin-privacyfilter",
-      "homepage": "https://github.com/rheodev/cpa-plugin-privacyfilter",
-      "license": "MIT",
-      "tags": [
-        "Interceptor",
-        "Security"
+        "Model Router",
+        "Executor",
+        "Fallback"
       ]
     },
     {
@@ -84,196 +29,20 @@
       ]
     },
     {
-      "id": "gemini-cli",
-      "name": "Gemini CLI",
-      "description": "A plugin that adds Gemini CLI upstream provider support to CLIProxyAPI through the native plugin ABI.",
-      "author": "Luis Pater",
-      "version": "1.0.0",
-      "repository": "https://github.com/router-for-me/cpa-plugin-gemini-cli",
-      "logo": "https://avatars.githubusercontent.com/u/233033915?s=64&v=4",
-      "homepage": "https://github.com/router-for-me/cpa-plugin-gemini-cli",
-      "license": "MIT",
-      "tags": [
-        "Provider"
-      ]
-    },
-    {
-      "id": "priority-auto-router",
-      "name": "Priority Auto Router",
-      "description": "Routes Claude Code and Codex CLI model alias requests through prioritized CPA provider candidates with automatic fallback.",
-      "author": "Amin",
-      "version": "0.1.0",
-      "repository": "https://github.com/Apparux/cpa-plugin-priority-auto-router",
-      "homepage": "https://github.com/Apparux/cpa-plugin-priority-auto-router",
-      "license": "MIT",
-      "tags": [
-        "Router",
-        "Model Router",
-        "Fallback",
-        "Claude",
-        "Codex"
-      ]
-    },
-    {
-      "id": "codex-429-autoban",
-      "name": "Codex 429 Auto Ban",
-      "description": "Auto-disables Codex credentials on 429 and auto re-enables them after the exhausted rate-limit window (5-hour or weekly) refreshes, using upstream x-codex-* response headers.",
-      "author": "ysxk",
-      "repository": "https://github.com/ysxk/codex-429-autoban",
-      "homepage": "https://github.com/ysxk/codex-429-autoban",
+      "id": "antigravity-priority",
+      "name": "Antigravity Smart Priority",
+      "description": "Intelligent dual-window quota pacing, Weekly Urgency scheduler, and Dynamic Boost Horizon optimizer for Google Antigravity credentials.",
+      "author": "ygq-future",
+      "version": "1.0.1",
+      "repository": "https://github.com/ygq-future/antigravity-priority",
+      "homepage": "https://github.com/ygq-future/antigravity-priority",
       "license": "MIT",
       "tags": [
         "Scheduler",
-        "Codex"
-      ]
-    },
-    {
-      "id": "model-fallback-router",
-      "name": "Model Fallback Router",
-      "description": "Retries matching model requests through configured fallback model names when the primary model fails with quota, rate-limit, transport, or configured HTTP status errors.",
-      "author": "thebtf",
-      "repository": "https://github.com/thebtf/cpa-model-fallback-router",
-      "homepage": "https://github.com/thebtf/cpa-model-fallback-router",
-      "license": "MIT",
-      "tags": [
-        "Router",
-        "Model Router",
-        "Fallback",
-        "Claude",
-        "OpenAI"
-      ]
-    },
-    {
-      "id": "cpa-key-policy",
-      "name": "CPA Key Policy",
-      "description": "Manages plugin-owned downstream API keys with per-key model alias lists routed to CPA provider models, per-key RPM, daily/weekly USD usage limits with cache-aware billing (cache spend + hit-rate reporting), and management APIs. Includes an embedded multilingual (zh-CN/zh-TW/en/ru) Key Policy UI served as a CPA plugin resource, following the panel's language. Acts as a non-exclusive frontend auth provider (native api-keys may still be used).",
-      "author": "origin652",
-      "version": "0.2.1",
-      "repository": "https://github.com/origin652/cpa-plugin-key-policy",
-      "homepage": "https://github.com/origin652/cpa-plugin-key-policy",
-      "license": "MIT",
-      "tags": [
-        "Management",
-        "Auth"
-      ]
-    },
-    {
-      "id": "cpa-session-archive",
-      "name": "CPA Session Archive",
-      "description": "Archives CPA requests as deduplicated sessions and agent turns, with a multilingual management UI for faceted browsing, diagnostics, and streaming training-data exports.",
-      "author": "linonetwo",
-      "version": "0.7.9",
-      "repository": "https://github.com/linonetwo/cpa-session-archive",
-      "homepage": "https://github.com/linonetwo/cpa-session-archive",
-      "license": "MIT",
-      "tags": [
-        "Management",
-        "Archive",
-        "Training Data"
-      ]
-    },
-    {
-      "id": "embeddings-forward",
-      "name": "Embeddings Rerank Forward",
-      "description": "Forwards OpenAI-compatible embeddings and Cohere-style rerank requests to upstream providers. Supports multiple providers per route with model aliasing and key failover.",
-      "author": "KorenKrita",
-      "repository": "https://github.com/KorenKrita/cliproxy-embeddings-rerank-forward",
-      "homepage": "https://github.com/KorenKrita/cliproxy-embeddings-rerank-forward",
-      "license": "MIT",
-      "tags": [
-        "Management",
-        "Embeddings",
-        "Rerank",
-        "Forward"
-      ]
-    },
-    {
-      "id": "codex-token-usage",
-      "name": "CPA Token Usage",
-      "description": "Codex account usage, quota tracking, 429 autoban and provider cost dashboard.",
-      "author": "zhumengling",
-      "version": "0.1.11",
-      "repository": "https://github.com/zhumengling/codex-token-usage",
-      "homepage": "https://github.com/zhumengling/codex-token-usage",
-      "license": "MIT",
-      "tags": [
-        "Management",
-        "Usage",
-        "Codex",
-        "Dashboard"
-      ]
-    },
-    {
-      "id": "model-mapper",
-      "name": "Model Mapper",
-      "description": "Maps requested CLIProxyAPI model names to upstream models across Claude, OpenAI Chat Completions, and OpenAI Responses.",
-      "author": "DoingDog",
-      "repository": "https://github.com/DoingDog/cpa-plugin-model-mapper",
-      "homepage": "https://github.com/DoingDog/cpa-plugin-model-mapper",
-      "license": "Unlicense",
-      "tags": [
-        "Router",
-        "Model Router",
-        "Claude",
-        "OpenAI"
-      ]
-    },
-    {
-      "id": "codexcont",
-      "name": "CodexCont",
-      "description": "Continues gpt-5.5 folded reasoning streams inside CLIProxyAPI when upstream truncation matches the CodexCont heuristic.",
-      "author": "cwzsquare",
-      "version": "0.1.2",
-      "repository": "https://github.com/cwzsquare/cpa-plugin-codexcont",
-      "homepage": "https://github.com/cwzsquare/cpa-plugin-codexcont",
-      "license": "MIT",
-      "tags": [
-        "Interceptor",
-        "Codex",
-        "Responses"
-      ]
-    },
-    {
-      "id": "codexcomp",
-      "name": "CodexComp",
-      "description": "Targets gpt-5.5 streamed-request reasoning truncation and folds continuation rounds when encrypted reasoning content is available.",
-      "author": "uf-hy",
-      "repository": "https://github.com/uf-hy/cpa-plugin-codexcomp",
-      "homepage": "https://github.com/uf-hy/cpa-plugin-codexcomp",
-      "license": "MIT",
-      "tags": [
-        "Executor",
-        "Codex"
-      ]
-    },
-    {
-      "id": "grok-panel",
-      "name": "Grok Panel",
-      "description": "Provides a Chinese Grok account dashboard for usage statistics, Free/Super/Heavy subscription classification, health checks, protected-account rules, and safe credential cleanup.",
-      "author": "TizenryA",
-      "version": "1.1.25",
-      "repository": "https://github.com/TizenryA/cpa-plugin-grok-panel",
-      "homepage": "https://github.com/TizenryA/cpa-plugin-grok-panel",
-      "license": "MIT",
-      "tags": [
-        "Management",
-        "Usage",
-        "Grok",
-        "Dashboard"
-      ]
-    },
-    {
-      "id": "usage-statistics",
-      "name": "Usage Statistics",
-      "description": "Persists per-request usage (tokens, latency, TTFT, reasoning effort, service tier, and failures) to a local SQLite database, and exposes management-key-gated query and delete APIs.",
-      "author": "Fwindy",
-      "repository": "https://github.com/Fwindy/cpa-usage-statistics",
-      "homepage": "https://github.com/Fwindy/cpa-usage-statistics",
-      "license": "MIT",
-      "tags": [
-        "Management",
-        "Usage",
-        "Statistics"
+        "Priority",
+        "Quota",
+        "Antigravity",
+        "Management"
       ]
     },
     {
@@ -294,34 +63,198 @@
       ]
     },
     {
-      "id": "grok-inspection",
-      "name": "Grok Inspection",
-      "description": "Background xAI/Grok account inspection for CPA, with permission, quota, login, and health classification; supports full/incremental/classify-scoped re-inspect and bulk actions.",
-      "author": "ywddd",
-      "version": "0.1.7",
-      "repository": "https://github.com/ywddd/grok-inspection",
-      "homepage": "https://github.com/ywddd/grok-inspection",
+      "id": "cliproxyapi-copilot",
+      "name": "GitHub Copilot Provider",
+      "description": "Adds GitHub Copilot subscription models to CLIProxyAPI through GitHub device-code OAuth, dynamic model discovery, and Claude Messages translation.",
+      "author": "Arthur Sommer",
+      "version": "0.3.3",
+      "repository": "https://github.com/arthur-sommer-etc/cliproxyapi-copilot-plugin",
+      "homepage": "https://github.com/arthur-sommer-etc/cliproxyapi-copilot-plugin",
       "license": "MIT",
       "tags": [
-        "Management",
-        "Grok",
-        "xAI"
+        "Provider",
+        "GitHub Copilot",
+        "OAuth",
+        "Claude"
       ]
     },
     {
-      "id": "opencode-go-pool",
-      "name": "OpenCode Go Pool",
-      "description": "Quota-aware cross-protocol account pooling and failover for OpenCode Go subscriptions.",
-      "author": "hrz6976",
-      "version": "0.2.0",
-      "repository": "https://github.com/hrz6976/cpa-plugin-opencode-go-pool",
-      "homepage": "https://github.com/hrz6976/cpa-plugin-opencode-go-pool",
+      "id": "codex-429-autoban",
+      "name": "Codex 429 Auto Ban",
+      "description": "Auto-disables Codex credentials on 429 and auto re-enables them after the exhausted rate-limit window (5-hour or weekly) refreshes, using upstream x-codex-* response headers.",
+      "author": "ysxk",
+      "repository": "https://github.com/ysxk/codex-429-autoban",
+      "homepage": "https://github.com/ysxk/codex-429-autoban",
+      "license": "MIT",
+      "tags": [
+        "Scheduler",
+        "Codex"
+      ]
+    },
+    {
+      "id": "codex-agent-identity",
+      "name": "Codex Agent Identity",
+      "description": "Adds CPA-native support for Codex Agent Identity JWT and Personal Access Token credentials with encrypted sidecar storage, preview-first batch import, safe auth-file synchronization, and a Management-key-protected plugin route.",
+      "author": "simplez2",
+      "version": "0.3.3",
+      "repository": "https://github.com/simplez2/cpa-codex-agent-identity",
+      "logo": "https://raw.githubusercontent.com/simplez2/cpa-codex-agent-identity/main/assets/logo.svg",
+      "homepage": "https://github.com/simplez2/cpa-codex-agent-identity",
+      "license": "MIT",
+      "tags": [
+        "Management",
+        "Auth",
+        "Codex"
+      ]
+    },
+    {
+      "id": "codex-auto-reset",
+      "name": "Codex Auto Reset",
+      "description": "Automatically redeems soonest-expiring Codex Reset Bank credits before they expire, with idempotent retry, triple verification, and a bilingual management UI with reset statistics.",
+      "author": "Jeffery",
+      "version": "0.1.0",
+      "repository": "https://github.com/JefferyZhang2019/cpa-plugin-codex-auto-reset",
+      "homepage": "https://github.com/JefferyZhang2019/cpa-plugin-codex-auto-reset",
+      "license": "MIT",
+      "tags": [
+        "Management",
+        "Codex"
+      ]
+    },
+    {
+      "id": "codex-invite",
+      "name": "Codex Invite",
+      "description": "Sends Codex referral invite emails from CPA using a selected Codex OAuth credential.",
+      "author": "Supra4E8C",
+      "version": "0.1.0",
+      "repository": "https://github.com/LTbinglingfeng/cpa-plugin-codex-invite",
+      "homepage": "https://github.com/LTbinglingfeng/cpa-plugin-codex-invite",
+      "license": "MIT",
+      "tags": [
+        "Management",
+        "Codex"
+      ]
+    },
+    {
+      "id": "codex-localcompact",
+      "name": "Codex Local Compact",
+      "description": "Emulates Codex Responses Remote Compaction V2 for configured DeepSeek and OpenAI-compatible models through CPA's host model API.",
+      "author": "JHXSMatthew",
+      "version": "0.1.2",
+      "repository": "https://github.com/JHXSMatthew/codex-localcompact",
+      "homepage": "https://github.com/JHXSMatthew/codex-localcompact",
+      "license": "MIT",
+      "tags": [
+        "Executor",
+        "Codex",
+        "Compaction",
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "codex-pat",
+      "name": "Codex PAT",
+      "description": "Validates and imports Codex Personal Access Tokens as CPA-compatible credentials, with a Management-key-protected bilingual UI.",
+      "author": "Ca11back",
+      "version": "0.1.5",
+      "repository": "https://github.com/Ca11back/codex-pat",
+      "homepage": "https://github.com/Ca11back/codex-pat",
+      "license": "MIT",
+      "tags": [
+        "Management",
+        "Auth",
+        "Codex"
+      ]
+    },
+    {
+      "id": "codex-quota-scheduler",
+      "name": "Codex Quota Scheduler",
+      "description": "Optimizes Codex account scheduling in CPA with quota-aware Fill First ordering, reset probing, and a Management-key-gated bilingual UI.",
+      "author": "Jeffery",
+      "version": "0.2.1",
+      "repository": "https://github.com/JefferyZhang2019/cpa-plugin-codex-quota-scheduler",
+      "homepage": "https://github.com/JefferyZhang2019/cpa-plugin-codex-quota-scheduler",
       "license": "MIT",
       "tags": [
         "Scheduler",
         "Management",
+        "Codex"
+      ]
+    },
+    {
+      "id": "codex-switch-safe",
+      "name": "Codex Switch Safe",
+      "description": "Preserves Codex encrypted reasoning only on the same selected credential route and strips unsafe route-bound state during dynamic upstream switching.",
+      "author": "Rat0323",
+      "version": "0.2.0",
+      "repository": "https://github.com/Rat0323/cpa-plugin-codex-switch-safe",
+      "homepage": "https://github.com/Rat0323/cpa-plugin-codex-switch-safe",
+      "license": "MIT",
+      "tags": [
+        "Interceptor",
+        "Security",
+        "Codex",
+        "Responses"
+      ]
+    },
+    {
+      "id": "codex-token-usage",
+      "name": "CPA Token Usage",
+      "description": "Codex account usage, quota tracking, 429 autoban and provider cost dashboard.",
+      "author": "zhumengling",
+      "version": "0.1.11",
+      "repository": "https://github.com/zhumengling/codex-token-usage",
+      "homepage": "https://github.com/zhumengling/codex-token-usage",
+      "license": "MIT",
+      "tags": [
+        "Management",
         "Usage",
-        "OpenCode"
+        "Codex",
+        "Dashboard"
+      ]
+    },
+    {
+      "id": "codexcomp",
+      "name": "CodexComp",
+      "description": "Targets gpt-5.5 streamed-request reasoning truncation and folds continuation rounds when encrypted reasoning content is available.",
+      "author": "uf-hy",
+      "repository": "https://github.com/uf-hy/cpa-plugin-codexcomp",
+      "homepage": "https://github.com/uf-hy/cpa-plugin-codexcomp",
+      "license": "MIT",
+      "tags": [
+        "Executor",
+        "Codex"
+      ]
+    },
+    {
+      "id": "codexcont",
+      "name": "CodexCont",
+      "description": "Continues gpt-5.5 folded reasoning streams inside CLIProxyAPI when upstream truncation matches the CodexCont heuristic.",
+      "author": "cwzsquare",
+      "version": "0.1.2",
+      "repository": "https://github.com/cwzsquare/cpa-plugin-codexcont",
+      "homepage": "https://github.com/cwzsquare/cpa-plugin-codexcont",
+      "license": "MIT",
+      "tags": [
+        "Interceptor",
+        "Codex",
+        "Responses"
+      ]
+    },
+    {
+      "id": "cpa-account-concurrency",
+      "name": "CPA Account Concurrency",
+      "description": "Cache-aware, per-account hard in-flight concurrency admission for CPA Pro accounts with authenticated account-usage observability.",
+      "author": "tsunheimat",
+      "version": "0.1.6",
+      "repository": "https://github.com/tsunheimat/cpa-courrency-plugin",
+      "homepage": "https://github.com/tsunheimat/cpa-courrency-plugin",
+      "license": "MIT",
+      "tags": [
+        "CPA",
+        "Concurrency",
+        "Admission",
+        "Prompt Cache"
       ]
     },
     {
@@ -342,51 +275,46 @@
       ]
     },
     {
-      "id": "quota-router",
-      "name": "Quota Router",
-      "description": "Routes protected Claude model requests away from OAuth accounts that reach a configurable seven-day usage cutoff, with request-triggered quota refreshes and authenticated status reporting.",
-      "author": "Smarty Pants Inc",
-      "repository": "https://github.com/Smarty-Pants-Inc/cpa-plugin-quota-router",
-      "homepage": "https://github.com/Smarty-Pants-Inc/cpa-plugin-quota-router",
+      "id": "cpa-apply-patch",
+      "name": "Apply Patch Bridge",
+      "description": "Bridges the Codex client's native apply_patch tool to backends without freeform custom-tool support (Claude, etc.): rewrites custom tools into {\"input\": string} function tools on the request path and restores custom_tool_call events on the response path, so structured patch edits, diff review cards, and one-click undo work for every model behind the proxy. | 让 Codex 客户端在 Claude 等不支持 freeform custom 工具的后端上恢复原生 apply_patch:请求方向把 custom 工具改写为 {\"input\": string} 函数工具,响应方向还原 custom_tool_call 事件族,结构化补丁编辑、差异审核卡与一键撤销对代理后的所有模型可用。",
+      "author": "zhangziming1124",
+      "repository": "https://github.com/zhangziming1124/cpa-apply-patch",
+      "homepage": "https://github.com/zhangziming1124/cpa-apply-patch",
       "license": "MIT",
       "tags": [
-        "Scheduler",
-        "Router",
-        "Usage",
+        "Interceptor",
+        "Codex",
         "Claude"
       ]
     },
     {
-      "id": "codex-agent-identity",
-      "name": "Codex Agent Identity",
-      "description": "Adds CPA-native support for Codex Agent Identity JWT and Personal Access Token credentials with encrypted sidecar storage, preview-first batch import, safe auth-file synchronization, and a Management-key-protected plugin route.",
-      "author": "simplez2",
-      "version": "0.3.3",
-      "repository": "https://github.com/simplez2/cpa-codex-agent-identity",
-      "logo": "https://raw.githubusercontent.com/simplez2/cpa-codex-agent-identity/main/assets/logo.svg",
-      "homepage": "https://github.com/simplez2/cpa-codex-agent-identity",
+      "id": "cpa-codex-compact-bridge",
+      "name": "Codex Compact Bridge",
+      "description": "Bridges Codex remote compaction V1 and V2 for configured third-party models while preserving native compaction passthrough per model.",
+      "author": "patrick-fu",
+      "repository": "https://github.com/patrick-fu/cpa-codex-compact-bridge",
+      "homepage": "https://github.com/patrick-fu/cpa-codex-compact-bridge",
       "license": "MIT",
       "tags": [
-        "Management",
-        "Auth",
-        "Codex"
+        "Executor",
+        "Interceptor",
+        "Codex",
+        "Compaction"
       ]
     },
     {
-      "id": "quota-activation",
-      "name": "Quota Activation",
-      "description": "Manual and automatic quota reset activation for Codex and Antigravity credentials.",
-      "author": "Cody292",
-      "version": "0.0.1",
-      "repository": "https://github.com/Cody292/quota-activation",
-      "homepage": "https://github.com/Cody292/quota-activation",
+      "id": "cpa-key-policy",
+      "name": "CPA Key Policy",
+      "description": "Manages plugin-owned downstream API keys with per-key model alias lists routed to CPA provider models, per-key RPM, daily/weekly USD usage limits with cache-aware billing (cache spend + hit-rate reporting), and management APIs. Includes an embedded multilingual (zh-CN/zh-TW/en/ru) Key Policy UI served as a CPA plugin resource, following the panel's language. Acts as a non-exclusive frontend auth provider (native api-keys may still be used).",
+      "author": "origin652",
+      "version": "0.2.1",
+      "repository": "https://github.com/origin652/cpa-plugin-key-policy",
+      "homepage": "https://github.com/origin652/cpa-plugin-key-policy",
       "license": "MIT",
       "tags": [
-        "quota",
-        "activation",
-        "codex",
-        "antigravity",
-        "management"
+        "Management",
+        "Auth"
       ]
     },
     {
@@ -407,47 +335,36 @@
       ]
     },
     {
-      "id": "anti-model-fallback",
-      "name": "Anti Model Fallback",
-      "description": "Blocks upstream model fallback: detects when a different model served the request, retries until the processing model matches the requested one, and returns an error once the retry budget is exhausted.",
-      "author": "lkangd",
-      "version": "0.2.0",
-      "repository": "https://github.com/lkangd/cpa-plugin-anti-model-fallback",
-      "homepage": "https://github.com/lkangd/cpa-plugin-anti-model-fallback",
+      "id": "cpa-quota-estimator",
+      "name": "CPA Quota Estimator",
+      "description": "Tracks Codex quota cycles and monthly usage across scheduled or early resets, with Token/USD-equivalent capacity and burn forecasts in a bilingual dashboard.",
+      "author": "Autsunset",
+      "version": "0.4.6",
+      "repository": "https://github.com/Autsunset/cpa-quota-estimator",
+      "logo": "https://raw.githubusercontent.com/Autsunset/cpa-quota-estimator/main/logo.png",
+      "homepage": "https://github.com/Autsunset/cpa-quota-estimator",
       "license": "MIT",
       "tags": [
-        "Model Router",
-        "Executor",
-        "Fallback"
-      ]
-    },
-    {
-      "id": "opencode-cloak",
-      "name": "OpenCode Cloak",
-      "description": "Rewrites opencode CLI requests to carry a Claude Code billing header and fingerprint while preserving opencode's own system prompt, so a Claude OAuth subscription proxied through CPA is not flagged as third-party traffic.",
-      "author": "conversun",
-      "repository": "https://github.com/conversun/cliproxy-plugin-opencode-cloak",
-      "logo": "https://raw.githubusercontent.com/conversun/cliproxy-plugin-opencode-cloak/main/assets/logo.png",
-      "homepage": "https://github.com/conversun/cliproxy-plugin-opencode-cloak",
-      "license": "MIT",
-      "tags": [
-        "Interceptor",
-        "Claude",
-        "OpenCode"
-      ]
-    },
-    {
-      "id": "cpa-apply-patch",
-      "name": "Apply Patch Bridge",
-      "description": "Bridges the Codex client's native apply_patch tool to backends without freeform custom-tool support (Claude, etc.): rewrites custom tools into {\"input\": string} function tools on the request path and restores custom_tool_call events on the response path, so structured patch edits, diff review cards, and one-click undo work for every model behind the proxy. | \u8ba9 Codex \u5ba2\u6237\u7aef\u5728 Claude \u7b49\u4e0d\u652f\u6301 freeform custom \u5de5\u5177\u7684\u540e\u7aef\u4e0a\u6062\u590d\u539f\u751f apply_patch:\u8bf7\u6c42\u65b9\u5411\u628a custom \u5de5\u5177\u6539\u5199\u4e3a {\"input\": string} \u51fd\u6570\u5de5\u5177,\u54cd\u5e94\u65b9\u5411\u8fd8\u539f custom_tool_call \u4e8b\u4ef6\u65cf,\u7ed3\u6784\u5316\u8865\u4e01\u7f16\u8f91\u3001\u5dee\u5f02\u5ba1\u6838\u5361\u4e0e\u4e00\u952e\u64a4\u9500\u5bf9\u4ee3\u7406\u540e\u7684\u6240\u6709\u6a21\u578b\u53ef\u7528\u3002",
-      "author": "zhangziming1124",
-      "repository": "https://github.com/zhangziming1124/cpa-apply-patch",
-      "homepage": "https://github.com/zhangziming1124/cpa-apply-patch",
-      "license": "MIT",
-      "tags": [
-        "Interceptor",
+        "Management",
+        "Usage",
+        "Quota",
         "Codex",
-        "Claude"
+        "Dashboard"
+      ]
+    },
+    {
+      "id": "cpa-session-archive",
+      "name": "CPA Session Archive",
+      "description": "Archives CPA requests as deduplicated sessions and agent turns, with a multilingual management UI for faceted browsing, diagnostics, and streaming training-data exports.",
+      "author": "linonetwo",
+      "version": "0.7.9",
+      "repository": "https://github.com/linonetwo/cpa-session-archive",
+      "homepage": "https://github.com/linonetwo/cpa-session-archive",
+      "license": "MIT",
+      "tags": [
+        "Management",
+        "Archive",
+        "Training Data"
       ]
     },
     {
@@ -467,48 +384,109 @@
       ]
     },
     {
-      "id": "codex-pat",
-      "name": "Codex PAT",
-      "description": "Validates and imports Codex Personal Access Tokens as CPA-compatible credentials, with a Management-key-protected bilingual UI.",
-      "author": "Ca11back",
-      "version": "0.1.5",
-      "repository": "https://github.com/Ca11back/codex-pat",
-      "homepage": "https://github.com/Ca11back/codex-pat",
+      "id": "credit-manager",
+      "name": "CPA Credit Manager",
+      "description": "Secure, usage-based credit management for CLIProxyAPI: issue isolated API keys, enforce per-key spending limits, settle costs from actual token usage, and manage pricing, usage, and audit records from one console.",
+      "author": "yuluo688",
+      "repository": "https://github.com/yuluo688/credit-manager",
+      "logo": "https://raw.githubusercontent.com/yuluo688/credit-manager/main/logo.svg",
+      "homepage": "https://github.com/yuluo688/credit-manager",
+      "license": "MIT",
+      "tags": [
+        "authentication",
+        "quota",
+        "billing",
+        "usage",
+        "management"
+      ]
+    },
+    {
+      "id": "deepseek-harness-session",
+      "name": "DeepSeek Harness Session Affinity",
+      "description": "Maps X-DeepSeek-Harness-Session-Id to X-Session-ID so deepseek-harness clients get stable session-affinity caching instead of unstable derived identities.",
+      "author": "ahoo",
+      "version": "0.1.1",
+      "repository": "https://github.com/ahoo/cliproxy-plugins",
+      "homepage": "https://github.com/ahoo/cliproxy-plugins",
+      "license": "MIT",
+      "tags": [
+        "deepseek",
+        "session-affinity",
+        "harness"
+      ]
+    },
+    {
+      "id": "deepseek-vision",
+      "name": "DeepSeek Vision",
+      "description": "Adds reliable image understanding to text-only DeepSeek models by analyzing request images with a host-configured vision model and transparently replacing them with visual context.",
+      "author": "Zesuy",
+      "version": "0.2.0",
+      "repository": "https://github.com/Zesuy/Plugin-Deepseek-Vision",
+      "homepage": "https://github.com/Zesuy/Plugin-Deepseek-Vision",
+      "license": "MIT",
+      "tags": [
+        "Interceptor",
+        "Vision",
+        "DeepSeek"
+      ]
+    },
+    {
+      "id": "embeddings-forward",
+      "name": "Embeddings Rerank Forward",
+      "description": "Forwards OpenAI-compatible embeddings and Cohere-style rerank requests to upstream providers. Supports multiple providers per route with model aliasing and key failover.",
+      "author": "KorenKrita",
+      "repository": "https://github.com/KorenKrita/cliproxy-embeddings-rerank-forward",
+      "homepage": "https://github.com/KorenKrita/cliproxy-embeddings-rerank-forward",
       "license": "MIT",
       "tags": [
         "Management",
-        "Auth",
-        "Codex"
+        "Embeddings",
+        "Rerank",
+        "Forward"
       ]
     },
     {
-      "id": "cliproxyapi-copilot",
-      "name": "GitHub Copilot Provider",
-      "description": "Adds GitHub Copilot subscription models to CLIProxyAPI through GitHub device-code OAuth, dynamic model discovery, and Claude Messages translation.",
-      "author": "Arthur Sommer",
-      "version": "0.3.3",
-      "repository": "https://github.com/arthur-sommer-etc/cliproxyapi-copilot-plugin",
-      "homepage": "https://github.com/arthur-sommer-etc/cliproxyapi-copilot-plugin",
+      "id": "gemini-cli",
+      "name": "Gemini CLI",
+      "description": "A plugin that adds Gemini CLI upstream provider support to CLIProxyAPI through the native plugin ABI.",
+      "author": "Luis Pater",
+      "version": "1.0.0",
+      "repository": "https://github.com/router-for-me/cpa-plugin-gemini-cli",
+      "logo": "https://avatars.githubusercontent.com/u/233033915?s=64&v=4",
+      "homepage": "https://github.com/router-for-me/cpa-plugin-gemini-cli",
       "license": "MIT",
       "tags": [
-        "Provider",
-        "GitHub Copilot",
-        "OAuth",
-        "Claude"
+        "Provider"
       ]
     },
     {
-      "id": "sub2api-balance",
-      "name": "Sub2API Balance",
-      "description": "Tracks balances, quotas, usage, billing multipliers, and peak billing windows for selected Sub2API-backed CPA providers in a management dashboard.",
-      "author": "wi1shu",
-      "repository": "https://github.com/wi1shu7/cpa-plugin-sub2api-balance",
-      "homepage": "https://github.com/wi1shu7/cpa-plugin-sub2api-balance",
+      "id": "grok-inspection",
+      "name": "Grok Inspection",
+      "description": "Background xAI/Grok account inspection for CPA, with permission, quota, login, and health classification; supports full/incremental/classify-scoped re-inspect and bulk actions.",
+      "author": "ywddd",
+      "version": "0.1.7",
+      "repository": "https://github.com/ywddd/grok-inspection",
+      "homepage": "https://github.com/ywddd/grok-inspection",
+      "license": "MIT",
+      "tags": [
+        "Management",
+        "Grok",
+        "xAI"
+      ]
+    },
+    {
+      "id": "grok-panel",
+      "name": "Grok Panel",
+      "description": "Provides a Chinese Grok account dashboard for usage statistics, Free/Super/Heavy subscription classification, health checks, protected-account rules, and safe credential cleanup.",
+      "author": "TizenryA",
+      "version": "1.1.25",
+      "repository": "https://github.com/TizenryA/cpa-plugin-grok-panel",
+      "homepage": "https://github.com/TizenryA/cpa-plugin-grok-panel",
       "license": "MIT",
       "tags": [
         "Management",
         "Usage",
-        "Sub2API",
+        "Grok",
         "Dashboard"
       ]
     },
@@ -532,17 +510,31 @@
       ]
     },
     {
-      "id": "codex-auto-reset",
-      "name": "Codex Auto Reset",
-      "description": "Automatically redeems soonest-expiring Codex Reset Bank credits before they expire, with idempotent retry, triple verification, and a bilingual management UI with reset statistics.",
-      "author": "Jeffery",
+      "id": "jshandler",
+      "name": "JS Handler",
+      "description": "A CLIProxyAPI plugin that executes external JavaScript scripts to intercept and modify requests, responses, and streaming chunks using the Goja VM engine.",
+      "author": "easyatm",
+      "version": "1.0.1",
+      "repository": "https://github.com/router-for-me/cpa-plugin-jshandler",
+      "logo": "https://avatars.githubusercontent.com/u/233033915?s=64&v=4",
+      "homepage": "https://github.com/router-for-me/cpa-plugin-jshandler",
+      "license": "MIT",
+      "tags": [
+        "Interceptor"
+      ]
+    },
+    {
+      "id": "keeper",
+      "name": "CPA Usage Keeper",
+      "description": "Adds a CPAMC entry for opening CPA Usage Keeper from the management center. Requires CPA Usage Keeper v1.12.2 or later.",
+      "author": "Willxup",
       "version": "0.1.0",
-      "repository": "https://github.com/JefferyZhang2019/cpa-plugin-codex-auto-reset",
-      "homepage": "https://github.com/JefferyZhang2019/cpa-plugin-codex-auto-reset",
+      "repository": "https://github.com/Willxup/cpa-plugin-usage-keeper",
+      "homepage": "https://github.com/Willxup/cpa-plugin-usage-keeper",
       "license": "MIT",
       "tags": [
         "Management",
-        "Codex"
+        "Keeper"
       ]
     },
     {
@@ -561,47 +553,34 @@
       ]
     },
     {
-      "id": "deepseek-vision",
-      "name": "DeepSeek Vision",
-      "description": "Adds reliable image understanding to text-only DeepSeek models by analyzing request images with a host-configured vision model and transparently replacing them with visual context.",
-      "author": "Zesuy",
-      "version": "0.2.0",
-      "repository": "https://github.com/Zesuy/Plugin-Deepseek-Vision",
-      "homepage": "https://github.com/Zesuy/Plugin-Deepseek-Vision",
+      "id": "model-fallback-router",
+      "name": "Model Fallback Router",
+      "description": "Retries matching model requests through configured fallback model names when the primary model fails with quota, rate-limit, transport, or configured HTTP status errors.",
+      "author": "thebtf",
+      "repository": "https://github.com/thebtf/cpa-model-fallback-router",
+      "homepage": "https://github.com/thebtf/cpa-model-fallback-router",
       "license": "MIT",
       "tags": [
-        "Interceptor",
-        "Vision",
-        "DeepSeek"
-      ]
-    },
-    {
-      "id": "codex-localcompact",
-      "name": "Codex Local Compact",
-      "description": "Emulates Codex Responses Remote Compaction V2 for configured DeepSeek and OpenAI-compatible models through CPA's host model API.",
-      "author": "JHXSMatthew",
-      "version": "0.1.2",
-      "repository": "https://github.com/JHXSMatthew/codex-localcompact",
-      "homepage": "https://github.com/JHXSMatthew/codex-localcompact",
-      "license": "MIT",
-      "tags": [
-        "Executor",
-        "Codex",
-        "Compaction",
+        "Router",
+        "Model Router",
+        "Fallback",
+        "Claude",
         "OpenAI"
       ]
     },
     {
-      "id": "prompt-rules",
-      "name": "Prompt Rules",
-      "description": "Injects or strips system and user prompt text before provider translation, with model and protocol scoping.",
-      "author": "markhuangai",
-      "repository": "https://github.com/markhuangai/cpa-plugin-prompt-rules",
-      "homepage": "https://github.com/markhuangai/cpa-plugin-prompt-rules",
-      "license": "MIT",
+      "id": "model-mapper",
+      "name": "Model Mapper",
+      "description": "Maps requested CLIProxyAPI model names to upstream models across Claude, OpenAI Chat Completions, and OpenAI Responses.",
+      "author": "DoingDog",
+      "repository": "https://github.com/DoingDog/cpa-plugin-model-mapper",
+      "homepage": "https://github.com/DoingDog/cpa-plugin-model-mapper",
+      "license": "Unlicense",
       "tags": [
-        "Interceptor",
-        "Prompt"
+        "Router",
+        "Model Router",
+        "Claude",
+        "OpenAI"
       ]
     },
     {
@@ -619,20 +598,94 @@
       ]
     },
     {
-      "id": "antigravity-priority",
-      "name": "Antigravity Smart Priority",
-      "description": "Intelligent dual-window quota pacing, Weekly Urgency scheduler, and Dynamic Boost Horizon optimizer for Google Antigravity credentials.",
-      "author": "ygq-future",
-      "version": "1.0.1",
-      "repository": "https://github.com/ygq-future/antigravity-priority",
-      "homepage": "https://github.com/ygq-future/antigravity-priority",
+      "id": "opencode-cloak",
+      "name": "OpenCode Cloak",
+      "description": "Rewrites opencode CLI requests to carry a Claude Code billing header and fingerprint while preserving opencode's own system prompt, so a Claude OAuth subscription proxied through CPA is not flagged as third-party traffic.",
+      "author": "conversun",
+      "repository": "https://github.com/conversun/cliproxy-plugin-opencode-cloak",
+      "logo": "https://raw.githubusercontent.com/conversun/cliproxy-plugin-opencode-cloak/main/assets/logo.png",
+      "homepage": "https://github.com/conversun/cliproxy-plugin-opencode-cloak",
+      "license": "MIT",
+      "tags": [
+        "Interceptor",
+        "Claude",
+        "OpenCode"
+      ]
+    },
+    {
+      "id": "opencode-go-pool",
+      "name": "OpenCode Go Pool",
+      "description": "Quota-aware cross-protocol account pooling and failover for OpenCode Go subscriptions.",
+      "author": "hrz6976",
+      "version": "0.2.0",
+      "repository": "https://github.com/hrz6976/cpa-plugin-opencode-go-pool",
+      "homepage": "https://github.com/hrz6976/cpa-plugin-opencode-go-pool",
       "license": "MIT",
       "tags": [
         "Scheduler",
-        "Priority",
-        "Quota",
-        "Antigravity",
-        "Management"
+        "Management",
+        "Usage",
+        "OpenCode"
+      ]
+    },
+    {
+      "id": "priority-auto-router",
+      "name": "Priority Auto Router",
+      "description": "Routes Claude Code and Codex CLI model alias requests through prioritized CPA provider candidates with automatic fallback.",
+      "author": "Amin",
+      "version": "0.1.0",
+      "repository": "https://github.com/Apparux/cpa-plugin-priority-auto-router",
+      "homepage": "https://github.com/Apparux/cpa-plugin-priority-auto-router",
+      "license": "MIT",
+      "tags": [
+        "Router",
+        "Model Router",
+        "Fallback",
+        "Claude",
+        "Codex"
+      ]
+    },
+    {
+      "id": "privacyfilter",
+      "name": "Privacy Filter",
+      "description": "Intercepts model requests and redacts emails, phone numbers, API keys, tokens, and other secrets before they reach upstream providers, using embedded Gitleaks rules.",
+      "author": "rheodev",
+      "repository": "https://github.com/rheodev/cpa-plugin-privacyfilter",
+      "homepage": "https://github.com/rheodev/cpa-plugin-privacyfilter",
+      "license": "MIT",
+      "tags": [
+        "Interceptor",
+        "Security"
+      ]
+    },
+    {
+      "id": "prompt-rules",
+      "name": "Prompt Rules",
+      "description": "Injects or strips system and user prompt text before provider translation, with model and protocol scoping.",
+      "author": "markhuangai",
+      "repository": "https://github.com/markhuangai/cpa-plugin-prompt-rules",
+      "homepage": "https://github.com/markhuangai/cpa-plugin-prompt-rules",
+      "license": "MIT",
+      "tags": [
+        "Interceptor",
+        "Prompt"
+      ]
+    },
+    {
+      "id": "quota-activation",
+      "name": "Quota Activation",
+      "description": "Manual and automatic quota reset activation for Codex and Antigravity credentials.",
+      "author": "Cody292",
+      "version": "0.0.1",
+      "repository": "https://github.com/Cody292/quota-activation",
+      "homepage": "https://github.com/Cody292/quota-activation",
+      "license": "MIT",
+      "tags": [
+        "quota",
+        "activation",
+        "codex",
+        "antigravity",
+        "management"
       ]
     },
     {
@@ -653,84 +706,47 @@
       ]
     },
     {
-      "id": "deepseek-harness-session",
-      "name": "DeepSeek Harness Session Affinity",
-      "description": "Maps X-DeepSeek-Harness-Session-Id to X-Session-ID so deepseek-harness clients get stable session-affinity caching instead of unstable derived identities.",
-      "author": "ahoo",
-      "version": "0.1.1",
-      "repository": "https://github.com/ahoo/cliproxy-plugins",
-      "homepage": "https://github.com/ahoo/cliproxy-plugins",
+      "id": "quota-router",
+      "name": "Quota Router",
+      "description": "Routes protected Claude model requests away from OAuth accounts that reach a configurable seven-day usage cutoff, with request-triggered quota refreshes and authenticated status reporting.",
+      "author": "Smarty Pants Inc",
+      "repository": "https://github.com/Smarty-Pants-Inc/cpa-plugin-quota-router",
+      "homepage": "https://github.com/Smarty-Pants-Inc/cpa-plugin-quota-router",
       "license": "MIT",
       "tags": [
-        "deepseek",
-        "session-affinity",
-        "harness"
+        "Scheduler",
+        "Router",
+        "Usage",
+        "Claude"
       ]
     },
     {
-      "id": "credit-manager",
-      "name": "CPA Credit Manager",
-      "description": "Secure, usage-based credit management for CLIProxyAPI: issue isolated API keys, enforce per-key spending limits, settle costs from actual token usage, and manage pricing, usage, and audit records from one console.",
-      "author": "yuluo688",
-      "repository": "https://github.com/yuluo688/credit-manager",
-      "logo": "https://raw.githubusercontent.com/yuluo688/credit-manager/main/logo.svg",
-      "homepage": "https://github.com/yuluo688/credit-manager",
-      "license": "MIT",
-      "tags": [
-        "authentication",
-        "quota",
-        "billing",
-        "usage",
-        "management"
-      ]
-    },
-    {
-      "id": "cpa-codex-compact-bridge",
-      "name": "Codex Compact Bridge",
-      "description": "Bridges Codex remote compaction V1 and V2 for configured third-party models while preserving native compaction passthrough per model.",
-      "author": "patrick-fu",
-      "repository": "https://github.com/patrick-fu/cpa-codex-compact-bridge",
-      "homepage": "https://github.com/patrick-fu/cpa-codex-compact-bridge",
-      "license": "MIT",
-      "tags": [
-        "Executor",
-        "Interceptor",
-        "Codex",
-        "Compaction"
-      ]
-    },
-    {
-      "id": "cpa-quota-estimator",
-      "name": "CPA Quota Estimator",
-      "description": "Tracks Codex quota cycles and monthly usage across scheduled or early resets, with Token/USD-equivalent capacity and burn forecasts in a bilingual dashboard.",
-      "author": "Autsunset",
-      "version": "0.4.6",
-      "repository": "https://github.com/Autsunset/cpa-quota-estimator",
-      "logo": "https://raw.githubusercontent.com/Autsunset/cpa-quota-estimator/main/logo.png",
-      "homepage": "https://github.com/Autsunset/cpa-quota-estimator",
+      "id": "sub2api-balance",
+      "name": "Sub2API Balance",
+      "description": "Tracks balances, quotas, usage, billing multipliers, and peak billing windows for selected Sub2API-backed CPA providers in a management dashboard.",
+      "author": "wi1shu",
+      "repository": "https://github.com/wi1shu7/cpa-plugin-sub2api-balance",
+      "homepage": "https://github.com/wi1shu7/cpa-plugin-sub2api-balance",
       "license": "MIT",
       "tags": [
         "Management",
         "Usage",
-        "Quota",
-        "Codex",
+        "Sub2API",
         "Dashboard"
       ]
     },
     {
-      "id": "codex-switch-safe",
-      "name": "Codex Switch Safe",
-      "description": "Preserves Codex encrypted reasoning only on the same selected credential route and strips unsafe route-bound state during dynamic upstream switching.",
-      "author": "Rat0323",
-      "version": "0.2.0",
-      "repository": "https://github.com/Rat0323/cpa-plugin-codex-switch-safe",
-      "homepage": "https://github.com/Rat0323/cpa-plugin-codex-switch-safe",
+      "id": "usage-statistics",
+      "name": "Usage Statistics",
+      "description": "Persists per-request usage (tokens, latency, TTFT, reasoning effort, service tier, and failures) to a local SQLite database, and exposes management-key-gated query and delete APIs.",
+      "author": "Fwindy",
+      "repository": "https://github.com/Fwindy/cpa-usage-statistics",
+      "homepage": "https://github.com/Fwindy/cpa-usage-statistics",
       "license": "MIT",
       "tags": [
-        "Interceptor",
-        "Security",
-        "Codex",
-        "Responses"
+        "Management",
+        "Usage",
+        "Statistics"
       ]
     }
   ]

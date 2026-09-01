@@ -732,6 +732,18 @@
         "Codex",
         "Responses"
       ]
+    },
+    {
+      "id": "kiro",
+      "name": "Kiro",
+      "description": "A CLIProxyAPI plugin that bridges Kiro OAuth accounts to AWS CodeWhisperer and exposes a standard Claude Messages interface.",
+      "author": "xiaokui-dev",
+      "repository": "https://github.com/xiaokui-dev/cliproxyapi-kiro-plugin",
+      "homepage": "https://github.com/xiaokui-dev/cliproxyapi-kiro-plugin",
+      "license": "MIT",
+      "tags": [
+        "provider"
+      ]
     }
   ]
 }

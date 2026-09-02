@@ -732,6 +732,23 @@
         "Codex",
         "Responses"
       ]
+    },
+    {
+      "id": "multi-account-orchestrator",
+      "name": "CPA账户动态编排调配",
+      "description": "Multi-provider quota-aware dynamic orchestrator for CLIProxyAPI, supporting AntiGravity, Codex, Claude, Kimi, and xAI.",
+      "author": "blackstone2333",
+      "version": "0.1.0",
+      "repository": "https://github.com/blackstone2333/cpa-plugin-multi-scheduler",
+      "homepage": "https://github.com/blackstone2333/cpa-plugin-multi-scheduler",
+      "license": "MIT",
+      "tags": [
+        "Scheduler",
+        "Orchestrator",
+        "Quota",
+        "Multi-Provider",
+        "Management"
+      ]
     }
   ]
 }

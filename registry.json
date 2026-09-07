@@ -860,7 +860,7 @@
       "name": "Codex Apply Patch & OAuth Relay",
       "description": "Bridges Codex Desktop native apply_patch Freeform tool calling with upstream models (Gemini, Claude, DeepSeek) and preserves ChatGPT OAuth session.",
       "author": "new-Beginner",
-      "version": "1.2.0",
+      "version": "1.2.1",
       "repository": "https://github.com/new-Beginner/cliproxyapi-cpa-apply-patch-plugin",
       "homepage": "https://github.com/new-Beginner/cliproxyapi-cpa-apply-patch-plugin",
       "license": "MIT",

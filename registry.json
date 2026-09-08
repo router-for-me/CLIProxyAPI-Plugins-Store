@@ -924,6 +924,21 @@
         "Usage",
         "Quota"
       ]
+    },
+    {
+      "id": "global-concurrency",
+      "name": "CPA Global Concurrency",
+      "description": "Limits the number of in-flight requests handled by one CLIProxyAPI instance and rejects excess requests with HTTP 429 before upstream execution.",
+      "author": "keiwu",
+      "version": "0.1.0",
+      "repository": "https://github.com/scauwjh/cpa-plugin-global-concurrency",
+      "homepage": "https://github.com/scauwjh/cpa-plugin-global-concurrency",
+      "license": "MIT",
+      "tags": [
+        "Interceptor",
+        "Concurrency",
+        "Performance"
+      ]
     }
   ]
 }

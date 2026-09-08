@@ -924,6 +924,22 @@
         "Usage",
         "Quota"
       ]
+    },
+    {
+      "id": "cpa-account-concurrency",
+      "name": "CPA Account Concurrency",
+      "description": "Cache-aware, per-account hard in-flight concurrency admission for CPA Pro accounts. Prevents upstream calls above the configured account limit and returns typed local capacity errors.",
+      "author": "tsunheimat",
+      "version": "0.1.7",
+      "repository": "https://github.com/tsunheimat/cpa-courrency-plugin",
+      "homepage": "https://github.com/tsunheimat/cpa-courrency-plugin",
+      "license": "MIT",
+      "tags": [
+        "cpa",
+        "concurrency",
+        "admission",
+        "prompt-cache"
+      ]
     }
   ]
 }

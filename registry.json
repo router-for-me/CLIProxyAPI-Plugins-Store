@@ -732,6 +732,23 @@
         "Codex",
         "Responses"
       ]
+    },
+    {
+      "id": "cpa-key-billing",
+      "name": "CPA Key Billing",
+      "description": "Adds per-key subscriptions, token and request quotas, usage-based billing, concurrency limits, model pricing, and route policies with a Management Center UI.",
+      "author": "haowang02",
+      "version": "1.3.6",
+      "repository": "https://github.com/haowang02/cpa-plugin-key-billing",
+      "homepage": "https://github.com/haowang02/cpa-plugin-key-billing",
+      "license": "MIT",
+      "tags": [
+        "Management",
+        "Billing",
+        "Usage",
+        "Quota",
+        "Router"
+      ]
     }
   ]
 }

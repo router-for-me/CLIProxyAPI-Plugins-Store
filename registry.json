@@ -924,6 +924,21 @@
         "Usage",
         "Quota"
       ]
+    },
+    {
+      "id": "cpa-codex-weight-balancer",
+      "name": "Codex Weight Balancer",
+      "description": "Rewrites Codex credential weights from remaining weekly quota and time-to-reset, so weighted round-robin paces each account against its own reset deadline. Logarithmic bucketing with hysteresis keeps writes sparse, and session affinity is untouched.",
+      "author": "duanzhenyu",
+      "version": "0.1.0",
+      "repository": "https://github.com/duanzhenyu/cpa-codex-weight-balancer",
+      "homepage": "https://github.com/duanzhenyu/cpa-codex-weight-balancer",
+      "license": "MIT",
+      "tags": [
+        "Scheduler",
+        "Codex",
+        "Quota"
+      ]
     }
   ]
 }

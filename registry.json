@@ -924,6 +924,24 @@
         "Usage",
         "Quota"
       ]
+    },
+    {
+      "id": "codex-window-reset",
+      "name": "Codex Window Reset",
+      "description": "Schedules quota-aware Codex account preheating and provides manual health probes and reset-credit activation with a Management Center UI.",
+      "author": "Cai Feng",
+      "version": "0.0.1",
+      "repository": "https://github.com/tapaixx/codex-window-reset",
+      "homepage": "https://github.com/tapaixx/codex-window-reset",
+      "license": "MIT",
+      "tags": [
+        "Management",
+        "Scheduler",
+        "Codex",
+        "Linux",
+        "amd64",
+        "arm64"
+      ]
     }
   ]
 }

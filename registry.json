@@ -885,9 +885,9 @@
     {
       "id": "opencode-session-mapper",
       "name": "OpenCode Session Mapper",
-      "description": "Forwards client conversation session ids (codex Session-Id/Thread-Id, claude X-Claude-Code-Session-Id, dsh X-DeepSeek-Harness-Session-Id) to OpenCode Zen as x-opencode-session for sticky routing and prompt-cache affinity.",
+      "description": "Forwards client conversation session ids (codex Session-Id/Thread-Id, claude X-Claude-Code-Session-Id, dsh X-Session-Affinity/X-DeepSeek-Harness-Session-Id) to OpenCode Zen as x-opencode-session for sticky routing and prompt-cache affinity, with a host-derived canonical_session_id fallback for clients that send no session header at all.",
       "author": "ahoo",
-      "version": "0.1.0",
+      "version": "0.3.0",
       "repository": "https://github.com/ahoo/cpa-plugin-opencode-session-mapper",
       "homepage": "https://github.com/ahoo/cpa-plugin-opencode-session-mapper",
       "license": "MIT",

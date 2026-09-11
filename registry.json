@@ -924,6 +924,22 @@
         "Usage",
         "Quota"
       ]
+    },
+    {
+      "id": "key-account-router",
+      "name": "Key Account Router",
+      "description": "Binds each downstream API key to one or two selected CLIProxyAPI auth accounts with strict round-robin routing and a Management UI.",
+      "author": "TheresaQAQ",
+      "version": "0.1.0",
+      "repository": "https://github.com/TheresaQAQ/cpa-plugin-key-account-router",
+      "homepage": "https://github.com/TheresaQAQ/cpa-plugin-key-account-router",
+      "license": "MIT",
+      "tags": [
+        "Scheduler",
+        "Management",
+        "API Key",
+        "Account Affinity"
+      ]
     }
   ]
 }

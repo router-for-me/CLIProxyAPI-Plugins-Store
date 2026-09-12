@@ -924,6 +924,20 @@
         "Usage",
         "Quota"
       ]
+    },
+    {
+      "id": "kimi-tools",
+      "name": "Kimi Tools",
+      "description": "Forwards /v0/management/kimi/tools to the Kimi Datasource upstream (https://api.kimi.com/coding/v1/tools), injecting Bearer + X-Msh-* headers read fresh from a cliproxy kimi auth JSON on each request (mtime-cached). Pure plugin — no CLIProxyAPI modifications, no writes to the auth file.",
+      "author": "xyonium",
+      "version": "0.1.5",
+      "repository": "https://github.com/xyonium/cliproxy-kimi-tools",
+      "homepage": "https://github.com/xyonium/cliproxy-kimi-tools",
+      "license": "MIT",
+      "tags": [
+        "Provider",
+        "Management"
+      ]
     }
   ]
 }

@@ -23,9 +23,7 @@
       "description": "One provider for the OpenCode Go plan: chat-completions, messages, and responses routes behind one shared key pool.",
       "author": "massiveits",
       "repository": "https://github.com/massiveits/opencode-go-cliproxyapi",
-      "tags": [
-        "provider"
-      ]
+      "tags": ["provider"]
     },
     {
       "id": "jshandler",

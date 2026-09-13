@@ -902,7 +902,7 @@
       "name": "OpenCode Go",
       "description": "One-click OpenCode Go connect, 5h/weekly/monthly quota from the official usage API, plus x-opencode-session injection and Codex JSON rewrite so Go accepts Codex/Claude client requests.",
       "author": "tianheil3",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "repository": "https://github.com/tianheil3/cpa-plugin-opencode-session",
       "homepage": "https://github.com/tianheil3/cpa-plugin-opencode-session",
       "license": "MIT",

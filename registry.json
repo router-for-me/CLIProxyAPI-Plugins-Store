@@ -1124,6 +1124,23 @@
         "Usage",
         "Quota"
       ]
+    },
+    {
+      "id": "muse-tools-stripper",
+      "name": "Muse Free-Tier Tools Stripper",
+      "description": "Removes unsupported additional_tools entries only from Codex Responses payloads targeting OpenCode Zen Muse free-tier aliases, while leaving paid Muse and non-Codex traffic untouched.",
+      "author": "ahoo",
+      "version": "0.1.3",
+      "repository": "https://github.com/ahoo/cpa-plugin-muse-tools-stripper",
+      "homepage": "https://github.com/ahoo/cpa-plugin-muse-tools-stripper",
+      "license": "MIT",
+      "tags": [
+        "muse",
+        "opencode",
+        "free-tier",
+        "compatibility",
+        "interceptor"
+      ]
     }
   ]
 }

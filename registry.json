@@ -1008,9 +1008,9 @@
     {
       "id": "commandcode",
       "name": "CommandCode Provider",
-      "description": "Native commandcode.ai provider with weighted multi-key pool, per-key proxy and failover: routes DeepSeek/GLM models through api.commandcode.ai with reasoning normalized to reasoning_content, so /v1/messages renders thinking blocks.",
+      "description": "Native commandcode.ai provider with weighted multi-key pool, per-key proxy and failover: routes DeepSeek/GLM models through api.commandcode.ai with reasoning normalization and route-aware SSE framing, so streamed /v1/messages preserves thinking, text and usage.",
       "author": "ahoo",
-      "version": "0.2.0",
+      "version": "0.3.2",
       "repository": "https://github.com/ahoo/cpa-plugin-commandcode",
       "homepage": "https://github.com/ahoo/cpa-plugin-commandcode",
       "license": "MIT",

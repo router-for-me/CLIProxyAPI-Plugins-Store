@@ -899,17 +899,19 @@
     },
     {
       "id": "opencode-session",
-      "name": "OpenCode Session",
-      "description": "Injects x-opencode-session from Codex Session-Id and other client session headers, and rewrites Codex-style JSON (xhigh reasoning, json_schema, namespace tools) so OpenCode Zen/Go accepts the request.",
+      "name": "OpenCode Go",
+      "description": "One-click OpenCode Go connect, 5h/weekly/monthly quota from the official usage API, plus x-opencode-session injection and Codex JSON rewrite so Go accepts Codex/Claude client requests.",
       "author": "tianheil3",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "repository": "https://github.com/tianheil3/cpa-plugin-opencode-session",
       "homepage": "https://github.com/tianheil3/cpa-plugin-opencode-session",
       "license": "MIT",
       "tags": [
         "opencode",
         "session-affinity",
-        "interceptor"
+        "interceptor",
+        "quota",
+        "connect"
       ]
     },
     {

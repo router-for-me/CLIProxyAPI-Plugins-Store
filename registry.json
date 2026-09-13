@@ -898,6 +898,21 @@
       ]
     },
     {
+      "id": "opencode-session",
+      "name": "OpenCode Session",
+      "description": "Injects x-opencode-session from Codex Session-Id and other client session headers, and rewrites Codex-style JSON (xhigh reasoning, json_schema, namespace tools) so OpenCode Zen/Go accepts the request.",
+      "author": "tianheil3",
+      "version": "0.1.0",
+      "repository": "https://github.com/tianheil3/cpa-plugin-opencode-session",
+      "homepage": "https://github.com/tianheil3/cpa-plugin-opencode-session",
+      "license": "MIT",
+      "tags": [
+        "opencode",
+        "session-affinity",
+        "interceptor"
+      ]
+    },
+    {
       "id": "kiro",
       "name": "Kiro",
       "description": "A CLIProxyAPI plugin that bridges Kiro OAuth accounts to AWS CodeWhisperer and exposes a standard Claude Messages interface.",

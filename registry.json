@@ -1124,6 +1124,21 @@
         "Usage",
         "Quota"
       ]
+    },
+    {
+      "id": "cpa2pool",
+      "name": "CPA2Pool",
+      "description": "Shared quota pool for CLIProxyAPI: per-participant API keys, quotas with expiry, token/image/video model pricing, consumption reporting, and an in-app feedback channel, all behind a Management Center UI.",
+      "author": "LingyeNBird",
+      "version": "0.1.0",
+      "repository": "https://github.com/LingyeNBird/cpa2pool",
+      "homepage": "https://github.com/LingyeNBird/cpa2pool",
+      "license": "AGPL-3.0-or-later",
+      "tags": [
+        "Management",
+        "Billing",
+        "Quota"
+      ]
     }
   ]
 }

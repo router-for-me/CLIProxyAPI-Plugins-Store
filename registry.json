@@ -900,9 +900,9 @@
     {
       "id": "opencode-session",
       "name": "OpenCode Go",
-      "description": "One-click OpenCode Go connect, 5h/weekly/monthly quota from the official usage API, plus x-opencode-session injection and Codex JSON rewrite so Go accepts Codex/Claude client requests.",
+      "description": "One-click OpenCode Go connect, 5h/weekly/monthly quota cards on CPA quota management (same remaining-fraction cards as Codex/Claude), plus x-opencode-session injection and Codex JSON rewrite.",
       "author": "tianheil3",
-      "version": "0.2.1",
+      "version": "0.2.2",
       "repository": "https://github.com/tianheil3/cpa-plugin-opencode-session",
       "homepage": "https://github.com/tianheil3/cpa-plugin-opencode-session",
       "license": "MIT",

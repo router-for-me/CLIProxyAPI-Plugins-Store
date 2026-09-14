@@ -900,9 +900,9 @@
     {
       "id": "opencode-session",
       "name": "OpenCode Go",
-      "description": "One-click OpenCode Go connect, official Auth Files cards with enable/delete, 5h/7d/30d quota windows on CPA quota management, plus x-opencode-session injection and Codex JSON rewrite.",
+      "description": "One-click OpenCode Go connect, official Auth Files cards with enable/delete, 5h/7d/30d quota windows, and x-opencode-session injection only for OpenCode Go requests.",
       "author": "tianheil3",
-      "version": "0.2.7",
+      "version": "0.2.8",
       "repository": "https://github.com/tianheil3/cpa-plugin-opencode-session",
       "homepage": "https://github.com/tianheil3/cpa-plugin-opencode-session",
       "license": "MIT",

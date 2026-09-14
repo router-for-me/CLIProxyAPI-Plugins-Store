@@ -1098,6 +1098,23 @@
       ]
     },
     {
+      "id": "opencode-session",
+      "name": "OpenCode Go",
+      "description": "One-click OpenCode Go connect, official Auth Files cards with enable/delete, 5h/7d/30d quota windows, and x-opencode-session injection only for OpenCode Go requests.",
+      "author": "tianheil3",
+      "version": "0.2.8",
+      "repository": "https://github.com/tianheil3/cpa-plugin-opencode-session",
+      "homepage": "https://github.com/tianheil3/cpa-plugin-opencode-session",
+      "license": "MIT",
+      "tags": [
+        "opencode",
+        "session-affinity",
+        "interceptor",
+        "quota",
+        "connect"
+      ]
+    },
+    {
       "id": "kiro",
       "name": "Kiro",
       "description": "A CLIProxyAPI plugin that bridges Kiro OAuth accounts to AWS CodeWhisperer and exposes a standard Claude Messages interface.",

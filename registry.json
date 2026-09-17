@@ -2,6 +2,16 @@
   "schema_version": 1,
   "plugins": [
     {
+      "id": "cline",
+      "name": "Cline",
+      "description": "Adds Cline accounts through WorkOS device-code OAuth, automatic token refresh, dynamic model discovery, and OpenAI-compatible chat execution with Claude Messages translation through the host.",
+      "author": "chengyixu",
+      "repository": "https://github.com/chengyixu/cpa-plugin-cline",
+      "homepage": "https://github.com/chengyixu/cpa-plugin-cline",
+      "license": "MIT",
+      "tags": ["Provider", "OAuth", "Cline"]
+    },
+    {
       "id": "credential-tier-router",
       "name": "Credential Tiers",
       "description": "Manages Codex and Antigravity credentials through quota-aware primary, regular, backup, and paused tiers with a Management Center UI.",

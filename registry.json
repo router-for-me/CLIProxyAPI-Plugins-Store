@@ -1110,6 +1110,21 @@
       ]
     },
     {
+      "id": "codex-turn-state-cache",
+      "name": "Codex Turn-State Cache",
+      "description": "Caches qualifying Codex X-Codex-Turn-State values per selected account and exact model for one hour, then injects them on later requests across IPs.",
+      "author": "5345asda",
+      "version": "0.1.2",
+      "repository": "https://github.com/5345asda/codex-turn-state-cache",
+      "homepage": "https://github.com/5345asda/codex-turn-state-cache",
+      "license": "MIT",
+      "tags": [
+        "Interceptor",
+        "Codex",
+        "Cache"
+      ]
+    },
+    {
       "id": "cpa-prometheus",
       "name": "CPA Prometheus",
       "description": "Exports Prometheus metrics for CLIProxyAPI: request, token and latency counters from usage.handle, credential and auth-state gauges, and provider quota windows for Claude, Codex, Antigravity, Gemini CLI, Kimi and xAI.",

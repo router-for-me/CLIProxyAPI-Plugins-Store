@@ -1124,6 +1124,21 @@
         "Usage",
         "Quota"
       ]
+    },
+    {
+      "id": "usage-report",
+      "name": "CPA Usage Report",
+      "description": "Local-first token usage dashboard for CLIProxyAPI: real-time collection through the usage.handle callback, model/key/request breakdown, cache hit rate, and hour/day/month trend charts served inside the management panel.",
+      "author": "andyWang1688",
+      "version": "0.2.0",
+      "repository": "https://github.com/andyWang1688/cpa-usage",
+      "homepage": "https://github.com/andyWang1688/cpa-usage",
+      "license": "MIT",
+      "tags": [
+        "Usage",
+        "Dashboard",
+        "Analytics"
+      ]
     }
   ]
 }

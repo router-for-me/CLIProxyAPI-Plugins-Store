@@ -23,7 +23,9 @@
       "description": "One provider for the OpenCode Go plan: chat-completions, messages, and responses routes behind one shared key pool.",
       "author": "massiveits",
       "repository": "https://github.com/massiveits/opencode-go-cliproxyapi",
-      "tags": ["provider"]
+      "tags": [
+        "provider"
+      ]
     },
     {
       "id": "jshandler",
@@ -1123,6 +1125,21 @@
         "Monitoring",
         "Usage",
         "Quota"
+      ]
+    },
+    {
+      "id": "cursor-cpa-plugin",
+      "name": "Cursor (Enhanced)",
+      "description": "Adds user-authorized Cursor subscriptions as a CLIProxyAPI provider, with reasoning content streaming, no-tool system constraint injection, and official brand logo. Based on the cursor plugin by yobo2u, MIT licensed.",
+      "author": "kilolonion",
+      "repository": "https://github.com/kilolonion/cursor-cpa-plugin",
+      "homepage": "https://github.com/kilolonion/cursor-cpa-plugin",
+      "license": "MIT",
+      "tags": [
+        "Provider",
+        "Cursor",
+        "OAuth",
+        "Reasoning"
       ]
     }
   ]

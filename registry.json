@@ -1124,6 +1124,23 @@
         "Usage",
         "Quota"
       ]
+    },
+    {
+      "id": "cpa-window-keeper",
+      "name": "CPA Window Keeper",
+      "description": "Safely starts the next rolling five-hour Codex or Claude quota window with a minimal account-pinned request after confirmed idle, with dry-run by default, strict quota readback, durable duplicate protection, and a bilingual management dashboard.",
+      "author": "xieyuanqing",
+      "version": "0.1.7",
+      "repository": "https://github.com/xieyuanqing/cpa-window-keeper",
+      "homepage": "https://github.com/xieyuanqing/cpa-window-keeper",
+      "license": "MIT",
+      "tags": [
+        "Scheduler",
+        "Quota",
+        "Management",
+        "Codex",
+        "Claude"
+      ]
     }
   ]
 }

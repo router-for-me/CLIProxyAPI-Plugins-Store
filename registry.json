@@ -1124,6 +1124,22 @@
         "Usage",
         "Quota"
       ]
+    },
+    {
+      "id": "cpa-logs",
+      "name": "CPA Call Logs",
+      "description": "Per-request call-log viewer in the management sidebar: time, model, masked account, input/output/cache tokens, latency, TTFT, cost and the quota snapshot at that moment; filters by provider/model/account/outcome plus keyword search, sortable columns, pagination, and a per-call detail drawer with raw event and trace IDs. Backed by a read-only service over the manager's usage export, reusing the panel login state. Bilingual (English / 简体中文) following the panel language.",
+      "author": "xieyuanqing",
+      "version": "0.1.0",
+      "repository": "https://github.com/xieyuanqing/cpa-logs",
+      "homepage": "https://github.com/xieyuanqing/cpa-logs",
+      "license": "MIT",
+      "tags": [
+        "Management",
+        "Usage",
+        "Monitoring",
+        "Dashboard"
+      ]
     }
   ]
 }

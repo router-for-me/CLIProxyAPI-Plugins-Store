@@ -1124,6 +1124,22 @@
         "Usage",
         "Quota"
       ]
+    },
+    {
+      "id": "cliproxy-antigravity",
+      "name": "Antigravity CLI Provider",
+      "description": "Adds Google Antigravity support to CLIProxyAPI via the official agy CLI, with streaming, vision, tools, and multi-turn sessions.",
+      "author": "adeebahmad01",
+      "repository": "https://github.com/adeebahmad01/cliproxy-antigravity",
+      "homepage": "https://github.com/adeebahmad01/cliproxy-antigravity",
+      "license": "MIT",
+      "tags": [
+        "provider",
+        "antigravity",
+        "agy",
+        "gemini",
+        "claude"
+      ]
     }
   ]
 }

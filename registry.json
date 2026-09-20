@@ -1124,6 +1124,21 @@
         "Usage",
         "Quota"
       ]
+    },
+    {
+      "id": "local-llm-pool",
+      "name": "Local LLM Pool",
+      "description": "Spreads requests for one shared model alias across several local OpenAI-compatible LLM servers, filling each backend to its own concurrency limit in configured order and spilling over to the next. Traffic sent to a backend's direct alias counts against the same limit, so the two paths cannot oversubscribe a machine between them.",
+      "author": "rhicnl",
+      "version": "0.1.1",
+      "repository": "https://github.com/rhicnl/cpa-plugin-local-llm-pool",
+      "homepage": "https://github.com/rhicnl/cpa-plugin-local-llm-pool",
+      "license": "MIT",
+      "tags": [
+        "Scheduler",
+        "Router",
+        "Local"
+      ]
     }
   ]
 }

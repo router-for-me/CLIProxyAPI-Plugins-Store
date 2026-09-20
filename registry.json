@@ -1124,6 +1124,16 @@
         "Usage",
         "Quota"
       ]
+    },
+    {
+      "id": "local-llm-pool",
+      "name": "Local LLM Pool",
+      "description": "Pools OpenAI-compatible local backends (vLLM, SGLang, llama.cpp, Ollama, LM Studio) behind one model alias and fills them in order by free concurrency slots, spilling over to the next backend when one is full.",
+      "author": "rhicnl",
+      "repository": "https://github.com/rhicnl/cli-proxy-api-plugin-local-llm-pool",
+      "homepage": "https://github.com/rhicnl/cli-proxy-api-plugin-local-llm-pool",
+      "license": "MIT",
+      "tags": ["Scheduler", "Management", "Local LLM", "Load Balancing"]
     }
   ]
 }

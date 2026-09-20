@@ -1130,7 +1130,7 @@
       "name": "CPA Quota Cards",
       "description": "Read-only account quota and usage dashboard for CPA Manager Plus: upstream 5-hour and weekly percentages, token-priced spend, projected full-window cost, capacity back-calculation, per-account detail, bilingual UI, and same-origin panel-login reuse.",
       "author": "xieyuanqing",
-      "version": "0.1.2",
+      "version": "0.1.3",
       "repository": "https://github.com/xieyuanqing/cpa-quota-cards",
       "homepage": "https://github.com/xieyuanqing/cpa-quota-cards",
       "license": "MIT",

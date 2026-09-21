@@ -23,7 +23,9 @@
       "description": "One provider for the OpenCode Go plan: chat-completions, messages, and responses routes behind one shared key pool.",
       "author": "massiveits",
       "repository": "https://github.com/massiveits/opencode-go-cliproxyapi",
-      "tags": ["provider"]
+      "tags": [
+        "provider"
+      ]
     },
     {
       "id": "jshandler",
@@ -1123,6 +1125,23 @@
         "Monitoring",
         "Usage",
         "Quota"
+      ]
+    },
+    {
+      "id": "stepfun-credit-tracker",
+      "name": "StepFun Credit Tracker",
+      "description": "Real-time StepFun Step Plan Credit usage tracking: records per-request token usage, converts it to Credit with built-in official pricing, and shows a dashboard with selectable time range and granularity plus multi-subscription quota tracking.",
+      "author": "BuvkB",
+      "version": "1.1.0",
+      "repository": "https://github.com/BuvkB/cpa-plugin-stepfun-credit",
+      "logo": "https://platform.stepfun.com/images/title-logo.png",
+      "homepage": "https://github.com/BuvkB/cpa-plugin-stepfun-credit",
+      "license": "MIT",
+      "tags": [
+        "usage",
+        "statistics",
+        "stepfun",
+        "dashboard"
       ]
     }
   ]

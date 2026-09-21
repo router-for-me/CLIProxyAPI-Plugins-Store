@@ -788,10 +788,10 @@
     {
       "id": "cpa-key-billing",
       "name": "CPA Key Billing",
-      "description": "Adds downstream API key billing with subscription quotas, model access controls, concurrency limits, and an embedded management UI.",
+      "description": "Adds billing and subscription quotas for downstream API keys, with model and credential access control and per-key concurrency limits.",
       "author": "haowang02",
-      "version": "1.1.2",
       "repository": "https://github.com/haowang02/cpa-plugin-key-billing",
+      "logo": "https://raw.githubusercontent.com/haowang02/cpa-plugin-key-billing/main/images/favicon.svg",
       "homepage": "https://github.com/haowang02/cpa-plugin-key-billing",
       "license": "MIT",
       "tags": [

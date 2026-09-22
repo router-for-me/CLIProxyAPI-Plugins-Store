@@ -2,6 +2,21 @@
   "schema_version": 1,
   "plugins": [
     {
+      "id": "usage-report",
+      "name": "CPA Usage Report",
+      "description": "Local-first token usage dashboard: real-time usage collection, model/key breakdown, trend chart. Bundles the cpa-usage shadcn/ui dashboard.",
+      "author": "andyWang1688",
+      "version": "0.3.1",
+      "repository": "https://github.com/andyWang1688/cpa-usage",
+      "homepage": "https://github.com/andyWang1688/cpa-usage",
+      "license": "MIT",
+      "tags": [
+        "Usage",
+        "Dashboard",
+        "Analytics"
+      ]
+    },
+    {
       "id": "credential-tier-router",
       "name": "Credential Tiers",
       "description": "Manages Codex and Antigravity credentials through quota-aware primary, regular, backup, and paused tiers with a Management Center UI.",

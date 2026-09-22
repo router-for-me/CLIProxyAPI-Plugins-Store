@@ -1248,6 +1248,21 @@
         "OpenAI",
         "Responses"
       ]
+    },
+    {
+      "id": "clinepass-channel-monitor",
+      "name": "Cline Channel Monitor",
+      "description": "Records the upstream channel, usage, and cost each Cline request actually hit, with a management page.",
+      "author": "wkeking",
+      "version": "0.1.0",
+      "repository": "https://github.com/wkeking/clinepass-channel-monitor",
+      "homepage": "https://github.com/wkeking/clinepass-channel-monitor",
+      "license": "MIT",
+      "tags": [
+        "Management",
+        "Cline",
+        "Stats"
+      ]
     }
   ]
 }

@@ -1365,6 +1365,23 @@
         "admission",
         "prompt-cache"
       ]
+    },
+    {
+      "id": "zcode",
+      "name": "ZCode Reverse Proxy",
+      "description": "把 ZCode 客户端（智谱 BigModel / Z.ai 的 Coding Plan）额度接入 CPA，按 ZCode 桌面客户端的方式构造请求，注册为 zcode/* 模型，并带额度消耗统计和账号探测的管理页。 / Use the ZCode desktop client's Coding Plan quota through CPA: requests mimic that client, models register as zcode/*, with a quota console and account probe.",
+      "author": "lengjingxu",
+      "version": "0.1.0",
+      "repository": "https://github.com/lengjingxu/CLIProxyAPI-ZCode",
+      "homepage": "https://github.com/lengjingxu/CLIProxyAPI-ZCode",
+      "license": "MIT",
+      "tags": [
+        "zcode",
+        "bigmodel",
+        "zai",
+        "provider",
+        "streaming"
+      ]
     }
   ]
 }

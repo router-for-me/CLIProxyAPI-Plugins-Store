@@ -4,7 +4,7 @@
     {
       "id": "clinepassbridge",
       "name": "ClinePassBridge",
-      "description": "Cline Pass subscription provider with model aliases, native and aggregated non-streaming responses, SSE, usage preservation, and actual upstream provider logs.",
+      "description": "让 Cline Pass 订阅无缝接入 CPA，支持一键获取模型与手动映射，规避原生非流式空响应错误，轻松查看实际命中的上游。 / Seamlessly connect Cline Pass subscriptions to CPA, fetch models in one click or map them manually, avoid native non-streaming empty-response errors, and see the actual upstream provider.",
       "author": "xiao-qiu-qiu",
       "repository": "https://github.com/xiao-qiu-qiu/ClinePassBridge",
       "homepage": "https://github.com/xiao-qiu-qiu/ClinePassBridge",

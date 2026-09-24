@@ -1365,6 +1365,21 @@
         "admission",
         "prompt-cache"
       ]
+    },
+    {
+      "id": "quota-reset-router",
+      "name": "Quota Reset Router",
+      "description": "Routes Claude and Codex OAuth requests to the eligible account whose weekly quota resets soonest.",
+      "author": "WebDevCaptain",
+      "repository": "https://github.com/WebDevCaptain/quota-reset-router",
+      "homepage": "https://github.com/WebDevCaptain/quota-reset-router",
+      "license": "MIT",
+      "tags": [
+        "Scheduler",
+        "Quota",
+        "Claude",
+        "Codex"
+      ]
     }
   ]
 }

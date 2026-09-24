@@ -2,6 +2,16 @@
   "schema_version": 1,
   "plugins": [
     {
+      "id": "codex-app-multisession-compat",
+      "name": "Codex App Multisession Compatibility",
+      "description": "Provides opt-in replay compatibility for orphaned Codex App delegation outputs before CPA routes requests to strict upstream models.",
+      "author": "patrick-fu",
+      "repository": "https://github.com/patrick-fu/cpa-codex-app-multisession-compat",
+      "homepage": "https://github.com/patrick-fu/cpa-codex-app-multisession-compat",
+      "license": "MIT",
+      "tags": ["Interceptor", "Codex", "Compatibility", "Responses"]
+    },
+    {
       "id": "clinepassbridge",
       "name": "ClinePassBridge",
       "logo": "https://raw.githubusercontent.com/xiao-qiu-qiu/ClinePassBridge/main/logo.png",

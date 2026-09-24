@@ -1309,6 +1309,21 @@
         "Cline",
         "Stats"
       ]
+    },
+    {
+      "id": "effort-router",
+      "name": "Effort Router",
+      "description": "Picks reasoning effort per user turn with a Jev-style classifier and applies it cache-safely: effort-only system messages for Claude, configuration_update items for GPT-6.",
+      "author": "alex4o",
+      "repository": "https://github.com/alex4o/cliproxy-effort-router",
+      "homepage": "https://github.com/alex4o/cliproxy-effort-router",
+      "license": "MIT",
+      "tags": [
+        "Normalizer",
+        "Reasoning",
+        "Claude",
+        "Codex"
+      ]
     }
   ]
 }

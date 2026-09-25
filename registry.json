@@ -2,6 +2,16 @@
   "schema_version": 1,
   "plugins": [
     {
+      "id": "cpa-freetier-plugin",
+      "name": "CPA Free-Tier Models",
+      "description": "Curated zero-key free AI models (Nemotron 550B, Space Bunny 1M, Step 3.7 Flash) with automatic agent payload sanitization.",
+      "author": "tsaQB",
+      "repository": "https://github.com/tsaQB/cpa-freetier-plugin",
+      "homepage": "https://github.com/tsaQB/cpa-freetier-plugin",
+      "license": "MIT",
+      "tags": ["Provider", "Free", "Kilo", "OpenCode", "Agent"]
+    },
+    {
       "id": "codex-app-multisession-compat",
       "name": "Codex App Multisession Compatibility",
       "description": "Provides opt-in replay compatibility for orphaned Codex App delegation outputs before CPA routes requests to strict upstream models.",

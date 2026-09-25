@@ -2,6 +2,16 @@
   "schema_version": 1,
   "plugins": [
     {
+      "id": "cpa-groq",
+      "name": "Groq Whisper (cpa-groq)",
+      "description": "Adds Groq Whisper speech-to-text (whisper-large-v3 and -turbo) as executor models: send audio as Gemini generateContent inline_data, get the transcript back.",
+      "author": "batuhan4",
+      "repository": "https://github.com/Batuhan4/cpa-groq",
+      "homepage": "https://github.com/Batuhan4/cpa-groq",
+      "license": "MIT",
+      "tags": ["Provider", "Executor", "Speech-to-Text", "Groq", "Whisper"]
+    },
+    {
       "id": "codex-app-multisession-compat",
       "name": "Codex App Multisession Compatibility",
       "description": "Provides opt-in replay compatibility for orphaned Codex App delegation outputs before CPA routes requests to strict upstream models.",

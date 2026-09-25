@@ -1391,6 +1391,22 @@
         "Claude",
         "Codex"
       ]
+    },
+    {
+      "id": "models-cache-override",
+      "name": "Models Cache Override",
+      "description": "Overrides fields on models already present in the Codex client catalog, and can hide a model from that catalog. Untouched fields keep following CPA upstream updates. A management page can review per-model JSON from the plugin repository before applying it.",
+      "author": "moxi000",
+      "repository": "https://github.com/moxi000/models-cache-override",
+      "logo": "https://raw.githubusercontent.com/moxi000/models-cache-override/main/logo.png",
+      "homepage": "https://github.com/moxi000/models-cache-override",
+      "license": "MIT",
+      "tags": [
+        "Interceptor",
+        "Codex",
+        "Models",
+        "Management"
+      ]
     }
   ]
 }

@@ -9,7 +9,12 @@
       "repository": "https://github.com/patrick-fu/cpa-codex-app-multisession-compat",
       "homepage": "https://github.com/patrick-fu/cpa-codex-app-multisession-compat",
       "license": "MIT",
-      "tags": ["Interceptor", "Codex", "Compatibility", "Responses"]
+      "tags": [
+        "Interceptor",
+        "Codex",
+        "Compatibility",
+        "Responses"
+      ]
     },
     {
       "id": "clinepassbridge",
@@ -20,7 +25,13 @@
       "repository": "https://github.com/xiao-qiu-qiu/ClinePassBridge",
       "homepage": "https://github.com/xiao-qiu-qiu/ClinePassBridge",
       "license": "MIT",
-      "tags": ["Cline", "Cline Pass", "Provider", "Streaming", "Logs"]
+      "tags": [
+        "Cline",
+        "Cline Pass",
+        "Provider",
+        "Streaming",
+        "Logs"
+      ]
     },
     {
       "id": "usage-report",
@@ -1390,6 +1401,80 @@
         "Quota",
         "Claude",
         "Codex"
+      ]
+    },
+    {
+      "id": "codearts",
+      "name": "CodeArts Agent",
+      "description": "华为云 CodeArts Agent 接入：SDK-HMAC-SHA256 签名、OAuth 浏览器登录与凭据续期、动态模型目录、DSML 原生工具调用、每日签到。",
+      "author": "collegeming",
+      "repository": "https://github.com/collegeming/cpa-jethub-plugins",
+      "homepage": "https://github.com/collegeming/cpa-jethub-plugins",
+      "license": "MIT",
+      "logo": "https://www.huaweicloud.com/favicon.ico",
+      "tags": [
+        "Provider",
+        "Huawei",
+        "CodeArts",
+        "OAuth",
+        "Credits"
+      ]
+    },
+    {
+      "id": "codebuddy",
+      "name": "CodeBuddy",
+      "description": "腾讯 CodeBuddy / WorkBuddy 接入：一套适配器覆盖国内与国际四个产品（codebuddy、codebuddy-intl、workbuddy-cn、workbuddy），含积分查询与每日签到。",
+      "author": "collegeming",
+      "repository": "https://github.com/collegeming/cpa-jethub-plugins",
+      "homepage": "https://github.com/collegeming/cpa-jethub-plugins",
+      "license": "MIT",
+      "tags": [
+        "Provider",
+        "Tencent",
+        "CodeBuddy",
+        "WorkBuddy"
+      ]
+    },
+    {
+      "id": "qoder",
+      "name": "Qoder",
+      "description": "阿里 Qoder 接入：设备码登录、积分领取；加密推理可选启用本机签名 WASM，留空则走公开 OpenAI 兼容端点。",
+      "author": "collegeming",
+      "repository": "https://github.com/collegeming/cpa-jethub-plugins",
+      "homepage": "https://github.com/collegeming/cpa-jethub-plugins",
+      "license": "MIT",
+      "tags": [
+        "Provider",
+        "Alibaba",
+        "Qoder"
+      ]
+    },
+    {
+      "id": "trae",
+      "name": "TRAE",
+      "description": "字节 TRAE 接入：OpenAI 与 SOLO 双向载荷转换、通道选择、Max 模式，含每日签到。",
+      "author": "collegeming",
+      "repository": "https://github.com/collegeming/cpa-jethub-plugins",
+      "homepage": "https://github.com/collegeming/cpa-jethub-plugins",
+      "license": "MIT",
+      "tags": [
+        "Provider",
+        "ByteDance",
+        "TRAE"
+      ]
+    },
+    {
+      "id": "lobsterai",
+      "name": "LobsterAI",
+      "description": "有道 LobsterAI 接入：本地回环回调 + authCode 换取令牌，含积分与每日签到。",
+      "author": "collegeming",
+      "repository": "https://github.com/collegeming/cpa-jethub-plugins",
+      "homepage": "https://github.com/collegeming/cpa-jethub-plugins",
+      "license": "MIT",
+      "tags": [
+        "Provider",
+        "Youdao",
+        "LobsterAI"
       ]
     }
   ]

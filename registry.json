@@ -2,6 +2,20 @@
   "schema_version": 1,
   "plugins": [
     {
+      "id": "cpa-codex-candy-eval",
+      "name": "Codex 糖果测试",
+      "description": "在 CPA 管理面板中用糖果数学题测试 Codex 账号的推理表现，支持选择模型和推理强度、批量测试账号、查看正确率与历史记录。",
+      "author": "haowang02",
+      "repository": "https://github.com/haowang02/cpa-plugin-codex-candy-eval",
+      "homepage": "https://github.com/haowang02/cpa-plugin-codex-candy-eval",
+      "license": "MIT",
+      "tags": [
+        "Management",
+        "Codex",
+        "Evaluation"
+      ]
+    },
+    {
       "id": "codex-app-multisession-compat",
       "name": "Codex App Multisession Compatibility",
       "description": "Provides opt-in replay compatibility for orphaned Codex App delegation outputs before CPA routes requests to strict upstream models.",

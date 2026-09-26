@@ -1421,6 +1421,21 @@
         "Models",
         "Management"
       ]
+    },
+    {
+      "id": "mirasim-proxy",
+      "name": "Mirasim Proxy",
+      "description": "Pure API gateway and message translator for Mirasim: provides OpenAI-compatible endpoint forwarding to Mirasim upstream relay with dynamic model catalog and OAuth authentication.",
+      "author": "jellyfish-p",
+      "repository": "https://github.com/jellyfish-p/cpa-plugin-mirasim-proxy",
+      "homepage": "https://github.com/jellyfish-p/cpa-plugin-mirasim-proxy",
+      "license": "MIT",
+      "tags": [
+        "Provider",
+        "Mirasim",
+        "Claude",
+        "OpenAI"
+      ]
     }
   ]
 }

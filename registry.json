@@ -1436,6 +1436,21 @@
         "Claude",
         "OpenAI"
       ]
+    },
+    {
+      "id": "codex-5h-quota-warmer",
+      "name": "Codex Five-Hour Quota Warmer",
+      "description": "按可配置的每日时刻，为每个启用的 Codex 凭证各发送一次请求，提前开启五小时额度窗口；附带管理页面，可编辑每日日程、手动预热并查看运行日志。 / Sends one Codex request per enabled credential at configurable daily times to warm five-hour quota windows, and includes a Management UI for editing daily schedules, running manual warm-ups, and reviewing logs.",
+      "author": "Windyskr",
+      "repository": "https://github.com/Windyskr/codex-5h-quota-warmer",
+      "homepage": "https://github.com/Windyskr/codex-5h-quota-warmer",
+      "tags": [
+        "Codex",
+        "Quota",
+        "Management",
+        "Scheduling"
+      ]
     }
   ]
 }
+

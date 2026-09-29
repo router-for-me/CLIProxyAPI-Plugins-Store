@@ -1491,6 +1491,18 @@
         "Management",
         "Statistics"
       ]
+    },
+    {
+      "id": "codex-carpool",
+      "name": "用量管理 (Usage Management)",
+      "description": "Tracks per-Key Token usage and USD spend with five-hour and seven-day budgets, model and IP access controls, content filtering, and audit logs in a CPA management panel.",
+      "author": "lucky98556",
+      "version": "0.8.3",
+      "repository": "https://github.com/lucky98556/codex-carpool",
+      "logo": "https://raw.githubusercontent.com/lucky98556/codex-carpool/main/docs/logo.png",
+      "homepage": "https://github.com/lucky98556/codex-carpool",
+      "license": "MIT",
+      "tags": ["Management", "Usage", "Quota", "Billing"]
     }
   ]
 }

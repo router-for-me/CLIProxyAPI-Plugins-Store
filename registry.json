@@ -1509,6 +1509,23 @@
         "Management",
         "Statistics"
       ]
+    },
+    {
+      "id": "cliproxy-costs",
+      "name": "CLIProxy Costs",
+      "description": "Prices every request from a public rate-card feed, records usage and subscription quota in a local SQLite ledger, and adds a dashboard with spend, cache savings, quota burn-rate forecasts, failures and per-credential, per-client and per-model breakdowns, plus a separate read-only API.",
+      "author": "MelonSmasher",
+      "version": "0.1.0",
+      "repository": "https://github.com/MelonSmasher/cliproxy-costs",
+      "homepage": "https://github.com/MelonSmasher/cliproxy-costs",
+      "license": "MIT",
+      "tags": [
+        "Usage",
+        "Quota",
+        "Dashboard",
+        "Statistics",
+        "Interceptor"
+      ]
     }
   ]
 }

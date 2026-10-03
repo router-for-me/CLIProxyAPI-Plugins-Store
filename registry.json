@@ -1560,6 +1560,16 @@
         "Scheduler",
         "Claude"
       ]
+    },
+    {
+      "id": "cpa-scheduled-tests",
+      "name": "CPA Scheduled Tests",
+      "description": "Per-account scheduled Codex tests with groups, pause/resume, bulk plan creation, timezone selection and execution logs. Includes native macOS, Linux and Windows binaries.",
+      "author": "gouwenct",
+      "repository": "https://github.com/gouwenct/cpa-scheduled-tests",
+      "homepage": "https://github.com/gouwenct/cpa-scheduled-tests",
+      "license": "MIT",
+      "tags": ["Codex", "Scheduled Tests", "Management"]
     }
   ]
 }

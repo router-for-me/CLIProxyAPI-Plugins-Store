@@ -1647,6 +1647,7 @@
       "author": "nguyenha935",
       "repository": "https://github.com/nguyenha935/kiro-cpa-plugin",
       "homepage": "https://github.com/nguyenha935/kiro-cpa-plugin",
+      "logo": "https://raw.githubusercontent.com/nguyenha935/kiro-cpa-plugin/main/cmd/kiro-plugin/assets/kiro-logo.png",
       "license": "MIT",
       "tags": ["Provider", "Kiro", "OAuth", "Quota"]
     }

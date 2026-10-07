@@ -1633,7 +1633,7 @@
       "name": "Tokens Statistic",
       "description": "记录并分析各模型的 Token 消耗、费用与响应延迟。",
       "author": "Pet-Max",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "repository": "https://github.com/Pet-Max/cpa-plugin-tokens-statistic",
       "homepage": "https://github.com/Pet-Max/cpa-plugin-tokens-statistic",
       "logo": "https://raw.githubusercontent.com/Pet-Max/cpa-plugin-tokens-statistic/main/images/logo.svg",

@@ -1372,9 +1372,9 @@
     {
       "id": "clinepass-channel-monitor",
       "name": "Cline 渠道监控",
-      "description": "在管理中心展示 Cline 套餐、限额与近 31 天官方用量，并按请求观测每条请求最终落在哪个网关渠道（finalProvider，取自 CPA 请求日志）、TTFT 与解码速度；观测总开关关闭时不声明任何请求钩子。页面顶部的「配置自检」按当前状态列出还差哪一项开关、缺了会少什么功能、补哪一行（只读，不替用户改配置）。 / Shows the Cline plan, rolling limits and official 31-day usage in the Management Center, plus the gateway channel each request actually landed on (finalProvider, read from CPA's request log), its TTFT and decode speed; with observation switched off it declares no request hook at all. A read-only configuration self-check at the top of the page lists which switches are still off, what breaks without them, and the exact line to add.",
+      "description": "在管理中心展示 Cline 套餐、限额与近 31 天官方用量，并按请求观测每条请求最终落在哪个网关渠道（finalProvider，取自 CPA 请求日志）、TTFT 与解码速度；观测总开关关闭时不声明任何请求钩子。页面顶部的「配置自检」按当前状态列出还差哪一项开关、缺了会少什么功能、补哪一行（只读，不替用户改配置）。可选账号守卫：某个 Cline 账号的真实渠道连续 3 次不是基准渠道时，把该账号在 CPA 配置里的 disabled 置 true，之后按退避自动放回（默认关闭、默认只试运行，只守 Cline 条目）。 / Shows the Cline plan, rolling limits and official 31-day usage in the Management Center, plus the gateway channel each request actually landed on (finalProvider, read from CPA's request log), its TTFT and decode speed; with observation switched off it declares no request hook at all. A read-only configuration self-check at the top of the page lists which switches are still off, what breaks without them, and the exact line to add. An optional account guard flips a Cline account's disabled flag in CPA's own config when its real channel misses the baseline three times in a row, and re-enables it on a backoff (off by default, dry-run by default, Cline entries only).",
       "author": "wkeking",
-      "version": "0.3.1",
+      "version": "0.4.0",
       "repository": "https://github.com/wkeking/clinepass-channel-monitor",
       "homepage": "https://github.com/wkeking/clinepass-channel-monitor",
       "license": "MIT",

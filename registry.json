@@ -1671,6 +1671,16 @@
       "homepage": "https://github.com/LaoPiLao/cpa-plugin-codexreflow",
       "license": "MIT",
       "tags": ["Executor", "Codex", "Responses", "Streaming", "WebSocket"]
+    },
+    {
+      "id": "sticky-fill-first",
+      "name": "Sticky Fill First",
+      "description": "Fill-first routing that stays on the credential that took over after a failover instead of snapping back when the higher-priority account's quota resets, so subscription pools drain one account at a time.",
+      "author": "magoz",
+      "repository": "https://github.com/magoz/cpa-sticky-fill-first",
+      "homepage": "https://github.com/magoz/cpa-sticky-fill-first",
+      "license": "MIT",
+      "tags": ["Scheduler", "Routing", "Claude", "Codex"]
     }
   ]
 }

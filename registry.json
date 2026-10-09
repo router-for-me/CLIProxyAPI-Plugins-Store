@@ -1651,6 +1651,16 @@
       "logo": "https://raw.githubusercontent.com/nguyenha935/kiro-cpa-plugin/main/cmd/kiro-plugin/assets/kiro-logo.png",
       "license": "MIT",
       "tags": ["Provider", "Kiro", "OAuth", "Quota"]
+    },
+    {
+      "id": "key-router",
+      "name": "Key Router",
+      "description": "Routes upstream accounts by the caller's client API key: primary accounts are used first, fallback accounts assigned to the user are used when no primary account is available, and other accounts are never used for that user. Includes a configuration page in the management panel. / Routes upstream accounts by the client API key: primary accounts first, then fallback accounts assigned to the user; other accounts are never used for that user. Includes a management panel configuration page.",
+      "author": "tuzilj1",
+      "repository": "https://github.com/tuzilj1/cliproxyapi-key-router",
+      "homepage": "https://github.com/tuzilj1/cliproxyapi-key-router",
+      "license": "MIT",
+      "tags": ["Routing", "Management"]
     }
   ]
 }

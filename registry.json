@@ -1651,6 +1651,16 @@
       "logo": "https://raw.githubusercontent.com/nguyenha935/kiro-cpa-plugin/main/cmd/kiro-plugin/assets/kiro-logo.png",
       "license": "MIT",
       "tags": ["Provider", "Kiro", "OAuth", "Quota"]
+    },
+    {
+      "id": "codexreflow",
+      "name": "CodexReflow",
+      "description": "Codex reasoning continuation and HTTP/SSE/WebSocket event folding, with automatic GPT text-name matching and payload-free diagnostics.",
+      "author": "LaoPiLao",
+      "repository": "https://github.com/LaoPiLao/cpa-plugin-codexreflow",
+      "homepage": "https://github.com/LaoPiLao/cpa-plugin-codexreflow",
+      "license": "MIT",
+      "tags": ["Executor", "Codex", "Responses", "Streaming", "WebSocket"]
     }
   ]
 }

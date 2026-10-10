@@ -1576,7 +1576,7 @@
     {
       "id": "cpa-scheduled-tests",
       "name": "CPA Scheduled 5H",
-      "description": "Per-account scheduled Codex tests with groups, pause/resume, bulk plan creation, timezone selection and execution logs. Includes native macOS, Linux and Windows binaries.",
+      "description": "Scheduled Codex requests at each Cron minute and again one minute later, with five-hour window status, groups, pause/resume, bulk plan creation and execution logs. Native macOS, Linux and Windows binaries.",
       "author": "gouwenct",
       "repository": "https://github.com/gouwenct/cpa-scheduled-tests",
       "logo": "https://raw.githubusercontent.com/gouwenct/cpa-scheduled-tests/main/assets/logo.png",

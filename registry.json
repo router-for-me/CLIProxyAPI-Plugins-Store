@@ -1681,6 +1681,17 @@
       "homepage": "https://github.com/magoz/cpa-sticky-fill-first",
       "license": "MIT",
       "tags": ["Scheduler", "Routing", "Claude", "Codex"]
+    },
+    {
+      "id": "auto-proxy-router",
+      "name": "Auto Proxy Router",
+      "description": "自动识别并将不同认证文件的流量路由到可用的代理节点，解决 Antigravity 地区限制（User location is notsupported）问题。 / Automatically routes traffic from different credentials to available proxy nodes.",
+      "author": "ApliNi",
+      "version": "0.1.0",
+      "repository": "https://github.com/ApliNi/CPA-Auto-Proxy",
+      "homepage": "https://github.com/ApliNi/CPA-Auto-Proxy",
+      "license": "MIT",
+      "tags": ["Routing", "Management", "Antigravity", "Proxy"]
     }
   ]
 }

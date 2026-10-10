@@ -1681,6 +1681,34 @@
       "homepage": "https://github.com/magoz/cpa-sticky-fill-first",
       "license": "MIT",
       "tags": ["Scheduler", "Routing", "Claude", "Codex"]
+    },
+    {
+      "id": "cpa-account-vault",
+      "name": "CPA Account Vault",
+      "description": "CLIProxyAPI 原生插件，用于管理账号文件(非CPA认证文件)、复制账号密码、查看凭证状态和快速登录。",
+      "author": "Solon.Z",
+      "version": "0.1.5",
+      "repository": "https://github.com/zhangshilun/CPA-Account-Vault",
+      "homepage": "https://github.com/zhangshilun/CPA-Account-Vault",
+      "license": "MIT",
+      "tags": [
+        "Accounts",
+        "OAuth"
+      ]
+    },
+    {
+      "id": "cpa-balance-pilot",
+      "name": "CPA Balance Pilot",
+      "description": "CLIProxyAPI 原生插件，用于读取 CPA 管理 API 中配置的静态 AI 供应商，并跟踪被选供应商的余额。",
+      "author": "Solon.Z",
+      "version": "1.0.1",
+      "repository": "https://github.com/zhangshilun/CPA-Balance-Pilot",
+      "homepage": "https://github.com/zhangshilun/CPA-Balance-Pilot",
+      "license": "MIT",
+      "tags": [
+        "provider",
+        "balance"
+      ]
     }
   ]
 }

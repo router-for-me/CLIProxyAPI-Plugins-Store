@@ -1681,6 +1681,16 @@
       "homepage": "https://github.com/magoz/cpa-sticky-fill-first",
       "license": "MIT",
       "tags": ["Scheduler", "Routing", "Claude", "Codex"]
-    }
+    },
+    {
+      "id": "cpa-auto-proxy-test",
+      "name": "cpa-auto-proxy-test",
+      "description": "自动识别并将不同认证文件的流量路由到可用的代理节点 / Automatically identify and route traffic from different authentication files to available proxy nodes",
+      "author": "ApliNi",
+      "repository": "https://github.com/ApliNi/CPA-Auto-Proxy-Test",
+      "homepage": "https://github.com/ApliNi/CPA-Auto-Proxy-Test",
+      "license": "MIT",
+      "tags": ["Routing", "Management", "Antigravity", "Proxy"]
+    },
   ]
 }

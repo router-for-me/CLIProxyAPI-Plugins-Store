@@ -2,6 +2,22 @@
   "schema_version": 1,
   "plugins": [
     {
+      "id": "codex-quota-menubar",
+      "name": "Codex Quota Menubar",
+      "description": "Native macOS menu bar widget showing remaining Codex five-hour and weekly quotas. Includes its native helper; no Python or Xcode installation is required.",
+      "author": "RoyalXC",
+      "repository": "https://github.com/RoyalXC/cpa-plugin-codex-quota-menubar",
+      "logo": "https://raw.githubusercontent.com/RoyalXC/cpa-plugin-codex-quota-menubar/main/menubar/assets/QuotaMenubar.png",
+      "homepage": "https://github.com/RoyalXC/cpa-plugin-codex-quota-menubar",
+      "license": "MIT",
+      "tags": [
+        "Codex",
+        "Quota",
+        "macOS",
+        "Menu Bar"
+      ]
+    },
+    {
       "id": "lamplighter",
       "name": "Lamplighter",
       "description": "监控 ChatGPT、Claude 和 Antigravity 的额度，通过 Bark 或通用 webhook（飞书、Telegram 等）推送提醒并提供额度图表，在每次 5 小时窗口重置后立即开始下一个窗口。界面截图见仓库。 / Monitors ChatGPT, Claude and Antigravity quota with Bark or generic webhook alerts (Feishu, Telegram, etc.) and a quota chart, and starts the next 5-hour window right after each reset. Screenshots are in the repository.",

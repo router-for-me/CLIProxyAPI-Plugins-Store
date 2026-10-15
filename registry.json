@@ -2,6 +2,16 @@
   "schema_version": 1,
   "plugins": [
     {
+      "id": "strip-cli-identity",
+      "name": "Strip CLI Identity",
+      "description": "第三方请求归一化插件：仅移除 Antigravity gemini-3-flash system 开头已实证触发拒绝的 Agent SDK 身份句，保留尾部空白及其他请求内容。Linux/amd64，glibc >= 2.34。",
+      "author": "inorilzy",
+      "repository": "https://github.com/inorilzy/cliproxyapi-plugin-strip-cli-identity",
+      "homepage": "https://github.com/inorilzy/cliproxyapi-plugin-strip-cli-identity",
+      "license": "MIT",
+      "tags": ["RequestNormalizer", "Antigravity", "Gemini", "Compatibility"]
+    },
+    {
       "id": "kpatdev-quota-router",
       "name": "kpatdev Quota Router",
       "description": "Routes Claude and Codex OAuth requests using quota-aware account scheduling, with session-aware routing and a management dashboard.",

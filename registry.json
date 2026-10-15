@@ -1790,6 +1790,16 @@
       "homepage": "https://github.com/dohwi/cliproxyapi-plugin-usage-audit",
       "license": "MIT",
       "tags": ["Usage", "Statistics", "Dashboard", "Management"]
+    },
+    {
+      "id": "opencode-free",
+      "name": "OpenCode Free",
+      "description": "Makes OpenCode Zen free-tier models usable through CLIProxyAPI. The free tier gates on the request body rather than the headers, so a provider config cannot get past it: the request has to be streaming and carry OpenCode's official read tool definition byte for byte. This plugin rewrites the outbound Chat Completions request for the OpenAI-compatible groups you name, and leaves every other provider untouched.",
+      "author": "kakaw-1",
+      "repository": "https://github.com/kakaw-1/opencode-free",
+      "homepage": "https://github.com/kakaw-1/opencode-free",
+      "license": "MIT",
+      "tags": ["opencode", "free-tier", "compatibility", "interceptor"]
     }
   ]
 }

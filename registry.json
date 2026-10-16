@@ -1837,6 +1837,21 @@
         "Codex",
         "Copilot"
       ]
+    },
+    {
+      "id": "cpa-freetier-plugin",
+      "name": "CPA Free-Tier Models",
+      "description": "Curated zero-key free AI models (OpenCode Zen, Kilo AI) with automatic agent payload sanitization.",
+      "author": "tsaQB",
+      "repository": "https://github.com/tsaQB/cpa-freetier-plugin",
+      "homepage": "https://github.com/tsaQB/cpa-freetier-plugin",
+      "license": "MIT",
+      "tags": [
+        "Free",
+        "Provider",
+        "OpenCode",
+        "Kilo"
+      ]
     }
   ]
 }

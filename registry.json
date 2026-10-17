@@ -1837,6 +1837,31 @@
         "Codex",
         "Copilot"
       ]
+    },
+    {
+      "id": "freetier2api",
+      "name": "FreeTier 2API",
+      "description": "把多个免费额度供应商（WorkBuddy 国内版/国际版、Qoder 国内版/国际版、OpenCode ZEN、Cline、ZCode、TRAE SOLO、Trae 国内版/国际版、CodeArts、MiniMax Code 国内版/国际版）接入 CLIProxyAPI：auth / model / executor / quota / management 五类能力，按供应商插桩，支持凭证归属隔离、模型清单动态探测、额度查询、每日签到、成长任务闭环与提示词防御。",
+      "author": "jiandanc",
+      "repository": "https://github.com/jiandanc/CLIProxyAPI-freetier2api-plugin",
+      "homepage": "https://github.com/jiandanc/CLIProxyAPI-freetier2api-plugin",
+      "license": "GPL-3.0",
+      "tags": [
+        "Provider",
+        "WorkBuddy",
+        "CodeBuddy",
+        "Qoder",
+        "OpenCode",
+        "Cline",
+        "ZCode",
+        "Trae",
+        "CodeArts",
+        "MiniMaxCode",
+        "Auth",
+        "Quota",
+        "Management",
+        "Tasks"
+      ]
     }
   ]
 }

@@ -1837,6 +1837,16 @@
         "Codex",
         "Copilot"
       ]
+    },
+    {
+      "id": "deepseek-cpa",
+      "name": "DeepSeek Provider",
+      "description": "DeepSeek provider that forwards each request to the DeepSeek endpoint of the same protocol surface (anthropic, chat-completions, responses) without cross-protocol translation, so reasoning history, tool calls and streaming frames reach the client unchanged. Keys are managed through the host, and every completed request is logged with token usage.",
+      "author": "xspeed1989",
+      "repository": "https://github.com/xspeed1989/cpa-plugin-deepseek",
+      "homepage": "https://github.com/xspeed1989/cpa-plugin-deepseek",
+      "license": "MIT",
+      "tags": ["Provider", "DeepSeek", "Anthropic", "Responses", "Reasoning"]
     }
   ]
 }

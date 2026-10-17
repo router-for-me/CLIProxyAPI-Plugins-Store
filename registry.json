@@ -2,6 +2,22 @@
   "schema_version": 1,
   "plugins": [
     {
+      "id": "gflow",
+      "name": "GFlow (Google Flow 图片与视频)",
+      "description": "通过 CPA 宿主端口接入 Google Flow 图片与视频模型，提供账号池、配额查询和模型路由。 / Google Flow image and video model integration through the CPA host endpoint, with account-pool management, quota queries, and model routing.",
+      "author": "daodeqing",
+      "repository": "https://github.com/daodeqing/cpa-plugin-GFlow",
+      "homepage": "https://github.com/daodeqing/cpa-plugin-GFlow",
+      "license": "MIT",
+      "tags": [
+        "Provider",
+        "Management",
+        "Image",
+        "Video",
+        "Google Flow"
+      ]
+    },
+    {
       "id": "kpatdev-quota-router",
       "name": "kpatdev Quota Router",
       "description": "Routes Claude and Codex OAuth requests using quota-aware account scheduling, with session-aware routing and a management dashboard.",

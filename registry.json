@@ -2,6 +2,21 @@
   "schema_version": 1,
   "plugins": [
     {
+      "id": "deepseek-search",
+      "name": "DeepSeek Search",
+      "description": "Adds DeepSeek-powered web search to Responses-compatible models, with streaming, multi-round search, and client-carried search context.",
+      "author": "karuboniru",
+      "repository": "https://github.com/karuboniru/deepseek-search",
+      "homepage": "https://github.com/karuboniru/deepseek-search",
+      "license": "MIT",
+      "tags": [
+        "Search",
+        "DeepSeek",
+        "Responses",
+        "Streaming"
+      ]
+    },
+    {
       "id": "kpatdev-quota-router",
       "name": "kpatdev Quota Router",
       "description": "Routes Claude and Codex OAuth requests using quota-aware account scheduling, with session-aware routing and a management dashboard.",

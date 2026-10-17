@@ -2,6 +2,22 @@
   "schema_version": 1,
   "plugins": [
     {
+      "id": "quota-rotator",
+      "name": "智能配额轮换 (Quota Priority Rotator)",
+      "description": "Codex 与 Antigravity 配额调度：满额账号轮询，全员低于满额时优先使用即将重置的账号，并支持耗尽避让、多账号并行和按凭证固定优先级。 / Quota-aware Codex and Antigravity scheduling with full-capacity round-robin, reset-soon priority, exhaustion bypass, parallel accounts, and credential-specific pinning.",
+      "author": "daodeqing",
+      "repository": "https://github.com/daodeqing/cpa-plugin-quota-rotator",
+      "homepage": "https://github.com/daodeqing/cpa-plugin-quota-rotator",
+      "license": "MIT",
+      "tags": [
+        "Scheduler",
+        "Quota",
+        "Codex",
+        "Antigravity",
+        "Load-Balancing"
+      ]
+    },
+    {
       "id": "kpatdev-quota-router",
       "name": "kpatdev Quota Router",
       "description": "Routes Claude and Codex OAuth requests using quota-aware account scheduling, with session-aware routing and a management dashboard.",

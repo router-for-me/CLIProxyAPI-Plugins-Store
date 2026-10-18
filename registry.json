@@ -1924,6 +1924,22 @@
         "Responses",
         "Reasoning"
       ]
+    },
+    {
+      "id": "model-quota",
+      "name": "Model Quota (大模型额度与余额查询)",
+      "description": "实时查询智谱 GLM Coding Plan 用量与 DeepSeek 账户余额，支持同供应商聚合展示、重置倒计时与官方 LOGO。 / Real-time quota and balance tracking for GLM Coding Plan and DeepSeek.",
+      "author": "ZRZ-0805",
+      "repository": "https://github.com/ZRZ-0805/cpa-plugin-model-quota",
+      "homepage": "https://github.com/ZRZ-0805/cpa-plugin-model-quota",
+      "logo": "https://raw.githubusercontent.com/ZRZ-0805/cpa-plugin-model-quota/main/logo.svg",
+      "license": "MIT",
+      "tags": [
+        "Management",
+        "Quota",
+        "GLM",
+        "DeepSeek"
+      ]
     }
   ]
 }

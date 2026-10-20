@@ -1990,6 +1990,77 @@
         "Codex",
         "Antigravity"
       ]
+    },
+    {
+      "id": "cpa-opencodego",
+      "name": "OpenCode Go",
+      "description": "Native OpenCode Go provider for CLIProxyAPI: the chat-completions face with one shared multi-key pool, per-model proxy routing, live 5-hour/weekly/monthly quota tracking and an embedded usage dashboard. Install the Responses, Messages and Gemini companion faces from the same release for the full 37-model catalog.",
+      "author": "Pheobe-Southwood",
+      "version": "2.0.2",
+      "repository": "https://github.com/Pheobe-Southwood/cpa-opencodego",
+      "logo": "https://raw.githubusercontent.com/Pheobe-Southwood/cpa-opencodego/main/assets/logo.png",
+      "homepage": "https://github.com/Pheobe-Southwood/cpa-opencodego",
+      "license": "MIT",
+      "tags": [
+        "Provider",
+        "OpenCode",
+        "Management",
+        "Usage",
+        "Quota",
+        "Dashboard"
+      ]
+    },
+    {
+      "id": "cpa-opencodego-responses",
+      "name": "OpenCode Go · Responses",
+      "description": "OpenAI Responses (Codex) protocol face of the OpenCode Go provider for CLIProxyAPI. Companion to cpa-opencodego; install all four faces to serve the full 37-model catalog.",
+      "author": "Pheobe-Southwood",
+      "version": "2.0.2",
+      "repository": "https://github.com/Pheobe-Southwood/cpa-opencodego",
+      "logo": "https://raw.githubusercontent.com/Pheobe-Southwood/cpa-opencodego/main/assets/logo.png",
+      "homepage": "https://github.com/Pheobe-Southwood/cpa-opencodego",
+      "license": "MIT",
+      "tags": [
+        "Provider",
+        "OpenCode",
+        "Responses",
+        "Codex"
+      ]
+    },
+    {
+      "id": "cpa-opencodego-messages",
+      "name": "OpenCode Go · Messages",
+      "description": "Anthropic Messages protocol face of the OpenCode Go provider for CLIProxyAPI. Companion to cpa-opencodego; install all four faces to serve the full 37-model catalog.",
+      "author": "Pheobe-Southwood",
+      "version": "2.0.2",
+      "repository": "https://github.com/Pheobe-Southwood/cpa-opencodego",
+      "logo": "https://raw.githubusercontent.com/Pheobe-Southwood/cpa-opencodego/main/assets/logo.png",
+      "homepage": "https://github.com/Pheobe-Southwood/cpa-opencodego",
+      "license": "MIT",
+      "tags": [
+        "Provider",
+        "OpenCode",
+        "Messages",
+        "Anthropic",
+        "Claude"
+      ]
+    },
+    {
+      "id": "cpa-opencodego-gemini",
+      "name": "OpenCode Go · Gemini",
+      "description": "Google GenAI protocol face of the OpenCode Go provider for CLIProxyAPI. Companion to cpa-opencodego; install all four faces to serve the full 37-model catalog.",
+      "author": "Pheobe-Southwood",
+      "version": "2.0.2",
+      "repository": "https://github.com/Pheobe-Southwood/cpa-opencodego",
+      "logo": "https://raw.githubusercontent.com/Pheobe-Southwood/cpa-opencodego/main/assets/logo.png",
+      "homepage": "https://github.com/Pheobe-Southwood/cpa-opencodego",
+      "license": "MIT",
+      "tags": [
+        "Provider",
+        "OpenCode",
+        "Gemini",
+        "Google"
+      ]
     }
   ]
 }

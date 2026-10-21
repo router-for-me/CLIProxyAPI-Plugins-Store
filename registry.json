@@ -2009,6 +2009,23 @@
         "Usage",
         "Management"
       ]
+    },
+    {
+      "id": "spancerxing-cursor",
+      "name": "Cursor (spancerxing)",
+      "description": "Cursor provider with browser login, streaming Chat Completions, images, tool calls and quota reporting through CPA host HTTP callbacks.",
+      "author": "spancerxing",
+      "version": "0.1.0",
+      "repository": "https://github.com/spancerxing/cliproxyapi-cursor-plugin",
+      "homepage": "https://github.com/spancerxing/cliproxyapi-cursor-plugin",
+      "license": "MIT",
+      "tags": [
+        "Provider",
+        "Cursor",
+        "OAuth",
+        "Streaming",
+        "Quota"
+      ]
     }
   ]
 }

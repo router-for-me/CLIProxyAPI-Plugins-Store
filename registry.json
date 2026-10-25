@@ -1087,6 +1087,7 @@
       "name": "Cursor Agent",
       "description": "Testing and research plugin that connects CLIProxyAPI to the Cursor cloud agent. Claude Code uses Messages and Codex uses Responses directly, with browser login and a Codex-native model catalog. | 仅供测试和研发的 Cursor 云端 Agent 插件。Claude Code 走 Messages，Codex 走 Responses，支持浏览器登录，并向 Codex 返回它要求的模型目录。",
       "author": "endverse",
+      "version": "0.1.1",
       "repository": "https://github.com/endverse/cpa-cursor-plugin",
       "homepage": "https://github.com/endverse/cpa-cursor-plugin",
       "license": "MIT",

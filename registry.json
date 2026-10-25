@@ -58,7 +58,15 @@
       "logo": "https://raw.githubusercontent.com/PosvdM/cpa-plugin-lamplighter/main/assets/logo.png",
       "homepage": "https://github.com/PosvdM/cpa-plugin-lamplighter",
       "license": "AGPL-3.0-or-later",
-      "tags": ["Management", "Quota", "Notification", "Webhook", "Codex", "Claude", "Antigravity"]
+      "tags": [
+        "Management",
+        "Quota",
+        "Notification",
+        "Webhook",
+        "Codex",
+        "Claude",
+        "Antigravity"
+      ]
     },
     {
       "id": "zcode",
@@ -86,7 +94,13 @@
       "repository": "https://github.com/Batuhan4/cpa-groq",
       "homepage": "https://github.com/Batuhan4/cpa-groq",
       "license": "MIT",
-      "tags": ["Provider", "Executor", "Speech-to-Text", "Groq", "Whisper"]
+      "tags": [
+        "Provider",
+        "Executor",
+        "Speech-to-Text",
+        "Groq",
+        "Whisper"
+      ]
     },
     {
       "id": "cpa-codex-candy-eval",
@@ -110,7 +124,12 @@
       "repository": "https://github.com/patrick-fu/cpa-codex-app-multisession-compat",
       "homepage": "https://github.com/patrick-fu/cpa-codex-app-multisession-compat",
       "license": "MIT",
-      "tags": ["Interceptor", "Codex", "Compatibility", "Responses"]
+      "tags": [
+        "Interceptor",
+        "Codex",
+        "Compatibility",
+        "Responses"
+      ]
     },
     {
       "id": "clinepassbridge",
@@ -121,7 +140,13 @@
       "repository": "https://github.com/xiao-qiu-qiu/ClinePassBridge",
       "homepage": "https://github.com/xiao-qiu-qiu/ClinePassBridge",
       "license": "MIT",
-      "tags": ["Cline", "Cline Pass", "Provider", "Streaming", "Logs"]
+      "tags": [
+        "Cline",
+        "Cline Pass",
+        "Provider",
+        "Streaming",
+        "Logs"
+      ]
     },
     {
       "id": "usage-report",
@@ -1083,6 +1108,22 @@
       ]
     },
     {
+      "id": "cursor-agent",
+      "name": "Cursor Agent",
+      "description": "Testing and research plugin that connects CLIProxyAPI to the Cursor cloud agent. Claude Code uses Messages and Codex uses Responses directly, with browser login and a Codex-native model catalog. | 仅供测试和研发的 Cursor 云端 Agent 插件。Claude Code 走 Messages，Codex 走 Responses，支持浏览器登录，并向 Codex 返回它要求的模型目录。",
+      "author": "endverse",
+      "repository": "https://github.com/endverse/cpa-cursor-plugin",
+      "homepage": "https://github.com/endverse/cpa-cursor-plugin",
+      "license": "MIT",
+      "tags": [
+        "Provider",
+        "Cursor",
+        "Claude",
+        "Codex",
+        "Responses"
+      ]
+    },
+    {
       "id": "provider-rate-limiter",
       "name": "Provider Rate Limiter",
       "description": "Applies independent sliding-window RPM limits to CPA auth candidates through the official scheduler plugin capability, with provider-wide defaults and per-auth overrides.",
@@ -1630,7 +1671,11 @@
       "logo": "https://raw.githubusercontent.com/gouwenct/cpa-scheduled-tests/main/assets/logo.png",
       "homepage": "https://github.com/gouwenct/cpa-scheduled-tests",
       "license": "MIT",
-      "tags": ["Codex", "Scheduled Tests", "Management"]
+      "tags": [
+        "Codex",
+        "Scheduled Tests",
+        "Management"
+      ]
     },
     {
       "id": "openai-oauth",
@@ -1640,7 +1685,12 @@
       "version": "0.1.0",
       "repository": "https://github.com/syepes/CLIProxyAPI-plugin-openai-oauth",
       "homepage": "https://github.com/syepes/CLIProxyAPI-plugin-openai-oauth",
-      "tags": ["Provider", "OAuth", "OpenAI", "Management"]
+      "tags": [
+        "Provider",
+        "OAuth",
+        "OpenAI",
+        "Management"
+      ]
     },
     {
       "id": "github-copilot",
@@ -1650,7 +1700,12 @@
       "version": "0.1.1",
       "repository": "https://github.com/syepes/CLIProxyAPI-plugin-github-copilot",
       "homepage": "https://github.com/syepes/CLIProxyAPI-plugin-github-copilot",
-      "tags": ["Provider", "Copilot", "OpenAI", "Management"]
+      "tags": [
+        "Provider",
+        "Copilot",
+        "OpenAI",
+        "Management"
+      ]
     },
     {
       "id": "vertex-adc",
@@ -1660,7 +1715,12 @@
       "version": "0.1.0",
       "repository": "https://github.com/syepes/CLIProxyAPI-plugin-vertex-adc",
       "homepage": "https://github.com/syepes/CLIProxyAPI-plugin-vertex-adc",
-      "tags": ["Provider", "Google", "Vextex", "Management"]
+      "tags": [
+        "Provider",
+        "Google",
+        "Vextex",
+        "Management"
+      ]
     },
     {
       "id": "cpa-window-starter",
@@ -1687,7 +1747,12 @@
       "homepage": "https://github.com/Pet-Max/cpa-plugin-tokens-statistic",
       "logo": "https://raw.githubusercontent.com/Pet-Max/cpa-plugin-tokens-statistic/main/images/logo.svg",
       "license": "MIT",
-      "tags": ["Management", "Usage", "Statistics", "Dashboard"]
+      "tags": [
+        "Management",
+        "Usage",
+        "Statistics",
+        "Dashboard"
+      ]
     },
     {
       "id": "kiro-ha",
@@ -1698,7 +1763,12 @@
       "homepage": "https://github.com/nguyenha935/kiro-cpa-plugin",
       "logo": "https://raw.githubusercontent.com/nguyenha935/kiro-cpa-plugin/main/cmd/kiro-plugin/assets/kiro-logo.png",
       "license": "MIT",
-      "tags": ["Provider", "Kiro", "OAuth", "Quota"]
+      "tags": [
+        "Provider",
+        "Kiro",
+        "OAuth",
+        "Quota"
+      ]
     },
     {
       "id": "key-router",
@@ -1708,7 +1778,10 @@
       "repository": "https://github.com/tuzilj1/cliproxyapi-key-router",
       "homepage": "https://github.com/tuzilj1/cliproxyapi-key-router",
       "license": "MIT",
-      "tags": ["Routing", "Management"]
+      "tags": [
+        "Routing",
+        "Management"
+      ]
     },
     {
       "id": "codexreflow",
@@ -1718,7 +1791,13 @@
       "repository": "https://github.com/LaoPiLao/cpa-plugin-codexreflow",
       "homepage": "https://github.com/LaoPiLao/cpa-plugin-codexreflow",
       "license": "MIT",
-      "tags": ["Executor", "Codex", "Responses", "Streaming", "WebSocket"]
+      "tags": [
+        "Executor",
+        "Codex",
+        "Responses",
+        "Streaming",
+        "WebSocket"
+      ]
     },
     {
       "id": "sticky-fill-first",
@@ -1728,7 +1807,12 @@
       "repository": "https://github.com/magoz/cpa-sticky-fill-first",
       "homepage": "https://github.com/magoz/cpa-sticky-fill-first",
       "license": "MIT",
-      "tags": ["Scheduler", "Routing", "Claude", "Codex"]
+      "tags": [
+        "Scheduler",
+        "Routing",
+        "Claude",
+        "Codex"
+      ]
     },
     {
       "id": "client-guard",
@@ -1739,7 +1823,12 @@
       "repository": "https://github.com/Samuel-wyj/cpa-client-guard",
       "homepage": "https://github.com/Samuel-wyj/cpa-client-guard",
       "license": "MIT",
-      "tags": ["Interceptor", "Security", "Management", "Codex"]
+      "tags": [
+        "Interceptor",
+        "Security",
+        "Management",
+        "Codex"
+      ]
     },
     {
       "id": "our-free-model",
@@ -1751,7 +1840,13 @@
       "logo": "https://raw.githubusercontent.com/sy0u1ti/cpa-our-free-model/main/assets/logo.png",
       "homepage": "https://github.com/sy0u1ti/cpa-our-free-model",
       "license": "MIT",
-      "tags": ["Provider", "Management", "Streaming", "OpenAI", "Anthropic"]
+      "tags": [
+        "Provider",
+        "Management",
+        "Streaming",
+        "OpenAI",
+        "Anthropic"
+      ]
     },
     {
       "id": "codex-timezone-sync",
@@ -1760,7 +1855,12 @@
       "author": "LonelyHerbivore",
       "repository": "https://github.com/LonelyHerbivore/codex-timezone-sync",
       "homepage": "https://github.com/LonelyHerbivore/codex-timezone-sync",
-      "tags": ["Codex", "Timezone", "Management", "Request Interceptor"]
+      "tags": [
+        "Codex",
+        "Timezone",
+        "Management",
+        "Request Interceptor"
+      ]
     },
     {
       "id": "cpa-account-warmup",
@@ -1770,7 +1870,11 @@
       "repository": "https://github.com/KeeVeeG/cpa-account-warmup",
       "homepage": "https://github.com/KeeVeeG/cpa-account-warmup",
       "license": "MIT",
-      "tags": ["Management", "Claude", "Codex"]
+      "tags": [
+        "Management",
+        "Claude",
+        "Codex"
+      ]
     },
     {
       "id": "expiring-first",
@@ -1780,7 +1884,13 @@
       "repository": "https://github.com/magoz/cpa-expiring-first",
       "homepage": "https://github.com/magoz/cpa-expiring-first",
       "license": "MIT",
-      "tags": ["Scheduler", "Routing", "Quota", "Claude", "Codex"]
+      "tags": [
+        "Scheduler",
+        "Routing",
+        "Quota",
+        "Claude",
+        "Codex"
+      ]
     },
     {
       "id": "cpa-auto-proxy-test",
@@ -1790,7 +1900,12 @@
       "repository": "https://github.com/ApliNi/CPA-Auto-Proxy-Test",
       "homepage": "https://github.com/ApliNi/CPA-Auto-Proxy-Test",
       "license": "MIT",
-      "tags": ["Routing", "Management", "Antigravity", "Proxy"]
+      "tags": [
+        "Routing",
+        "Management",
+        "Antigravity",
+        "Proxy"
+      ]
     },
     {
       "id": "cpa-codex-weight-balancer",
@@ -1800,7 +1915,11 @@
       "repository": "https://github.com/duanzhenyu/cpa-codex-weight-balancer",
       "homepage": "https://github.com/duanzhenyu/cpa-codex-weight-balancer",
       "license": "MIT",
-      "tags": ["Scheduler", "Codex", "Quota"]
+      "tags": [
+        "Scheduler",
+        "Codex",
+        "Quota"
+      ]
     },
     {
       "id": "quota-monitor",
@@ -1810,7 +1929,12 @@
       "repository": "https://github.com/dohwi/cliproxyapi-plugin-quota-monitor",
       "homepage": "https://github.com/dohwi/cliproxyapi-plugin-quota-monitor",
       "license": "MIT",
-      "tags": ["Quota", "Dashboard", "Monitoring", "Management"]
+      "tags": [
+        "Quota",
+        "Dashboard",
+        "Monitoring",
+        "Management"
+      ]
     },
     {
       "id": "usage-audit",
@@ -1820,7 +1944,12 @@
       "repository": "https://github.com/dohwi/cliproxyapi-plugin-usage-audit",
       "homepage": "https://github.com/dohwi/cliproxyapi-plugin-usage-audit",
       "license": "MIT",
-      "tags": ["Usage", "Statistics", "Dashboard", "Management"]
+      "tags": [
+        "Usage",
+        "Statistics",
+        "Dashboard",
+        "Management"
+      ]
     },
     {
       "id": "live-routes",

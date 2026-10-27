@@ -2208,6 +2208,18 @@
       "homepage": "https://github.com/endverse/cpa-cursor-plugin",
       "license": "MIT",
       "tags": ["Provider", "Cursor", "Claude", "Codex", "Responses"]
+    },
+    {
+      "id": "models-context",
+      "name": "Model Context Windows",
+      "description": "Adds operator-configured context_length values to OpenAI-shaped /v1/models responses, so the model list reports the real context window instead of omitting it. A C ABI v1 response-interceptor plugin: it does not discover or measure capacities, does not enforce or clamp token limits, and does not touch inference requests — it only rewrites the model list payload. | 为 OpenAI 形状的 /v1/models 模型列表补上管理员配置的 context_length，让客户端能读到真实上下文窗口，而不是拿到一个缺字段的模型列表。C ABI v1 响应拦截插件：不探测、不测量模型容量，不强制或裁剪 token 上限，也不修改任何推理请求——只重写模型列表响应。",
+      "author": "songbaicheng",
+      "version": "1.1.1",
+      "repository": "https://github.com/songbaicheng/cpa-models-context",
+      "logo": "https://raw.githubusercontent.com/songbaicheng/cpa-models-context/main/assets/logo.svg",
+      "homepage": "https://github.com/songbaicheng/cpa-models-context",
+      "license": "MIT",
+      "tags": ["Models", "Metadata", "Context"]
     }
   ]
 }

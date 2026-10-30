@@ -2259,6 +2259,18 @@
       "homepage": "https://github.com/DongHua3/cpa-plugin-antigravity",
       "license": "MIT",
       "tags": ["Interceptor"]
+    },
+    {
+      "id": "omc-zcode-oauth",
+      "name": "OMC ZCode OAuth",
+      "description": "Native Z.ai / BigModel OAuth provider for CPA with dual-portal sign-in, model discovery, Anthropic Messages execution, Coding Plan and gift routing, and normalized quota. Part of the Oh-My-CPA ecosystem.",
+      "author": "JUNZE",
+      "version": "0.1.3",
+      "repository": "https://github.com/WizisCool/omc-zcode-oauth",
+      "logo": "https://raw.githubusercontent.com/WizisCool/omc-zcode-oauth/refs/heads/main/assets/logo.png",
+      "homepage": "https://github.com/WizisCool/omc-zcode-oauth",
+      "license": "MIT",
+      "tags": ["Provider", "OAuth", "Quota", "GLM", "ZCode", "BigModel", "Z.ai", "Oh-My-CPA"]
     }
   ]
 }

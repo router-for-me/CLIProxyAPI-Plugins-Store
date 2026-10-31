@@ -2303,6 +2303,17 @@
       "homepage": "https://github.com/Yousha-dev/claude-remote-login",
       "license": "MIT",
       "tags": ["Auth", "Management"]
+    },
+    {
+      "id": "cpa-combo-router",
+      "name": "CPA Combo Router",
+      "description": "Create client-facing model aliases with an ordered fallback chain. Includes a management dashboard, aggregate model picker, retry controls, and streaming-safe fallback.",
+      "author": "ivanarifin",
+      "version": "0.4.3",
+      "repository": "https://github.com/ivanarifin/CPA-Combo-Plugin",
+      "homepage": "https://github.com/ivanarifin/CPA-Combo-Plugin",
+      "license": "MIT",
+      "tags": ["Model Router", "Fallback", "Management", "Dashboard"]
     }
   ]
 }

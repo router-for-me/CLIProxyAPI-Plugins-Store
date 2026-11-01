@@ -13,7 +13,12 @@
       "license": "MIT",
       "tags": [
         "Interceptor"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "通过 Goja VM 引擎执行外部 JavaScript 脚本，用于拦截和修改请求、响应及流式数据块的 CLIProxyAPI 插件。"
+        }
+      }
     },
     {
       "id": "gemini-cli",
@@ -27,7 +32,12 @@
       "license": "MIT",
       "tags": [
         "Provider"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "通过原生插件 ABI 为 CLIProxyAPI 增加 Gemini CLI 上游提供商支持的插件。"
+        }
+      }
     },
     {
       "id": "codex-invite",
@@ -41,7 +51,12 @@
       "tags": [
         "Management",
         "Codex"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "使用所选的 Codex OAuth 凭证从 CPA 发送 Codex 推荐邀请邮件。"
+        }
+      }
     },
     {
       "id": "privacyfilter",
@@ -54,7 +69,12 @@
       "tags": [
         "Interceptor",
         "Security"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "在模型请求到达上游提供商之前，基于内置 Gitleaks 规则拦截请求并脱敏邮箱、手机号、API Key、令牌及其他敏感信息。"
+        }
+      }
     },
     {
       "id": "antigravity-coding-filter",
@@ -66,7 +86,12 @@
       "license": "MIT",
       "tags": [
         "Interceptor"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "拦截主流编程软件发出的请求（尤其是来自 Google Antigravity 的逆向相关请求），以防止账号被封禁。"
+        }
+      }
     },
     {
       "id": "priority-auto-router",
@@ -83,7 +108,12 @@
         "Fallback",
         "Claude",
         "Codex"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "按优先级候选提供商路由 Claude Code 与 Codex CLI 的模型别名请求，并支持自动故障回退。"
+        }
+      }
     },
     {
       "id": "codex-429-autoban",
@@ -96,7 +126,12 @@
       "tags": [
         "Scheduler",
         "Codex"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "根据上游 x-codex-* 响应头，在遇到 429 时自动禁用 Codex 凭证，并在耗尽的限流窗口（5 小时或每周）刷新后自动重新启用。"
+        }
+      }
     },
     {
       "id": "model-fallback-router",
@@ -112,7 +147,12 @@
         "Fallback",
         "Claude",
         "OpenAI"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "当主模型因配额、限流、传输故障或指定 HTTP 状态码失败时，自动按配置的回退模型名称重试匹配的模型请求。"
+        }
+      }
     },
     {
       "id": "embeddings-forward",
@@ -127,7 +167,12 @@
         "Embeddings",
         "Rerank",
         "Forward"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "将 OpenAI 兼容的 Embeddings 请求与 Cohere 风格的 Rerank 请求转发至上游提供商，支持单路由多提供商、模型别名及密钥故障转移。"
+        }
+      }
     },
     {
       "id": "cpa-key-policy",
@@ -141,7 +186,12 @@
       "tags": [
         "Management",
         "Auth"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "管理插件自有的下游 API Key，支持按 Key 配置路由至 CPA 提供商模型的模型别名列表、按 Key 限制 RPM、带缓存感知计费（缓存开销与命中率统计）的每日/每周美元额度限制及管理 API；内置多语言（zh-CN/zh-TW/en/ru）Key Policy 管理界面并跟随面板语言切换，作为非排他前端认证提供商运行（原生 api-keys 仍可使用）。"
+        }
+      }
     },
     {
       "id": "keeper",
@@ -156,7 +206,12 @@
       "tags": [
         "Management",
         "Keeper"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "在管理中心添加打开 CPA Usage Keeper 的 CPAMC 入口（需 CPA Usage Keeper v1.12.2 及以上版本）。"
+        }
+      }
     },
     {
       "id": "codex-token-usage",
@@ -172,7 +227,12 @@
         "Usage",
         "Codex",
         "Dashboard"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "提供 Codex 账号用量、配额追踪、429 自动封禁及提供商成本看板。"
+        }
+      }
     },
     {
       "id": "model-mapper",
@@ -188,7 +248,12 @@
         "Model Router",
         "Claude",
         "OpenAI"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "使用有序的精确匹配、通配符、大小写转换及基于认证 API Key 作用域的规则，将请求的模型名映射为上游模型，可在不修改客户端配置的情况下切换上游模型、整合别名或按调用方路由至不同模型。"
+        }
+      }
     },
     {
       "id": "codex-quota-scheduler",
@@ -203,7 +268,12 @@
         "Scheduler",
         "Management",
         "Codex"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "在 CPA 中通过配额感知的 Fill First 排序、重置探测以及受管理密钥保护的中英双语界面优化 Codex 账号调度。"
+        }
+      }
     },
     {
       "id": "usage-statistics",
@@ -217,7 +287,12 @@
         "Management",
         "Usage",
         "Statistics"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "将每次请求的用量数据（Token、延迟、TTFT、推理强度、服务层级及失败记录）持久化到本地 SQLite 数据库，并提供受管理密钥保护的查询与删除 API。"
+        }
+      }
     },
     {
       "id": "codexcomp",
@@ -230,7 +305,12 @@
       "tags": [
         "Executor",
         "Codex"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "针对 gpt-5.5 流式请求中的推理截断问题，在存在加密推理内容时自动折叠续写轮次。"
+        }
+      }
     },
     {
       "id": "codexcont",
@@ -245,7 +325,12 @@
         "Interceptor",
         "Codex",
         "Responses"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "当上游截断符合 CodexCont 启发式特征时，在 CLIProxyAPI 内部自动续接 gpt-5.5 折叠推理流。"
+        }
+      }
     },
     {
       "id": "grok-inspection",
@@ -260,7 +345,12 @@
         "Management",
         "Grok",
         "xAI"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "为 CPA 提供后台 xAI/Grok 账号巡检，支持权限、配额、登录状态与健康度分类，以及全量、增量、按分类重检与批量操作。"
+        }
+      }
     },
     {
       "id": "cap-token-usage-tracker",
@@ -277,7 +367,12 @@
         "Usage",
         "Statistics",
         "Dashboard"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "持久化追踪 Token 用量，支持按小时聚合与多维度统计（模型、提供商、执行器、别名、来源、认证类型、服务层级、推理强度、失败情况），并在管理中心提供内嵌中文看板。"
+        }
+      }
     },
     {
       "id": "cpa-account-config-manager",
@@ -295,7 +390,12 @@
         "Import",
         "Export",
         "Codex"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "管理 CLIProxyAPI 账号配置，支持脱敏账号检查、多格式导入导出、用量可视化、安全批量编辑、持久化默认项以及插件内账号增删改查。"
+        }
+      }
     },
     {
       "id": "opencode-go-pool",
@@ -311,7 +411,12 @@
         "Management",
         "Usage",
         "OpenCode"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "为 OpenCode Go 订阅提供配额感知的跨协议账号池化与故障转移。"
+        }
+      }
     },
     {
       "id": "grok-panel",
@@ -327,7 +432,12 @@
         "Usage",
         "Grok",
         "Dashboard"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "提供中文 Grok 账号管理看板，支持用量统计、Free/Super/Heavy 订阅分类、健康检查、受保护账号规则及安全凭证清理。"
+        }
+      }
     },
     {
       "id": "codex-agent-identity",
@@ -343,7 +453,12 @@
         "Management",
         "Auth",
         "Codex"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "为 CPA 原生支持 Codex Agent Identity JWT 与个人访问令牌（PAT）凭证，具备加密旁路存储、预览优先的批量导入、安全认证文件同步及受管理密钥保护的插件路由。"
+        }
+      }
     },
     {
       "id": "quota-router",
@@ -358,12 +473,17 @@
         "Router",
         "Usage",
         "Claude"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "将受保护的 Claude 模型请求从达到可配置 7 天用量阈值的 OAuth 账号自动分流，并支持请求触发的配额刷新与受认证保护的状态报告。"
+        }
+      }
     },
     {
       "id": "cpa-apply-patch",
       "name": "Apply Patch Bridge",
-      "description": "Bridges the Codex client's native apply_patch tool to backends without freeform custom-tool support (Claude, etc.): rewrites custom tools into {\"input\": string} function tools on the request path and restores custom_tool_call events on the response path, so structured patch edits, diff review cards, and one-click undo work for every model behind the proxy. | 让 Codex 客户端在 Claude 等不支持 freeform custom 工具的后端上恢复原生 apply_patch:请求方向把 custom 工具改写为 {\"input\": string} 函数工具,响应方向还原 custom_tool_call 事件族,结构化补丁编辑、差异审核卡与一键撤销对代理后的所有模型可用。",
+      "description": "Bridges the Codex client's native apply_patch tool to backends without freeform custom-tool support (Claude, etc.): rewrites custom tools into {\"input\": string} function tools on the request path and restores custom_tool_call events on the response path, so structured patch edits, diff review cards, and one-click undo work for every model behind the proxy.",
       "author": "zhangziming1124",
       "repository": "https://github.com/zhangziming1124/cpa-apply-patch",
       "homepage": "https://github.com/zhangziming1124/cpa-apply-patch",
@@ -372,7 +492,12 @@
         "Interceptor",
         "Codex",
         "Claude"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "让 Codex 客户端在 Claude 等不支持 freeform custom 工具的后端上恢复原生 apply_patch:请求方向把 custom 工具改写为 {\"input\": string} 函数工具,响应方向还原 custom_tool_call 事件族,结构化补丁编辑、差异审核卡与一键撤销对代理后的所有模型可用。"
+        }
+      }
     },
     {
       "id": "opencode-cloak",
@@ -387,7 +512,12 @@
         "Interceptor",
         "Claude",
         "OpenCode"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "将 opencode CLI 请求改写为携带 Claude Code 计费请求头与指纹，同时保留 opencode 自身的系统提示词，避免通过 CPA 代理的 Claude OAuth 订阅被识别为第三方流量。"
+        }
+      }
     },
     {
       "id": "anti-model-fallback",
@@ -402,7 +532,12 @@
         "Model Router",
         "Executor",
         "Fallback"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "阻止上游模型降级回退：当检测到实际响应模型与请求模型不一致时自动重试，直至处理模型与请求模型一致，或在重试次数耗尽后返回错误。"
+        }
+      }
     },
     {
       "id": "codex-pat",
@@ -417,7 +552,12 @@
         "Management",
         "Auth",
         "Codex"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "校验并将 Codex 个人访问令牌（PAT）导入为 CPA 兼容凭证，提供受管理密钥保护的中英双语界面。"
+        }
+      }
     },
     {
       "id": "cpa-quota-api-extension",
@@ -434,7 +574,12 @@
         "Quota",
         "Monitoring",
         "API"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "通过受认证保护的管理 API 端点导出脱敏且与提供商无关的 CLIProxyAPI 凭证池配额数据，供仪表盘和监控自动化使用。"
+        }
+      }
     },
     {
       "id": "quota-activation",
@@ -451,7 +596,12 @@
         "codex",
         "antigravity",
         "management"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "为 Codex 和 Antigravity 凭证提供手动与自动配额重置激活功能。"
+        }
+      }
     },
     {
       "id": "credential-priority",
@@ -467,7 +617,12 @@
         "Priority",
         "Quota",
         "Management"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "根据最新配额数据自动对 Antigravity、Codex 和 xAI 凭证进行优先级排序。"
+        }
+      }
     },
     {
       "id": "codex-auto-reset",
@@ -481,7 +636,12 @@
       "tags": [
         "Management",
         "Codex"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "在最快到期的 Codex Reset Bank 额度过期前自动兑换，支持幂等重试、三重校验以及带重置统计的中英双语管理界面。"
+        }
+      }
     },
     {
       "id": "sub2api-balance",
@@ -496,7 +656,12 @@
         "Usage",
         "Sub2API",
         "Dashboard"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "在管理看板中追踪所选 Sub2API 驱动的 CPA 提供商的余额、配额、用量、计费倍率及高峰计费窗口。"
+        }
+      }
     },
     {
       "id": "grok2api-egress",
@@ -515,7 +680,12 @@
         "Egress",
         "Proxy",
         "Quality"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "CPA 原生 Grok/xAI 出口节点管理插件，支持粘性代理绑定、被动与主动质量探测、隔离迁移以及用于降级输出恢复的管理看板。"
+        }
+      }
     },
     {
       "id": "cpa-session-archive",
@@ -530,7 +700,12 @@
         "Management",
         "Archive",
         "Training Data"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "将 CPA 请求归档为去重后的会话与 Agent 轮次，并提供多语言管理界面，支持多维筛选浏览、诊断分析及流式训练数据导出。"
+        }
+      }
     },
     {
       "id": "cliproxyapi-copilot",
@@ -546,7 +721,12 @@
         "GitHub Copilot",
         "OAuth",
         "Claude"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "通过 GitHub 设备码 OAuth、动态模型发现与 Claude Messages 协议转换，将 GitHub Copilot 订阅模型接入 CLIProxyAPI。"
+        }
+      }
     },
     {
       "id": "key-model-access",
@@ -561,7 +741,12 @@
         "Management",
         "Auth",
         "Security"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "提供排他性的下游 API Key 认证与按 Key 配置的模型允许/拒绝策略，并附带受管理密钥保护的设置界面。"
+        }
+      }
     },
     {
       "id": "codex-localcompact",
@@ -577,7 +762,12 @@
         "Codex",
         "Compaction",
         "OpenAI"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "通过 CPA 宿主模型 API，为配置的 DeepSeek 及 OpenAI 兼容模型模拟 Codex Responses 远程上下文压缩（Remote Compaction V2）。"
+        }
+      }
     },
     {
       "id": "deepseek-vision",
@@ -592,7 +782,12 @@
         "Interceptor",
         "Vision",
         "DeepSeek"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "使用宿主配置的视觉模型分析请求中的图片并透明替换为视觉上下文描述，为纯文本 DeepSeek 模型赋予可靠的图像理解能力。"
+        }
+      }
     },
     {
       "id": "prompt-rules",
@@ -605,7 +800,12 @@
       "tags": [
         "Interceptor",
         "Prompt"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "在提供商协议转换前按模型与协议范围注入或剥离系统提示词与用户提示词文本。"
+        }
+      }
     },
     {
       "id": "model-router",
@@ -619,7 +819,12 @@
         "Router",
         "Model Router",
         "Fallback"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "为 CPA 模型目标添加逻辑模型别名，支持按优先级或轮询选择、冷却隔离及故障转移。"
+        }
+      }
     },
     {
       "id": "codex-switch-guard",
@@ -635,7 +840,12 @@
         "Security",
         "Codex",
         "Responses"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "在 CPA 切换凭证或模型时保护与路由绑定的 Codex 推理与压缩状态；阻断模式可在转发前拒绝不安全的状态移除。"
+        }
+      }
     },
     {
       "id": "cpa-quota-estimator",
@@ -653,7 +863,12 @@
         "Quota",
         "Codex",
         "Dashboard"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "跨计划重置或提前重置周期追踪 Codex 配额周期与月度用量，并在中英双语看板中提供 Token/美元等价容量与消耗速度预测。"
+        }
+      }
     },
     {
       "id": "cpa-codex-compact-bridge",
@@ -668,7 +883,12 @@
         "Interceptor",
         "Codex",
         "Compaction"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "为配置的第三方模型桥接 Codex 远程上下文压缩 V1 与 V2，同时按模型保留原生压缩透传。"
+        }
+      }
     },
     {
       "id": "credit-manager",
@@ -685,7 +905,12 @@
         "billing",
         "usage",
         "management"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "面向 CLIProxyAPI 的安全按量额度管理插件：签发隔离的 API Key、执行按 Key 消费限额、根据实际 Token 用量结算费用，并在统一控制台管理定价、用量与审计记录。"
+        }
+      }
     },
     {
       "id": "deepseek-harness-session",
@@ -700,7 +925,12 @@
         "deepseek",
         "session-affinity",
         "harness"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "将 X-DeepSeek-Harness-Session-Id 映射为 X-Session-ID，使 deepseek-harness 客户端获得稳定的会话亲和性缓存，而非不稳定的派生标识。"
+        }
+      }
     },
     {
       "id": "quota-center",
@@ -717,7 +947,12 @@
         "Quota",
         "Usage",
         "Dashboard"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "原生 CLIProxyAPI 管理插件，采用脱敏凭证与 CPA 原生认证，统一汇总展示智谱、MiniMax、方舟（Ark）、OpenCode Go、Codex、Gemini 与 Grok 的配额窗口。"
+        }
+      }
     },
     {
       "id": "antigravity-priority",
@@ -733,7 +968,12 @@
         "Quota",
         "Antigravity",
         "Management"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "面向 Google Antigravity 凭证的智能双窗口配额配速、周度紧急度调度器与动态加速窗口优化器。"
+        }
+      }
     },
     {
       "id": "ark-429-autoban",
@@ -749,7 +989,12 @@
         "ARK",
         "Volcano Engine",
         "429"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "在遇到 HTTP 429 时自动隔离火山引擎方舟（ARK）API Key，支持精确重置时间解析、按错误码配置回退时长、从配置注释自动提取 Key 标签，并提供用于监控和手动解封的管理界面。"
+        }
+      }
     },
     {
       "id": "glm-vision-bridge",
@@ -766,12 +1011,17 @@
         "Router",
         "Claude",
         "OpenAI"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "在 OpenAI Chat、Responses 与 Claude Messages 协议间桥接视觉模型与文本模型，支持有界持久化视觉记忆、并行图像工具批处理、显式重分析及安全的历史记录压缩。"
+        }
+      }
     },
     {
       "id": "api-key-manager",
       "name": "API Key 管理器",
-      "description": "为 CLIProxyAPI API Key 增加名称、备注，并提供 API Key 的增删改查管理页面。",
+      "description": "Adds names and remarks to CLIProxyAPI API keys and provides a management page for creating, viewing, updating, and deleting API keys.",
       "author": "bmqy",
       "version": "0.1.7",
       "repository": "https://github.com/bmqy/cpa-plugin-apikey-manager",
@@ -780,7 +1030,12 @@
         "Management",
         "API Key",
         "Credentials"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "为 CLIProxyAPI API Key 增加名称、备注，并提供 API Key 的增删改查管理页面。"
+        }
+      }
     },
     {
       "id": "opencode-go-quota",
@@ -796,7 +1051,12 @@
         "Usage",
         "Scheduler",
         "OpenCode"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "面向 CLIProxyAPI 的配额感知型 OpenCode Go 账号看板与运维号池控制插件。"
+        }
+      }
     },
     {
       "id": "deepseek-reasoning-fixer",
@@ -811,7 +1071,12 @@
         "deepseek",
         "reasoning",
         "normalizer"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "规范化 DeepSeek 思考模式请求：自动补全 assistant 消息中缺失或为空的 reasoning_content，避免上游控制台在长周期 Agent 会话中返回 400 错误。"
+        }
+      }
     },
     {
       "id": "key-provider-access",
@@ -827,7 +1092,12 @@
         "Auth",
         "Security",
         "Scheduler"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "为 OAuth 配置与 API 驱动的上游提供商执行按 CPA Key 划分的允许与拒绝策略，提供管理看板与感知配置画像的调度过滤。"
+        }
+      }
     },
     {
       "id": "aq-codex-responses-lite",
@@ -842,7 +1112,12 @@
         "Interceptor",
         "Codex",
         "Responses"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "针对精确匹配的提供商前缀/模型规则启用 CPA 原生 Codex Responses Lite 路径，在不替换 CPA 路由、凭证、执行或流式处理的前提下阻止自动注入托管的 image_generation 工具。"
+        }
+      }
     },
     {
       "id": "cpa-usage-statistics",
@@ -859,12 +1134,17 @@
         "Statistics",
         "Codex",
         "Dashboard"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "在 CPA 管理看板中按认证文件追踪 Token 用量、配额重置周期、账号状态以及折算的美元/人民币 API 成本。"
+        }
+      }
     },
     {
       "id": "cursor",
       "name": "Cursor for CPA/CLIProxyAPI",
-      "description": "Adds user-authorized Cursor subscriptions as a CLIProxyAPI provider with OAuth login, dynamic model discovery, streaming OpenAI Chat Completions, bounded session checkpoints, stable tool-call IDs, empty-response validation, image and text attachments, separated request and host-attempt metrics, deduplicated account status, and bilingual model controls. | 将用户本人授权的 Cursor 订阅接入 CLIProxyAPI，提供 OAuth 登录、动态模型发现、OpenAI Chat Completions 流式调用、有界会话检查点、稳定工具调用 ID、空响应校验、图片与文本附件、分离的请求与宿主尝试指标、账户去重及中英文模型控制。",
+      "description": "Adds user-authorized Cursor subscriptions as a CLIProxyAPI provider with OAuth login, dynamic model discovery, streaming OpenAI Chat Completions, bounded session checkpoints, stable tool-call IDs, empty-response validation, image and text attachments, separated request and host-attempt metrics, deduplicated account status, and bilingual model controls.",
       "author": "yobo2u",
       "repository": "https://github.com/yobo2u/omsub",
       "homepage": "https://github.com/yobo2u/omsub/tree/cursor/cursor-plugin",
@@ -875,7 +1155,12 @@
         "OAuth",
         "Management",
         "Usage"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "将用户本人授权的 Cursor 订阅接入 CLIProxyAPI，提供 OAuth 登录、动态模型发现、OpenAI Chat Completions 流式调用、有界会话检查点、稳定工具调用 ID、空响应校验、图片与文本附件、分离的请求与宿主尝试指标、账户去重及中英文模型控制。"
+        }
+      }
     },
     {
       "id": "provider-rate-limiter",
@@ -891,7 +1176,12 @@
         "Rate Limit",
         "Codex",
         "Multi-account"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "通过官方调度器插件能力对 CPA 候选认证凭证施加独立的滑动窗口 RPM 限流，支持提供商全局默认值与单凭证覆盖配置。"
+        }
+      }
     },
     {
       "id": "credential-tier-router",
@@ -907,7 +1197,12 @@
         "Management",
         "Codex",
         "Antigravity"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "通过管理中心界面，按配额感知的主力、常规、备用和暂停四个层级管理 Codex 与 Antigravity 凭证。"
+        }
+      }
     },
     {
       "id": "usage-query",
@@ -923,7 +1218,12 @@
         "Usage",
         "Statistics",
         "Dashboard"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "持久化记录单次请求 Token 用量，暴露 GET /v0/management/usage-stats 及查询/导出 API，并提供管理看板，兼容 QuotaPlane 等控制面。"
+        }
+      }
     },
     {
       "id": "gemini-openai-normalizer",
@@ -938,7 +1238,12 @@
         "Gemini",
         "OpenAI",
         "Responses"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "在不影响非 Gemini 流量的前提下，规范化 Gemini 的 OpenAI Chat Completions 与 Responses 响应 ID、请求模型别名、推理 Token 用量及流式数据块。"
+        }
+      }
     },
     {
       "id": "codex-msg-translator",
@@ -952,7 +1257,12 @@
         "Interceptor",
         "Codex",
         "DeepSeek"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "将 Codex 多智能体 agent_message 载荷（encrypted_content）转译为纯文本 input_text，使 DeepSeek 及其他 OpenAI 兼容端点能够接收 spawn/followup/send_message 任务。"
+        }
+      }
     },
     {
       "id": "quota-pacer",
@@ -969,7 +1279,12 @@
         "quota",
         "management",
         "claude"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "根据最新配额数据自动调节 Antigravity、Codex、Claude 与 xAI 凭证的消耗节奏与优先级。"
+        }
+      }
     },
     {
       "id": "cpa-key-billing",
@@ -985,7 +1300,12 @@
         "Billing",
         "Quota",
         "Access Control"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "为下游 API Key 提供计费管理，支持订阅配额、模型访问控制、并发限制以及内嵌管理界面。"
+        }
+      }
     },
     {
       "id": "opencode-go-cliproxyapi",
@@ -995,7 +1315,12 @@
       "repository": "https://github.com/massiveits/opencode-go-cliproxyapi",
       "tags": [
         "provider"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "面向 OpenCode Go 套餐的统一提供商插件：在共享密钥池后方同时支持 chat-completions、messages 与 responses 路由。"
+        }
+      }
     },
     {
       "id": "cpa-account-concurrency",
@@ -1011,7 +1336,12 @@
         "concurrency",
         "admission",
         "prompt-cache"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "面向 CPA Pro 账号的缓存感知型单账号硬性在途并发准入控制，防止上游调用超过配置的账号并发上限并返回类型化的本地容量错误。"
+        }
+      }
     },
     {
       "id": "antigravity-proactive-refresh",
@@ -1026,7 +1356,12 @@
         "Management",
         "Auth",
         "Antigravity"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "主动轮换刷新 Google Antigravity OAuth 访问令牌，并提供受管理密钥保护的状态与刷新看板。"
+        }
+      }
     },
     {
       "id": "key-account-bind",
@@ -1041,7 +1376,12 @@
         "Scheduler",
         "Auth",
         "Isolation"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "在 scheduler.pick 阶段将下游 API Key 绑定至指定的上游凭证（认证文件）；绑定池支持轮询、加权轮询与 fill-first 策略并保持故障闭合（fail-closed），无需依赖前端认证元数据透传。"
+        }
+      }
     },
     {
       "id": "aggregate-usage",
@@ -1057,7 +1397,12 @@
         "Usage",
         "Quota",
         "Dashboard"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "跨多个 CLIProxyAPI 节点聚合单个逻辑 CPAMP 账号的配额与用量，提供管理看板、历史记录与钉钉播报。"
+        }
+      }
     },
     {
       "id": "censorship",
@@ -1067,7 +1412,12 @@
       "repository": "https://github.com/DoingDog/cpa-plugin-censorship",
       "logo": "https://raw.githubusercontent.com/DoingDog/cpa-plugin-censorship/main/logo.png",
       "homepage": "https://github.com/DoingDog/cpa-plugin-censorship",
-      "license": "Unlicense"
+      "license": "Unlicense",
+      "locales": {
+        "zh-CN": {
+          "description": "按严格的协议格式与角色范围过滤 CLIProxyAPI 请求体中的指定文本，支持阻断、剥离与零宽字符混淆模式，可在上游执行前拒绝或转换配置词条，且绝不检查或修改模型响应。"
+        }
+      }
     },
     {
       "id": "commandcode",
@@ -1083,7 +1433,12 @@
         "commandcode",
         "deepseek",
         "reasoning"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "原生 commandcode.ai 提供商插件，支持加权多密钥池、单密钥代理、单密钥禁用开关与故障转移：通过 api.commandcode.ai 路由 DeepSeek/GLM 模型并将推理内容归一化为 reasoning_content，使 /v1/messages 正常渲染思考块。"
+        }
+      }
     },
     {
       "id": "cpa-bark-notifier",
@@ -1098,7 +1453,12 @@
         "Codex",
         "Quota",
         "Notifications"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "通过 Bark 发送可选的 Codex 配额、HTTP 401/429 及恢复告警，支持指定凭证监控、可选定时配额探测、多设备推送与可选加密，且不接管原有调度。"
+        }
+      }
     },
     {
       "id": "codex-fleet-manager",
@@ -1114,7 +1474,12 @@
         "Management",
         "Monitoring",
         "Codex"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "通过配额感知调度、账号健康监控、重置窗口激活及中英双语管理界面管理 CPA Codex 账号集群。"
+        }
+      }
     },
     {
       "id": "opencode-session-mapper",
@@ -1129,7 +1494,12 @@
         "opencode",
         "session-affinity",
         "interceptor"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "专为 OpenCode Zen 打造的会话亲和性拦截器：将 Codex、Claude Code 与 DeepSeek Harness 的会话请求头映射为 x-opencode-session，保留客户端传入值，并在无源请求头时回退至宿主 canonical_session_id；v0.3.2 新增针对数兆字节请求体的 64 MiB 有界宿主信封兼容，同时保留 ID 校验与冲突处理（不含配额或账号管理界面）。"
+        }
+      }
     },
     {
       "id": "kiro",
@@ -1141,7 +1511,12 @@
       "license": "MIT",
       "tags": [
         "provider"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "将 Kiro OAuth 账号桥接至 AWS CodeWhisperer 并暴露标准 Claude Messages 接口的 CLIProxyAPI 插件。"
+        }
+      }
     },
     {
       "id": "cpa-prometheus",
@@ -1157,7 +1532,12 @@
         "Monitoring",
         "Usage",
         "Quota"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "为 CLIProxyAPI 导出 Prometheus 监控指标：包含来自 usage.handle 的请求、Token 与延迟计数器，凭证与认证状态仪表盘指标，以及 Claude、Codex、Antigravity、Gemini CLI、Kimi 和 xAI 的提供商配额窗口。"
+        }
+      }
     },
     {
       "id": "codex-auto-ping",
@@ -1171,7 +1551,12 @@
       "tags": [
         "Codex",
         "Usage"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "定期通过 CLIProxyAPI 发送极简 Codex 模型请求，以最小的 Token 消耗保持滚动配额窗口处于活跃状态。"
+        }
+      }
     },
     {
       "id": "kimi-tools",
@@ -1185,7 +1570,12 @@
       "tags": [
         "Provider",
         "Management"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "将 /v0/management/kimi/tools 请求转发至 Kimi 数据源上游（https://api.kimi.com/coding/v1/tools），在每次请求时从 cliproxy kimi 认证 JSON（按 mtime 缓存）动态读取并注入 Bearer 与 X-Msh-* 请求头；纯插件实现，无需修改 CLIProxyAPI 且不改写认证文件。"
+        }
+      }
     },
     {
       "id": "cpa2pool",
@@ -1200,7 +1590,12 @@
         "Management",
         "Billing",
         "Quota"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "面向 CLIProxyAPI 的共享配额池：支持按参与者分配 API Key、带过期时间的配额、文本/图片/视频模型定价、消费报表及内置反馈通道，并统一集成于管理中心界面。"
+        }
+      }
     },
     {
       "id": "muse-tools-stripper",
@@ -1217,12 +1612,17 @@
         "free-tier",
         "compatibility",
         "interceptor"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "仅从发往 OpenCode Zen Muse 免费层别名的 Codex Responses 载荷中移除不受支持的 additional_tools 条目，同时保持付费 Muse 与非 Codex 流量原样透传。"
+        }
+      }
     },
     {
       "id": "smart-load-balancer",
       "name": "Smart Load Balancer",
-      "description": "Load balance each client API key to its own codex profile and spends quota that resets soonest first — with per-key stickiness for better caches and reduce codex risk control. It also smart cherrypicks a request to kick off the weekly quota countdown. 将每个客户端 API Key 负载均衡到各自的 Codex profile，优先花最快到期的额度——每个 Key 固定绑定自己的 profile 以保持缓存热度、降低 Codex 风控；还会智能挑选一条真实请求来启动每周额度倒计时。",
+      "description": "Load balance each client API key to its own codex profile and spends quota that resets soonest first — with per-key stickiness for better caches and reduce codex risk control. It also smart cherrypicks a request to kick off the weekly quota countdown.",
       "author": "nitansde",
       "repository": "https://github.com/nitansde/smart-load-balancer",
       "logo": "https://raw.githubusercontent.com/nitansde/smart-load-balancer/main/assets/icon.png",
@@ -1233,7 +1633,12 @@
         "load-balancing",
         "codex",
         "routing"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "将每个客户端 API Key 负载均衡到各自的 Codex profile，优先花最快到期的额度——每个 Key 固定绑定自己的 profile 以保持缓存热度、降低 Codex 风控；还会智能挑选一条真实请求来启动每周额度倒计时。"
+        }
+      }
     },
     {
       "id": "commandcode-go-cliproxyapi",
@@ -1248,7 +1653,12 @@
         "Provider",
         "commandcode",
         "reasoning"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "仅支持 CommandCode GOAT / Pro / Max（不支持其私有 CLI 协议尚未被 CPA 兼容的 CommandCode Go）；提供浏览器授权与 API Key 认证文件配置、共享宿主认证调度、保留推理内容的多协议 Chat Completions 转换以及账号配额查询。"
+        }
+      }
     },
     {
       "id": "request-rewrite",
@@ -1263,7 +1673,12 @@
         "Compatibility",
         "OpenAI",
         "Responses"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "使用具有协议感知范围的有序字面量或正则规则，针对所选上游格式改写配置的系统提示词（system）与开发者提示词（developer）文本。"
+        }
+      }
     },
     {
       "id": "usage-report",
@@ -1278,7 +1693,12 @@
         "Usage",
         "Dashboard",
         "Analytics"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "本地优先的 Token 用量看板：支持实时用量采集、按模型/Key 维度拆解与趋势图表，内置 cpa-usage shadcn/ui 仪表盘。"
+        }
+      }
     },
     {
       "id": "model-sort",
@@ -1293,7 +1713,12 @@
         "Interceptor",
         "OpenAI",
         "Claude"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "以稳定顺序返回模型目录（避免每次重启后随机排序），并支持通过精确 ID 或通配符将模型置顶或从目录响应中隐藏（隐藏模型仍可正常路由），覆盖 OpenAI、Claude、Gemini、Codex 客户端及 Grok Shell 模型列表。"
+        }
+      }
     },
     {
       "id": "cliproxy-antigravity",
@@ -1309,12 +1734,17 @@
         "agy",
         "gemini",
         "claude"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "通过官方 agy CLI 为 CLIProxyAPI 添加 Google Antigravity 支持，具备流式输出、视觉理解、工具调用及多轮会话能力。"
+        }
+      }
     },
     {
       "id": "clinepass-channel-monitor",
       "name": "Cline 渠道监控",
-      "description": "在管理中心展示 Cline 套餐、限额与近 31 天官方用量，并按请求观测每条请求最终落在哪个网关渠道（finalProvider，取自 CPA 请求日志）、TTFT 与解码速度；观测总开关关闭时不声明任何请求钩子。页面顶部的「配置自检」按当前状态列出还差哪一项开关、缺了会少什么功能、补哪一行（只读，不替用户改配置）。可选账号守卫：某个 Cline 账号的真实渠道连续 3 次不是基准渠道时，把该账号在 CPA 配置里的 disabled 置 true，之后按退避自动放回（默认关闭、默认只试运行，只守 Cline 条目）。 / Shows the Cline plan, rolling limits and official 31-day usage in the Management Center, plus the gateway channel each request actually landed on (finalProvider, read from CPA's request log), its TTFT and decode speed; with observation switched off it declares no request hook at all. A read-only configuration self-check at the top of the page lists which switches are still off, what breaks without them, and the exact line to add. An optional account guard flips a Cline account's disabled flag in CPA's own config when its real channel misses the baseline three times in a row, and re-enables it on a backoff (off by default, dry-run by default, Cline entries only).",
+      "description": "Shows the Cline plan, rolling limits and official 31-day usage in the Management Center, plus the gateway channel each request actually landed on (finalProvider, read from CPA's request log), its TTFT and decode speed; with observation switched off it declares no request hook at all. A read-only configuration self-check at the top of the page lists which switches are still off, what breaks without them, and the exact line to add. An optional account guard flips a Cline account's disabled flag in CPA's own config when its real channel misses the baseline three times in a row, and re-enables it on a backoff (off by default, dry-run by default, Cline entries only).",
       "author": "wkeking",
       "version": "0.4.4",
       "repository": "https://github.com/wkeking/clinepass-channel-monitor",
@@ -1326,7 +1756,12 @@
         "Usage",
         "Subscription",
         "Channel"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "在管理中心展示 Cline 套餐、限额与近 31 天官方用量，并按请求观测每条请求最终落在哪个网关渠道（finalProvider，取自 CPA 请求日志）、TTFT 与解码速度；观测总开关关闭时不声明任何请求钩子。页面顶部的「配置自检」按当前状态列出还差哪一项开关、缺了会少什么功能、补哪一行（只读，不替用户改配置）。可选账号守卫：某个 Cline 账号的真实渠道连续 3 次不是基准渠道时，把该账号在 CPA 配置里的 disabled 置 true，之后按退避自动放回（默认关闭、默认只试运行，只守 Cline 条目）。"
+        }
+      }
     },
     {
       "id": "effort-router",
@@ -1341,7 +1776,12 @@
         "Reasoning",
         "Claude",
         "Codex"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "使用 Jev 风格分类器按用户轮次选择推理强度，并以缓存安全的方式应用：对 Claude 使用仅含 effort 的系统消息，对 GPT-6 使用 configuration_update 条目。"
+        }
+      }
     },
     {
       "id": "mirasim",
@@ -1356,18 +1796,34 @@
         "Mirasim",
         "Claude",
         "Codex"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "为 CLIProxyAPI 添加 Mirasim OAuth 账号支持、Claude Messages 与 GPT Responses 转发、动态模型发现、令牌刷新及配额报告功能。"
+        }
+      }
     },
     {
       "id": "clinepassbridge",
       "name": "ClinePassBridge",
       "logo": "https://raw.githubusercontent.com/xiao-qiu-qiu/ClinePassBridge/main/logo.png",
-      "description": "让 Cline Pass 订阅无缝接入 CPA，支持一键获取模型与手动映射，规避原生非流式空响应错误，轻松查看实际命中的上游。 / Seamlessly connect Cline Pass subscriptions to CPA, fetch models in one click or map them manually, avoid native non-streaming empty-response errors, and see the actual upstream provider.",
+      "description": "Seamlessly connect Cline Pass subscriptions to CPA, fetch models in one click or map them manually, avoid native non-streaming empty-response errors, and see the actual upstream provider.",
       "author": "xiao-qiu-qiu",
       "repository": "https://github.com/xiao-qiu-qiu/ClinePassBridge",
       "homepage": "https://github.com/xiao-qiu-qiu/ClinePassBridge",
       "license": "MIT",
-      "tags": ["Cline", "Cline Pass", "Provider", "Streaming", "Logs"]
+      "tags": [
+        "Cline",
+        "Cline Pass",
+        "Provider",
+        "Streaming",
+        "Logs"
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "让 Cline Pass 订阅无缝接入 CPA，支持一键获取模型与手动映射，规避原生非流式空响应错误，轻松查看实际命中的上游。"
+        }
+      }
     },
     {
       "id": "quota-reset-router",
@@ -1382,7 +1838,12 @@
         "Quota",
         "Claude",
         "Codex"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "将 Claude 与 Codex OAuth 请求路由至每周配额最快重置的可用账号。"
+        }
+      }
     },
     {
       "id": "codex-app-multisession-compat",
@@ -1392,7 +1853,17 @@
       "repository": "https://github.com/patrick-fu/cpa-codex-app-multisession-compat",
       "homepage": "https://github.com/patrick-fu/cpa-codex-app-multisession-compat",
       "license": "MIT",
-      "tags": ["Interceptor", "Codex", "Compatibility", "Responses"]
+      "tags": [
+        "Interceptor",
+        "Codex",
+        "Compatibility",
+        "Responses"
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "在 CPA 将请求路由至严格校验的上游模型前，为孤立的 Codex App 子任务委派输出提供可选的重放兼容处理。"
+        }
+      }
     },
     {
       "id": "models-cache-override",
@@ -1408,12 +1879,17 @@
         "Codex",
         "Models",
         "Management"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "覆盖 Codex 客户端目录中已有模型的字段，并支持从目录中隐藏指定模型；未覆盖字段继续跟随 CPA 上游更新，且可通过管理页面在应用前审阅来自插件仓库的单模型 JSON 配置。"
+        }
+      }
     },
     {
       "id": "cpa-codex-candy-eval",
       "name": "Codex 降智测试",
-      "description": "在 CPA 管理面板中通过糖果测试、模型指纹测试和 ModelTrace 模型归因，检测凭证是否降智或被替换模型。",
+      "description": "Detects credential model degradation or model substitution in the CPA management panel through candy tests, model fingerprint probes, and ModelTrace attribution.",
       "author": "haowang02",
       "repository": "https://github.com/haowang02/cpa-plugin-codex-candy-eval",
       "homepage": "https://github.com/haowang02/cpa-plugin-codex-candy-eval",
@@ -1422,7 +1898,12 @@
         "Management",
         "Codex",
         "Evaluation"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "在 CPA 管理面板中通过糖果测试、模型指纹测试和 ModelTrace 模型归因，检测凭证是否降智或被替换模型。"
+        }
+      }
     },
     {
       "id": "mirasim-proxy",
@@ -1437,12 +1918,17 @@
         "Mirasim",
         "Claude",
         "OpenAI"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "面向 Mirasim 的纯 API 网关与消息转换器：提供转发至 Mirasim 上游中继的 OpenAI 兼容端点，支持动态模型目录与 OAuth 认证。"
+        }
+      }
     },
     {
       "id": "codex-5h-quota-warmer",
       "name": "Codex Five-Hour Quota Warmer",
-      "description": "按可配置的每日时刻，为每个启用的 Codex 凭证各发送一次请求，提前开启五小时额度窗口；附带管理页面，可编辑每日日程、手动预热并查看运行日志。 / Sends one Codex request per enabled credential at configurable daily times to warm five-hour quota windows, and includes a Management UI for editing daily schedules, running manual warm-ups, and reviewing logs.",
+      "description": "Sends one Codex request per enabled credential at configurable daily times to warm five-hour quota windows, and includes a Management UI for editing daily schedules, running manual warm-ups, and reviewing logs.",
       "author": "Windyskr",
       "repository": "https://github.com/Windyskr/codex-5h-quota-warmer",
       "homepage": "https://github.com/Windyskr/codex-5h-quota-warmer",
@@ -1451,7 +1937,12 @@
         "Quota",
         "Management",
         "Scheduling"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "按可配置的每日时刻，为每个启用的 Codex 凭证各发送一次请求，提前开启五小时额度窗口；附带管理页面，可编辑每日日程、手动预热并查看运行日志。"
+        }
+      }
     },
     {
       "id": "cpa-groq",
@@ -1461,7 +1952,18 @@
       "repository": "https://github.com/Batuhan4/cpa-groq",
       "homepage": "https://github.com/Batuhan4/cpa-groq",
       "license": "MIT",
-      "tags": ["Provider", "Executor", "Speech-to-Text", "Groq", "Whisper"]
+      "tags": [
+        "Provider",
+        "Executor",
+        "Speech-to-Text",
+        "Groq",
+        "Whisper"
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "将 Groq Whisper 语音转文本模型（whisper-large-v3 与 whisper-large-v3-turbo）作为执行器模型接入：支持以 Gemini generateContent 的 inline_data 形式发送音频并返回转写文本。"
+        }
+      }
     },
     {
       "id": "claude-seat-pacer",
@@ -1477,7 +1979,12 @@
         "Claude",
         "Quota",
         "Dashboard"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "调节 Claude 席位消耗节奏，使每个席位在重置前充分利用每周配额；新会话优先分配给进度最落后的席位并保持会话粘性以提高提示词缓存命中率，附带实时配速看板。"
+        }
+      }
     },
     {
       "id": "headroom",
@@ -1492,7 +1999,12 @@
         "Compression",
         "Management",
         "Statistics"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "使用 Headroom 压缩用户消息与工具输出，并提供基于受认证保护的 CPA 统计 API 的独立数据看板。"
+        }
+      }
     },
     {
       "id": "zcode",
@@ -1510,7 +2022,12 @@
         "ZCode",
         "Anthropic",
         "Streaming"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "通过 ZCode 客户端指纹请求头、动态模型发现、模型映射与 Anthropic 格式流式输出，将智谱 BigModel Coding Plan 接入 CPA。"
+        }
+      }
     },
     {
       "id": "workbuddy",
@@ -1529,7 +2046,12 @@
         "Global",
         "Intl",
         "Management"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "面向国际版（Global/Intl）账号打造的腾讯 CodeBuddy OAuth CLIProxyAPI 提供商插件：支持国际版成长中心每日 30 积分奖励、插件内 429/code-6004 故障转移、带面板的单请求积分与 Token 日志、隐藏上游模型（含实测可用的 gpt-6-astra）、国际区路由、国内版每日签到、国际版一键专家试用、积分生命周期管理及国内/国际双区积分面板。"
+        }
+      }
     },
     {
       "id": "cliproxy-costs",
@@ -1546,7 +2068,12 @@
         "Dashboard",
         "Statistics",
         "Interceptor"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "根据公开费率表为每条请求计算费用，在本地 SQLite 账本中记录用量与订阅配额，并提供涵盖支出、缓存节省、配额消耗速率预测、失败统计及按凭证/客户端/模型维度拆解的看板（数据仅通过受 CPA 管理密钥保护的管理路由提供）。"
+        }
+      }
     },
     {
       "id": "claude-keep-rolling",
@@ -1560,7 +2087,12 @@
         "Management",
         "Scheduler",
         "Claude"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "在所选 Claude 账号的 5 小时使用窗口重置后立即发送轻量探测请求，保持 5 小时配额窗口持续滚动。"
+        }
+      }
     },
     {
       "id": "cpa-scheduled-tests",
@@ -1571,7 +2103,16 @@
       "logo": "https://raw.githubusercontent.com/gouwenct/cpa-scheduled-tests/main/assets/logo.png",
       "homepage": "https://github.com/gouwenct/cpa-scheduled-tests",
       "license": "MIT",
-      "tags": ["Codex", "Scheduled Tests", "Management"]
+      "tags": [
+        "Codex",
+        "Scheduled Tests",
+        "Management"
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "在每个 Cron 分钟及一分钟后定时发送 Codex 请求，支持 5 小时窗口状态查看、分组管理、暂停/恢复、批量创建计划、保留 CPA 账号与日志的一键清空计划以及执行日志记录，提供原生 macOS、Linux 与 Windows 二进制文件。"
+        }
+      }
     },
     {
       "id": "openai-oauth",
@@ -1581,7 +2122,17 @@
       "version": "0.1.0",
       "repository": "https://github.com/syepes/CLIProxyAPI-plugin-openai-oauth",
       "homepage": "https://github.com/syepes/CLIProxyAPI-plugin-openai-oauth",
-      "tags": ["Provider", "OAuth", "OpenAI", "Management"]
+      "tags": [
+        "Provider",
+        "OAuth",
+        "OpenAI",
+        "Management"
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "将 CLIProxyAPI 连接到受 OAuth 保护的 OpenAI 兼容 API 的原生 Go 插件。"
+        }
+      }
     },
     {
       "id": "github-copilot",
@@ -1591,7 +2142,17 @@
       "version": "0.1.1",
       "repository": "https://github.com/syepes/CLIProxyAPI-plugin-github-copilot",
       "homepage": "https://github.com/syepes/CLIProxyAPI-plugin-github-copilot",
-      "tags": ["Provider", "Copilot", "OpenAI", "Management"]
+      "tags": [
+        "Provider",
+        "Copilot",
+        "OpenAI",
+        "Management"
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "将 CLIProxyAPI 连接到 GitHub Copilot 的原生 Go 插件。"
+        }
+      }
     },
     {
       "id": "vertex-adc",
@@ -1601,18 +2162,41 @@
       "version": "0.1.0",
       "repository": "https://github.com/syepes/CLIProxyAPI-plugin-vertex-adc",
       "homepage": "https://github.com/syepes/CLIProxyAPI-plugin-vertex-adc",
-      "tags": ["Provider", "Google", "Vextex", "Management"]
+      "tags": [
+        "Provider",
+        "Google",
+        "Vextex",
+        "Management"
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "使用应用默认凭证（ADC）将 CLIProxyAPI 连接到 Google Vertex AI 的原生 Go 插件。"
+        }
+      }
     },
     {
       "id": "lamplighter",
       "name": "Lamplighter",
-      "description": "监控 ChatGPT、Claude 和 Antigravity 的额度，通过 Bark 或通用 webhook（飞书、Telegram 等）推送提醒并提供额度图表，在每次 5 小时窗口重置后立即开始下一个窗口。界面截图见仓库。 / Monitors ChatGPT, Claude and Antigravity quota with Bark or generic webhook alerts (Feishu, Telegram, etc.) and a quota chart, and starts the next 5-hour window right after each reset. Screenshots are in the repository.",
+      "description": "Monitors ChatGPT, Claude and Antigravity quota with Bark or generic webhook alerts (Feishu, Telegram, etc.) and a quota chart, and starts the next 5-hour window right after each reset. Screenshots are in the repository.",
       "author": "PosvdM",
       "repository": "https://github.com/PosvdM/cpa-plugin-lamplighter",
       "logo": "https://raw.githubusercontent.com/PosvdM/cpa-plugin-lamplighter/main/assets/logo.png",
       "homepage": "https://github.com/PosvdM/cpa-plugin-lamplighter",
       "license": "AGPL-3.0-or-later",
-      "tags": ["Management", "Quota", "Notification", "Webhook", "Codex", "Claude", "Antigravity"]
+      "tags": [
+        "Management",
+        "Quota",
+        "Notification",
+        "Webhook",
+        "Codex",
+        "Claude",
+        "Antigravity"
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "监控 ChatGPT、Claude 和 Antigravity 的额度，通过 Bark 或通用 webhook（飞书、Telegram 等）推送提醒并提供额度图表，在每次 5 小时窗口重置后立即开始下一个窗口。界面截图见仓库。"
+        }
+      }
     },
     {
       "id": "cpa-window-starter",
@@ -1627,50 +2211,94 @@
         "Management",
         "Codex",
         "Antigravity"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "为 Codex 与 Gemini / Antigravity 发送按账号绑定的定时请求，支持独立每日计划、IANA 时区、模型选择、账号分组以及跟随 CPA 主题切换的中英双语界面。"
+        }
+      }
     },
     {
       "id": "tokens-statistic",
       "name": "Tokens Statistic",
-      "description": "记录并分析各模型的 Token 消耗、费用与响应延迟。",
+      "description": "Records and analyzes token consumption, cost, and response latency across models.",
       "author": "Pet-Max",
       "version": "0.1.4",
       "repository": "https://github.com/Pet-Max/cpa-plugin-tokens-statistic",
       "homepage": "https://github.com/Pet-Max/cpa-plugin-tokens-statistic",
       "logo": "https://raw.githubusercontent.com/Pet-Max/cpa-plugin-tokens-statistic/main/images/logo.svg",
       "license": "MIT",
-      "tags": ["Management", "Usage", "Statistics", "Dashboard"]
+      "tags": [
+        "Management",
+        "Usage",
+        "Statistics",
+        "Dashboard"
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "记录并分析各模型的 Token 消耗、费用与响应延迟。"
+        }
+      }
     },
     {
       "id": "kiro-ha",
       "name": "Kiro (multi-method sign-in)",
-      "description": "独立的 Kiro 提供商插件：支持 AWS Builder ID、IAM Identity Center、API key、refresh token 与 external_idp 登录，凭证保存为 CPA 认证文件；支持多账户、流式输出与工具调用，提供 Kiro 额度页面与 CPA 额度接口。 / Standalone Kiro provider: AWS Builder ID, IAM Identity Center, API key, refresh-token and external_idp sign-in stored as CPA authentication files; multiple accounts, streaming and tools, with a Kiro usage page and CPA quota support.",
+      "description": "Standalone Kiro provider: AWS Builder ID, IAM Identity Center, API key, refresh-token and external_idp sign-in stored as CPA authentication files; multiple accounts, streaming and tools, with a Kiro usage page and CPA quota support.",
       "author": "nguyenha935",
       "repository": "https://github.com/nguyenha935/kiro-cpa-plugin",
       "homepage": "https://github.com/nguyenha935/kiro-cpa-plugin",
       "logo": "https://raw.githubusercontent.com/nguyenha935/kiro-cpa-plugin/main/cmd/kiro-plugin/assets/kiro-logo.png",
       "license": "MIT",
-      "tags": ["Provider", "Kiro", "OAuth", "Quota"]
+      "tags": [
+        "Provider",
+        "Kiro",
+        "OAuth",
+        "Quota"
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "独立的 Kiro 提供商插件：支持 AWS Builder ID、IAM Identity Center、API key、refresh token 与 external_idp 登录，凭证保存为 CPA 认证文件；支持多账户、流式输出与工具调用，提供 Kiro 额度页面与 CPA 额度接口。"
+        }
+      }
     },
     {
       "id": "key-router",
       "name": "Key Router",
-      "description": "Routes upstream accounts by the caller's client API key: primary accounts are used first, fallback accounts assigned to the user are used when no primary account is available, and other accounts are never used for that user. Includes a configuration page in the management panel. / Routes upstream accounts by the client API key: primary accounts first, then fallback accounts assigned to the user; other accounts are never used for that user. Includes a management panel configuration page.",
+      "description": "Routes upstream accounts by the caller's client API key: primary accounts are used first, fallback accounts assigned to the user are used when no primary account is available, and other accounts are never used for that user. Includes a configuration page in the management panel.",
       "author": "tuzilj1",
       "repository": "https://github.com/tuzilj1/cliproxyapi-key-router",
       "homepage": "https://github.com/tuzilj1/cliproxyapi-key-router",
       "license": "MIT",
-      "tags": ["Routing", "Management"]
+      "tags": [
+        "Routing",
+        "Management"
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "根据调用方的客户端 API Key 路由上游账号：优先使用主账号，无可用主账号时使用分配给该用户的备用账号，且绝不为该用户使用其他账号；内置管理面板配置页面。"
+        }
+      }
     },
     {
       "id": "codexreflow",
       "name": "CodexReflow",
-      "description": "为解决 GPT 思维链截断问题而做，让没想完的推理接着往下走。针对 516 等 518n-2 截断特征，满足条件时自动续接并合并回答。支持 HTTP/SSE 与 WebSocket，新配置自动匹配 GPT-5+ 标准文本模型，无需手写名单。 / Built to address GPT reasoning truncation and keep unfinished thinking going. Detects 518n-2 patterns (such as 516 tokens), continues eligible requests, and merges responses over HTTP/SSE and WebSocket. Fresh configurations automatically match standard GPT-5+ text model names, without manual lists.",
+      "description": "Built to address GPT reasoning truncation and keep unfinished thinking going. Detects 518n-2 patterns (such as 516 tokens), continues eligible requests, and merges responses over HTTP/SSE and WebSocket. Fresh configurations automatically match standard GPT-5+ text model names, without manual lists.",
       "author": "LaoPiLao",
       "repository": "https://github.com/LaoPiLao/cpa-plugin-codexreflow",
       "homepage": "https://github.com/LaoPiLao/cpa-plugin-codexreflow",
       "license": "MIT",
-      "tags": ["Executor", "Codex", "Responses", "Streaming", "WebSocket"]
+      "tags": [
+        "Executor",
+        "Codex",
+        "Responses",
+        "Streaming",
+        "WebSocket"
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "为解决 GPT 思维链截断问题而做，让没想完的推理接着往下走。针对 516 等 518n-2 截断特征，满足条件时自动续接并合并回答。支持 HTTP/SSE 与 WebSocket，新配置自动匹配 GPT-5+ 标准文本模型，无需手写名单。"
+        }
+      }
     },
     {
       "id": "sticky-fill-first",
@@ -1680,39 +2308,80 @@
       "repository": "https://github.com/magoz/cpa-sticky-fill-first",
       "homepage": "https://github.com/magoz/cpa-sticky-fill-first",
       "license": "MIT",
-      "tags": ["Scheduler", "Routing", "Claude", "Codex"]
+      "tags": [
+        "Scheduler",
+        "Routing",
+        "Claude",
+        "Codex"
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "粘性 Fill-First 路由策略：在故障转移接管后持续停留在当前接管凭证，而不是在高优先级账号配额重置时立即切回，从而让订阅池逐个耗尽账号配额。"
+        }
+      }
     },
     {
       "id": "client-guard",
       "name": "Client Guard",
-      "description": "按 API Key 识别并限制客户端软件（Codex CLI、Claude Code、Cursor、Cline 等）：在转发上游前读取原始请求头，支持观察/强制模式（不符合返回 403、不计费）、子串/正则/指定请求头规则、预设客户端清单，并提供按 Key 统计客户端的管理页面。",
+      "description": "Identifies and restricts client applications (Codex CLI, Claude Code, Cursor, Cline, etc.) per API key: inspects raw request headers before forwarding upstream, supports observe and enforce modes (returning 403 without billing on mismatch), substring/regex/header rules, preset client profiles, and a management page with per-key client statistics.",
       "author": "Samuel-wyj",
       "version": "0.1.3",
       "repository": "https://github.com/Samuel-wyj/cpa-client-guard",
       "homepage": "https://github.com/Samuel-wyj/cpa-client-guard",
       "license": "MIT",
-      "tags": ["Interceptor", "Security", "Management", "Codex"]
+      "tags": [
+        "Interceptor",
+        "Security",
+        "Management",
+        "Codex"
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "按 API Key 识别并限制客户端软件（Codex CLI、Claude Code、Cursor、Cline 等）：在转发上游前读取原始请求头，支持观察/强制模式（不符合返回 403、不计费）、子串/正则/指定请求头规则、预设客户端清单，并提供按 Key 统计客户端的管理页面。"
+        }
+      }
     },
     {
       "id": "our-free-model",
       "name": "Our Free Model",
-      "description": "Native CPA integration for the original Our Free Model: aggregates free-model providers into one OpenAI-compatible pool with per-account login, quota-aware routing, streaming and a built-in management console. / 将原项目 Our Free Model 接入 CPA 原生插件：聚合多家免费模型渠道，提供账号登录、额度路由、流式输出与内置管理控制台。",
+      "description": "Native CPA integration for the original Our Free Model: aggregates free-model providers into one OpenAI-compatible pool with per-account login, quota-aware routing, streaming and a built-in management console.",
       "author": "sy0u1ti",
       "version": "0.5.4",
       "repository": "https://github.com/sy0u1ti/cpa-our-free-model",
       "logo": "https://raw.githubusercontent.com/sy0u1ti/cpa-our-free-model/main/assets/logo.png",
       "homepage": "https://github.com/sy0u1ti/cpa-our-free-model",
       "license": "MIT",
-      "tags": ["Provider", "Management", "Streaming", "OpenAI", "Anthropic"]
+      "tags": [
+        "Provider",
+        "Management",
+        "Streaming",
+        "OpenAI",
+        "Anthropic"
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "将原项目 Our Free Model 接入 CPA 原生插件：聚合多家免费模型渠道，提供账号登录、额度路由、流式输出与内置管理控制台。"
+        }
+      }
     },
     {
       "id": "codex-timezone-sync",
       "name": "Codex 时区同步",
-      "description": "根据代理出口 IP 检测时区，自动校正 Codex 请求中的日期与时区；提供中文管理面板、手动检测、请求统计、模型一致性监控和失败请求日志。",
+      "description": "Detects the timezone from the proxy egress IP and automatically corrects dates and timezones in Codex requests; provides a Chinese management panel, manual detection, request statistics, model consistency monitoring, and failed request logs.",
       "author": "LonelyHerbivore",
       "repository": "https://github.com/LonelyHerbivore/codex-timezone-sync",
       "homepage": "https://github.com/LonelyHerbivore/codex-timezone-sync",
-      "tags": ["Codex", "Timezone", "Management", "Request Interceptor"]
+      "tags": [
+        "Codex",
+        "Timezone",
+        "Management",
+        "Request Interceptor"
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "根据代理出口 IP 检测时区，自动校正 Codex 请求中的日期与时区；提供中文管理面板、手动检测、请求统计、模型一致性监控和失败请求日志。"
+        }
+      }
     },
     {
       "id": "kpatdev-quota-router",
@@ -1729,7 +2398,12 @@
         "Management",
         "Claude",
         "Codex"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "使用配额感知的账号调度策略路由 Claude 与 Codex OAuth 请求，支持会话感知路由并内置管理看板。"
+        }
+      }
     },
     {
       "id": "cpa-account-warmup",
@@ -1739,7 +2413,16 @@
       "repository": "https://github.com/KeeVeeG/cpa-account-warmup",
       "homepage": "https://github.com/KeeVeeG/cpa-account-warmup",
       "license": "MIT",
-      "tags": ["Management", "Claude", "Codex"]
+      "tags": [
+        "Management",
+        "Claude",
+        "Codex"
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "在 EasyCLIProxyAPI 中对所选 Claude 与 Codex 账号进行预热。"
+        }
+      }
     },
     {
       "id": "expiring-first",
@@ -1749,17 +2432,38 @@
       "repository": "https://github.com/magoz/cpa-expiring-first",
       "homepage": "https://github.com/magoz/cpa-expiring-first",
       "license": "MIT",
-      "tags": ["Scheduler", "Routing", "Quota", "Claude", "Codex"]
+      "tags": [
+        "Scheduler",
+        "Routing",
+        "Quota",
+        "Claude",
+        "Codex"
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "将每个订阅池路由至剩余配额大于零且配额最快重置的账号，优先消耗即将过期作废的额度；支持从外部程序写入的 JSON 文件读取配额，并在缺少最新配额数据时回退至粘性 fill-first 路由。"
+        }
+      }
     },
     {
       "id": "cpa-auto-proxy-test",
       "name": "cpa-auto-proxy-test",
-      "description": "自动识别并将不同认证文件的流量路由到可用的代理节点 / Automatically identify and route traffic from different authentication files to available proxy nodes",
+      "description": "Automatically identify and route traffic from different authentication files to available proxy nodes.",
       "author": "ApliNi",
       "repository": "https://github.com/ApliNi/CPA-Auto-Proxy-Test",
       "homepage": "https://github.com/ApliNi/CPA-Auto-Proxy-Test",
       "license": "MIT",
-      "tags": ["Routing", "Management", "Antigravity", "Proxy"]
+      "tags": [
+        "Routing",
+        "Management",
+        "Antigravity",
+        "Proxy"
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "自动识别并将不同认证文件的流量路由到可用的代理节点。"
+        }
+      }
     },
     {
       "id": "cpa-codex-weight-balancer",
@@ -1769,7 +2473,16 @@
       "repository": "https://github.com/duanzhenyu/cpa-codex-weight-balancer",
       "homepage": "https://github.com/duanzhenyu/cpa-codex-weight-balancer",
       "license": "MIT",
-      "tags": ["Scheduler", "Codex", "Quota"]
+      "tags": [
+        "Scheduler",
+        "Codex",
+        "Quota"
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "根据剩余每周配额与距离重置时间动态改写 Codex 凭证权重，使加权轮询按各自重置截止时间均衡消耗账号；采用带迟滞的对数分桶减少配置写入且不影响会话亲和性，并可选对连续失败账号降权、将未兑换重置额度计入权重以及发送单次最小请求开启未使用账号的配额窗口。"
+        }
+      }
     },
     {
       "id": "quota-monitor",
@@ -1780,7 +2493,17 @@
       "logo": "https://raw.githubusercontent.com/dohwi/cliproxyapi-plugin-quota-monitor/main/logo.png",
       "homepage": "https://github.com/dohwi/cliproxyapi-plugin-quota-monitor",
       "license": "MIT",
-      "tags": ["Quota", "Dashboard", "Monitoring", "Management"]
+      "tags": [
+        "Quota",
+        "Dashboard",
+        "Monitoring",
+        "Management"
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "展示 Codex、Claude 与 Antigravity 账号剩余配额与重置时间的监控看板：通过带缓存快照与刷新冷却的机制从宿主认证文件采集数据，并提供零外部静态资源依赖的韩英双语响应式页面（数据仅在受认证保护的管理路由下提供）。"
+        }
+      }
     },
     {
       "id": "usage-audit",
@@ -1791,7 +2514,17 @@
       "logo": "https://raw.githubusercontent.com/dohwi/cliproxyapi-plugin-usage-audit/main/logo.png",
       "homepage": "https://github.com/dohwi/cliproxyapi-plugin-usage-audit",
       "license": "MIT",
-      "tags": ["Usage", "Statistics", "Dashboard", "Management"]
+      "tags": [
+        "Usage",
+        "Statistics",
+        "Dashboard",
+        "Management"
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "Token 用量审计看板：在不存储密钥、提示词或响应体的前提下记录每次请求的提供商、端点、模型、Token 与延迟元数据，支持周期筛选、图表、请求日志及韩英双语界面（用量数据仅在受认证保护的管理路由下提供）。"
+        }
+      }
     },
     {
       "id": "live-routes",
@@ -1806,7 +2539,12 @@
         "Monitoring",
         "Dashboard",
         "Usage"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "面向 CLIProxyAPI 的实时请求路由看板，展示在途请求、重试情况、Token 用量以及会话/子智能体关联关系，所有数据均保留在内存中。"
+        }
+      }
     },
     {
       "id": "cpa-secret-manager",
@@ -1823,7 +2561,12 @@
         "Quota",
         "Token",
         "Dashboard"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "面向 CLIProxyAPI 的 API Key 管理器：支持按 Key 设置备注、生成官方兼容密钥、按模型拆解的 Token 用量统计、配额限制及模型白名单。"
+        }
+      }
     },
     {
       "id": "cpa-subscription-tools",
@@ -1840,7 +2583,12 @@
         "Claude",
         "Codex",
         "Copilot"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "提供原生 Claude/Codex 凭证导入导出、Copilot 标准化配额查询、带确认的手动 Reset Bank 兑换以及在不替换原生调度的前提下安全应用 Quota Pacer 计划。"
+        }
+      }
     },
     {
       "id": "cpa-freetier-plugin",
@@ -1855,12 +2603,17 @@
         "Provider",
         "OpenCode",
         "Kilo"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "精选免密钥免费 AI 模型（OpenCode Zen、Kilo AI），并内置自动 Agent 请求载荷清洗。"
+        }
+      }
     },
     {
       "id": "freetier2api",
       "name": "FreeTier 2API",
-      "description": "把多个免费额度供应商（WorkBuddy 国内版/国际版、Qoder 国内版/国际版、OpenCode ZEN、Cline、ZCode、TRAE SOLO、Trae 国内版/国际版、CodeArts、MiniMax Code 国内版/国际版）接入 CLIProxyAPI：auth / model / executor / quota / management 五类能力，按供应商插桩，支持凭证归属隔离、模型清单动态探测、额度查询、每日签到、成长任务闭环与提示词防御。",
+      "description": "Integrates multiple free-tier providers (WorkBuddy CN/Intl, Qoder CN/Intl, OpenCode ZEN, Cline, ZCode, TRAE SOLO, Trae CN/Intl, CodeArts, and MiniMax Code CN/Intl) into CLIProxyAPI across auth, model, executor, quota, and management capabilities, with per-provider instrumentation, credential ownership isolation, dynamic model discovery, quota queries, daily check-ins, growth-task automation, and prompt defense.",
       "author": "jiandanc",
       "repository": "https://github.com/jiandanc/CLIProxyAPI-freetier2api-plugin",
       "homepage": "https://github.com/jiandanc/CLIProxyAPI-freetier2api-plugin",
@@ -1880,12 +2633,17 @@
         "Quota",
         "Management",
         "Tasks"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "把多个免费额度供应商（WorkBuddy 国内版/国际版、Qoder 国内版/国际版、OpenCode ZEN、Cline、ZCode、TRAE SOLO、Trae 国内版/国际版、CodeArts、MiniMax Code 国内版/国际版）接入 CLIProxyAPI：auth / model / executor / quota / management 五类能力，按供应商插桩，支持凭证归属隔离、模型清单动态探测、额度查询、每日签到、成长任务闭环与提示词防御。"
+        }
+      }
     },
     {
       "id": "gflow",
       "name": "GFlow (Google Flow 图片与视频)",
-      "description": "通过 CPA 宿主端口接入 Google Flow 图片与视频模型，提供账号池、配额查询和模型路由。 / Google Flow image and video model integration through the CPA host endpoint, with account-pool management, quota queries, and model routing.",
+      "description": "Google Flow image and video model integration through the CPA host endpoint, with account-pool management, quota queries, and model routing.",
       "author": "daodeqing",
       "repository": "https://github.com/daodeqing/cpa-plugin-GFlow",
       "homepage": "https://github.com/daodeqing/cpa-plugin-GFlow",
@@ -1896,7 +2654,12 @@
         "Image",
         "Video",
         "Google Flow"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "通过 CPA 宿主端口接入 Google Flow 图片与视频模型，提供账号池、配额查询和模型路由。"
+        }
+      }
     },
     {
       "id": "deepseek-search",
@@ -1911,7 +2674,12 @@
         "DeepSeek",
         "Responses",
         "Streaming"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "为兼容 Responses 协议的模型添加由 DeepSeek 驱动的联网搜索能力，支持流式输出、多轮搜索及客户端携带搜索上下文。"
+        }
+      }
     },
     {
       "id": "deepseek-cpa",
@@ -1927,7 +2695,12 @@
         "Anthropic",
         "Responses",
         "Reasoning"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "DeepSeek 原生协议直通提供商插件：将每条请求按相同协议面（anthropic、chat-completions、responses）直接转发至对应的 DeepSeek 端点而不做跨协议转换，使推理历史、工具调用与流式帧原样返回客户端；密钥由宿主统一管理，并为每条完成请求记录 Token 用量。"
+        }
+      }
     },
     {
       "id": "commandcode-cliproxyapi",
@@ -1944,7 +2717,12 @@
         "deepseek",
         "reasoning",
         "responses"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "以独立插件 ID 发布的 CommandCode 提供商插件（可与上游 commandcode 插件并存安装）：原生支持 commandcode.ai Responses 协议，具备加权多密钥池、单密钥代理与配额感知故障转移；完整保留原生 Responses 请求、对象与 SSE 事件，同时兼顾携带 reasoning_content、函数调用和用量信息的 Chat Completions 与 Claude 协议兼容性，支持自定义 DeepSeek/GLM 别名与上游模型名称。"
+        }
+      }
     },
     {
       "id": "opencode-go-provider",
@@ -1960,12 +2738,17 @@
         "opencode-go",
         "responses",
         "reasoning"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "OpenCode Go 提供商插件（源自 massiveits/opencode-go-cliproxyapi 分支）：在共享密钥池后方统一支持 OpenCode Go 套餐的 chat-completions、messages 与 responses 路由，修复 Responses 工具调用生命周期与工具调用 ID 规范化（避免无推理重放触发 400 错误），支持 DeepSeek 系列思维链往返保持、与 api-keys 双向凭证同步以及 OpenCode Go 配额页面。"
+        }
+      }
     },
     {
       "id": "cpa-usage-stats",
       "name": "CPA Usage Stats",
-      "description": "CPA 用量统计与可视化看板：通过 usage 插件接口采集请求与 Token 用量，异步写入 SQLite，并提供内嵌看板。 / CLIProxyAPI usage statistics and dashboard: collects request and token usage through the usage plugin API, persists asynchronously to SQLite, and ships an embedded dashboard.",
+      "description": "CLIProxyAPI usage statistics and dashboard: collects request and token usage through the usage plugin API, persists asynchronously to SQLite, and ships an embedded dashboard.",
       "author": "tom2almighty",
       "repository": "https://github.com/tom2almighty/cpa-usage-stats",
       "logo": "https://raw.githubusercontent.com/tom2almighty/cpa-usage-stats/main/assets/logo.svg",
@@ -1976,12 +2759,17 @@
         "Dashboard",
         "Analytics",
         "SQLite"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "CPA 用量统计与可视化看板：通过 usage 插件接口采集请求与 Token 用量，异步写入 SQLite，并提供内嵌看板。"
+        }
+      }
     },
     {
       "id": "cpa-quota",
       "name": "CPA Quota",
-      "description": "CPA 额度监控：实现 v8 QuotaProvider，统一查询 Claude、Codex、Antigravity、Kimi、xAI、Devin、Meta 的额度与重置窗口，并内置额度看板。 / CLIProxyAPI quota monitor: implements the v8 QuotaProvider for Claude, Codex, Antigravity, Kimi, xAI, Devin and Meta, with normalized quota windows and an embedded dashboard.",
+      "description": "CLIProxyAPI quota monitor: implements the v8 QuotaProvider for Claude, Codex, Antigravity, Kimi, xAI, Devin and Meta, with normalized quota windows and an embedded dashboard.",
       "author": "tom2almighty",
       "repository": "https://github.com/tom2almighty/cpa-quota",
       "logo": "https://raw.githubusercontent.com/tom2almighty/cpa-quota/main/assets/logo.svg",
@@ -1993,7 +2781,12 @@
         "Claude",
         "Codex",
         "Antigravity"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "CPA 额度监控：实现 v8 QuotaProvider，统一查询 Claude、Codex、Antigravity、Kimi、xAI、Devin、Meta 的额度与重置窗口，并内置额度看板。"
+        }
+      }
     },
     {
       "id": "oc2cpa",
@@ -2010,7 +2803,12 @@
         "Free Models",
         "Usage",
         "Management"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "将 OpenCode Zen 免费层模型（big-pickle 及 deepseek/glm/mimo/space-bunny 的 *-free 变体）作为 chat-completions 提供商接入 CLIProxyAPI，支持动态模型发现、请求用量日志记录及内置 OC2CPA 用量看板。"
+        }
+      }
     },
     {
       "id": "spx-cursor",
@@ -2029,7 +2827,12 @@
         "Quota",
         "API Key"
       ],
-      "logo": "https://raw.githubusercontent.com/spancerxing/cliproxyapi-cursor-plugin/main/assets/cursor.png"
+      "logo": "https://raw.githubusercontent.com/spancerxing/cliproxyapi-cursor-plugin/main/assets/cursor.png",
+      "locales": {
+        "zh-CN": {
+          "description": "通过 CPA 宿主 HTTP 回调实现的 Cursor 提供商插件，支持浏览器与 API Key 登录、流式 Chat Completions、图片输入、工具调用及配额报告。"
+        }
+      }
     },
     {
       "id": "expiring-quota-first",
@@ -2045,7 +2848,12 @@
         "Quota",
         "Claude",
         "Codex"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "将每个新建的 Claude 或 Codex 会话路由至每周配额最快重置的账号，并在服务重启后继续保持会话与账号的绑定关系。"
+        }
+      }
     },
     {
       "id": "antigravity-category-plugin",
@@ -2060,12 +2868,17 @@
         "Quota",
         "Gemini",
         "Management Center"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "在管理中心同时展示 Antigravity 账号的 Gemini 与 Claude/GPT 配额分组，并提供 Antigravity 配额看板。"
+        }
+      }
     },
     {
       "id": "codexgate",
       "name": "CodexGate",
-      "description": "解决接入 CPA 后，dot 入口消失的问题。配合 ECPA 的“使用 openai 提供商标识”功能，自动读取本机有效的 Codex 登录文件，恢复因切换提供商标识而缺失的 dot 入口。模型请求依然走 CPA，原有 API Key 保持可用，无需额外运行后台进程。 / Fixes the missing dot entry in Codex after connecting to CPA. Works with ECPA’s “Use openai provider identifier” feature by automatically reading your valid local Codex login file to restore the missing dot entry. Model requests continue to route through CPA, existing API keys remain active, and no extra background process is required.",
+      "description": "Fixes the missing dot entry in Codex after connecting to CPA. Works with ECPA’s “Use openai provider identifier” feature by automatically reading your valid local Codex login file to restore the missing dot entry. Model requests continue to route through CPA, existing API keys remain active, and no extra background process is required.",
       "author": "chatwithgod",
       "repository": "https://github.com/chatwithgod/cpa-plugin-codexgate",
       "homepage": "https://github.com/chatwithgod/cpa-plugin-codexgate",
@@ -2074,7 +2887,12 @@
         "Auth",
         "Codex",
         "Compatibility"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "解决接入 CPA 后，dot 入口消失的问题。配合 ECPA 的“使用 openai 提供商标识”功能，自动读取本机有效的 Codex 登录文件，恢复因切换提供商标识而缺失的 dot 入口。模型请求依然走 CPA，原有 API Key 保持可用，无需额外运行后台进程。"
+        }
+      }
     },
     {
       "id": "kiro4cpa",
@@ -2091,12 +2909,17 @@
         "Claude",
         "Quota"
       ],
-      "logo": "https://raw.githubusercontent.com/AkkunYo/kiro4cpa-plugin/main/assets/kiro-logo.svg"
+      "logo": "https://raw.githubusercontent.com/AkkunYo/kiro4cpa-plugin/main/assets/kiro-logo.svg",
+      "locales": {
+        "zh-CN": {
+          "description": "面向 CLIProxyAPI 的 Kiro 提供商插件，内置登录页面（支持 AWS Builder ID、Google/GitHub、IAM Identity Center 及凭证导入）、单账号模型目录、配额报告以及封禁账号自动处理。"
+        }
+      }
     },
     {
       "id": "cpa-models-speed-test",
       "name": "CPA 模型延迟测速",
-      "description": "在管理面板中一键并发批量测试所有配置渠道的模型首字延迟 (TTFT) 与可用性，支持并行与串行防限流双模式，提供类似代理软件（如 Clash、v2rayN）的直观测速体验。 / High-performance model latency benchmarking plugin for CLIProxyAPI, featuring lightweight streaming TTFT probe, parallel & serial anti-rate-limit modes, model enable/disable management and Clash-style dashboard.",
+      "description": "High-performance model latency benchmarking plugin for CLIProxyAPI, featuring lightweight streaming TTFT probe, parallel & serial anti-rate-limit modes, model enable/disable management and Clash-style dashboard.",
       "author": "cinob",
       "version": "1.0.1",
       "repository": "https://github.com/cinob/cpa-models-speed-test",
@@ -2109,7 +2932,12 @@
         "Benchmark",
         "Dashboard",
         "429"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "在管理面板中一键并发批量测试所有配置渠道的模型首字延迟 (TTFT) 与可用性，支持并行与串行防限流双模式，提供类似代理软件（如 Clash、v2rayN）的直观测速体验。"
+        }
+      }
     },
     {
       "id": "cpa-auth-zai",
@@ -2130,12 +2958,17 @@
         "Quota",
         "Usage",
         "Streaming"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "添加 z.ai GLM Coding Plan 浏览器登录、模型发现、Chat Completions、Responses、Anthropic Messages、配额监控及用量历史记录支持。"
+        }
+      }
     },
     {
       "id": "cpa-spark",
       "name": "CPA Spark · 星火",
-      "description": "为 CLIProxyAPI 提供按账号与分组独立配置的定时预热，支持计划预览、执行记录及 CPA 主题继承。Account-pinned warmup and scheduling for CLIProxyAPI, with independent account/group tasks, schedule previews, execution history, and CPA appearance inheritance.",
+      "description": "Account-pinned warmup and scheduling for CLIProxyAPI, with independent account/group tasks, schedule previews, execution history, and CPA appearance inheritance.",
       "author": "heytl",
       "repository": "https://github.com/heytl/cpa-spark",
       "homepage": "https://github.com/heytl/cpa-spark",
@@ -2147,7 +2980,12 @@
         "Codex",
         "Antigravity"
       ],
-      "logo": "https://raw.githubusercontent.com/heytl/cpa-spark/main/logo.svg"
+      "logo": "https://raw.githubusercontent.com/heytl/cpa-spark/main/logo.svg",
+      "locales": {
+        "zh-CN": {
+          "description": "为 CLIProxyAPI 提供按账号与分组独立配置的定时预热，支持计划预览、执行记录及 CPA 主题继承。"
+        }
+      }
     },
     {
       "id": "daybreak-blue",
@@ -2162,7 +3000,12 @@
         "Codex",
         "Model"
       ],
-      "logo": "https://raw.githubusercontent.com/esauvisky/CLIProxyAPI-Daybreak-Plugin/main/assets/logo.png"
+      "logo": "https://raw.githubusercontent.com/esauvisky/CLIProxyAPI-Daybreak-Plugin/main/assets/logo.png",
+      "locales": {
+        "zh-CN": {
+          "description": "将 Daybreak Blue 与 Daybreak Red 模型添加至 CLIProxyAPI 的 Codex 模型目录。"
+        }
+      }
     },
     {
       "id": "model-list-tweaker",
@@ -2180,7 +3023,12 @@
         "Codex",
         "Management"
       ],
-      "logo": "https://raw.githubusercontent.com/esauvisky/CLIProxyAPI-Model-List-Tweaker-Plugin/main/assets/logo.png"
+      "logo": "https://raw.githubusercontent.com/esauvisky/CLIProxyAPI-Model-List-Tweaker-Plugin/main/assets/logo.png",
+      "locales": {
+        "zh-CN": {
+          "description": "通过内置 Web 编辑器跨 Claude Code、OpenAI、Codex、Gemini 与 Grok 客户端对全局模型目录进行排序、修改显示名称、追加剩余配额百分比以及隐藏模型。"
+        }
+      }
     },
     {
       "id": "opencode-go-oauth",
@@ -2198,18 +3046,34 @@
         "Quota",
         "Management"
       ],
-      "logo": "https://raw.githubusercontent.com/esauvisky/CLIProxyAPI-OpenCode-Go-Plugin/main/assets/logo.png"
+      "logo": "https://raw.githubusercontent.com/esauvisky/CLIProxyAPI-OpenCode-Go-Plugin/main/assets/logo.png",
+      "locales": {
+        "zh-CN": {
+          "description": "添加 OpenCode Go / Go Plus OAuth 设备码登录，支持涵盖 Chat Completions、Responses、Anthropic Messages 与 Gemini 四大协议的完整 44 模型目录以及按模型维度的配额用量追踪。"
+        }
+      }
     },
     {
       "id": "cursor-agent",
       "name": "Cursor Agent",
-      "description": "Testing and research plugin that connects CLIProxyAPI to the Cursor cloud agent. Claude Code uses Messages and Codex uses Responses directly, with browser login and a Codex-native model catalog. | 仅供测试和研发的 Cursor 云端 Agent 插件。Claude Code 走 Messages，Codex 走 Responses，支持浏览器登录，并向 Codex 返回它要求的模型目录。",
+      "description": "Testing and research plugin that connects CLIProxyAPI to the Cursor cloud agent. Claude Code uses Messages and Codex uses Responses directly, with browser login and a Codex-native model catalog.",
       "author": "endverse",
       "version": "0.1.1",
       "repository": "https://github.com/endverse/cpa-cursor-plugin",
       "homepage": "https://github.com/endverse/cpa-cursor-plugin",
       "license": "MIT",
-      "tags": ["Provider", "Cursor", "Claude", "Codex", "Responses"]
+      "tags": [
+        "Provider",
+        "Cursor",
+        "Claude",
+        "Codex",
+        "Responses"
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "仅供测试和研发的 Cursor 云端 Agent 插件。Claude Code 走 Messages，Codex 走 Responses，支持浏览器登录，并向 Codex 返回它要求的模型目录。"
+        }
+      }
     },
     {
       "id": "quota-rotator",
@@ -2224,7 +3088,12 @@
         "Quota",
         "Codex",
         "Antigravity"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "支持凭证发现、提供商级固定绑定及独立 Antigravity 模型分组展示的配额感知型 Codex 与 Antigravity 账号调度器（按所配置的 Antigravity 分组执行调度）。"
+        }
+      }
     },
     {
       "id": "cpa-model-dock",
@@ -2235,30 +3104,58 @@
       "repository": "https://github.com/suk-6/cpa-model-dock",
       "homepage": "https://github.com/suk-6/cpa-model-dock",
       "license": "MIT",
-      "tags": ["Model Router", "Interceptor", "Management", "Security"]
+      "tags": [
+        "Model Router",
+        "Interceptor",
+        "Management",
+        "Security"
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "通过管理中心 Web 界面管理稳定的模型别名、按别名自动升级至同模型家族最新稳定版，以及在模型列表与推理请求上双重生效的模型白名单。"
+        }
+      }
     },
     {
       "id": "today",
       "name": "Today",
-      "description": "Adds Today (today.ai / todayai.cn) as a provider: Cookie or email-verification login, model catalog probed per account plan, OpenAI Chat Completions and Anthropic Messages execution with streaming, quota usage breakdown, and a built-in console. | 把 today.ai / todayai.cn 接入 CLIProxyAPI：支持粘贴 Cookie 与邮箱验证码登录，模型清单按账号套餐实时探测，提供 OpenAI 与 Anthropic 双协议执行与流式输出、额度用量明细和内嵌控制台。",
+      "description": "Adds Today (today.ai / todayai.cn) as a provider: Cookie or email-verification login, model catalog probed per account plan, OpenAI Chat Completions and Anthropic Messages execution with streaming, quota usage breakdown, and a built-in console.",
       "author": "jzPPP3333",
       "version": "0.1.1",
       "repository": "https://github.com/jzPPP3333/cpa-today-plugin",
       "homepage": "https://github.com/jzPPP3333/cpa-today-plugin",
       "license": "MIT",
-      "tags": ["Provider", "Today", "OAuth", "Quota", "Management"],
-      "logo": "https://raw.githubusercontent.com/jzPPP3333/cpa-today-plugin/main/logo.png"
+      "tags": [
+        "Provider",
+        "Today",
+        "OAuth",
+        "Quota",
+        "Management"
+      ],
+      "logo": "https://raw.githubusercontent.com/jzPPP3333/cpa-today-plugin/main/logo.png",
+      "locales": {
+        "zh-CN": {
+          "description": "把 today.ai / todayai.cn 接入 CLIProxyAPI：支持粘贴 Cookie 与邮箱验证码登录，模型清单按账号套餐实时探测，提供 OpenAI 与 Anthropic 双协议执行与流式输出、额度用量明细和内嵌控制台。"
+        }
+      }
     },
     {
       "id": "antigravity-prompt-filter",
       "name": "Antigravity Prompt Filter",
-      "description": "Rewrites coding-client self-identification inside the request system prompt to Antigravity before the call reaches the upstream, covering Claude system fields, OpenAI Chat messages, OpenAI Responses instructions, and Gemini systemInstruction parts. | 在请求抵达上游前，按入口协议定位系统提示并把客户端自我标识改写为 Antigravity，覆盖 Claude、OpenAI Chat、OpenAI Responses 与 Gemini 四种入口协议。",
+      "description": "Rewrites coding-client self-identification inside the request system prompt to Antigravity before the call reaches the upstream, covering Claude system fields, OpenAI Chat messages, OpenAI Responses instructions, and Gemini systemInstruction parts.",
       "author": "DongHua3",
       "version": "0.4.0",
       "repository": "https://github.com/DongHua3/cpa-plugin-antigravity",
       "homepage": "https://github.com/DongHua3/cpa-plugin-antigravity",
       "license": "MIT",
-      "tags": ["Interceptor"]
+      "tags": [
+        "Interceptor"
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "在请求抵达上游前，按入口协议定位系统提示并把客户端自我标识改写为 Antigravity，覆盖 Claude、OpenAI Chat、OpenAI Responses 与 Gemini 四种入口协议。"
+        }
+      }
     },
     {
       "id": "omp-gateway-usage",
@@ -2272,7 +3169,12 @@
         "Quota",
         "Management",
         "Claude"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "在受管理密钥保护的只读 CPA 管理页面中展示来自 OMP Gateway 的 Claude 订阅配额窗口。"
+        }
+      }
     },
     {
       "id": "free-model-hub",
@@ -2282,7 +3184,16 @@
       "repository": "https://github.com/Yousha-dev/free-model-hub",
       "homepage": "https://github.com/Yousha-dev/free-model-hub",
       "license": "MIT",
-      "tags": ["Provider", "Auth", "Management"]
+      "tags": [
+        "Provider",
+        "Auth",
+        "Management"
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "统一聚合免费与免费层模型的提供商插件：涵盖免密钥的 Kilo 免费池与 OpenCode Zen 免费模型、OpenRouter :free 模型、Cline 免费模型、OpenCode Go，以及 GitHub Models、NVIDIA NIM、Groq、Cerebras、Mistral、SambaNova、Cohere、Z.ai Flash 等免费层密钥与登录式编程助手免费层，内置英文账号与模型控制台。"
+        }
+      }
     },
     {
       "id": "team-routing",
@@ -2292,7 +3203,16 @@
       "repository": "https://github.com/Yousha-dev/team-routing",
       "homepage": "https://github.com/Yousha-dev/team-routing",
       "license": "MIT",
-      "tags": ["Scheduler", "Quota", "Management"]
+      "tags": [
+        "Scheduler",
+        "Quota",
+        "Management"
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "面向 Claude、Codex 与 Antigravity 订阅账号的配额感知调度器：自动避开接近 5 小时限额的账号、优先消耗即将重置的配额、保持会话绑定同一账号以提高提示词缓存命中率，并支持将客户端 Key 固定到指定提供商/模型，内置缓存配额提供商与管理看板。"
+        }
+      }
     },
     {
       "id": "claude-remote-login",
@@ -2302,7 +3222,15 @@
       "repository": "https://github.com/Yousha-dev/claude-remote-login",
       "homepage": "https://github.com/Yousha-dev/claude-remote-login",
       "license": "MIT",
-      "tags": ["Auth", "Management"]
+      "tags": [
+        "Auth",
+        "Management"
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "支持从另一台设备添加 Claude 订阅账号：生成直接显示授权码而非跳转 localhost 的登录链接，方便团队成员远程完成登录并将授权码发回。"
+        }
+      }
     },
     {
       "id": "cpa-combo-router",
@@ -2313,7 +3241,17 @@
       "repository": "https://github.com/ivanarifin/CPA-Combo-Plugin",
       "homepage": "https://github.com/ivanarifin/CPA-Combo-Plugin",
       "license": "MIT",
-      "tags": ["Model Router", "Fallback", "Management", "Dashboard"]
+      "tags": [
+        "Model Router",
+        "Fallback",
+        "Management",
+        "Dashboard"
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "创建具有有序故障回退链的面向客户端模型别名，内置管理看板、聚合模型选择器、重试控制以及流式安全回退。"
+        }
+      }
     }
   ]
 }

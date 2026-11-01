@@ -3252,6 +3252,25 @@
           "description": "创建具有有序故障回退链的面向客户端模型别名，内置管理看板、聚合模型选择器、重试控制以及流式安全回退。"
         }
       }
+    },
+    {
+      "id": "pii-filter",
+      "name": "PII Filter (EN/ES)",
+      "description": "Redacts personal data and secrets from model requests before they reach upstream providers: emails, phones, Spanish DNI/NIE, US SSN, IBAN, cards, IPs, dates of birth, passwords, and API keys (embedded Gitleaks rules). English and Spanish, in-place body edits on CPA v8.",
+      "author": "helixnebulatech",
+      "repository": "https://github.com/helixnebulatech/cpa-plugin-pii-filter",
+      "homepage": "https://github.com/helixnebulatech/cpa-plugin-pii-filter",
+      "license": "MIT",
+      "tags": [
+        "Interceptor",
+        "Security",
+        "Privacy"
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "在模型请求到达上游提供商之前，脱敏其中的个人数据与密钥：包含邮箱、电话、西班牙 DNI/NIE、美国 SSN、IBAN、银行卡、IP、出生日期、密码及 API 密钥（内置 Gitleaks 规则）。支持英语与西班牙语，并在 CPA v8 上实现原地请求体修改。"
+        }
+      }
     }
   ]
 }

@@ -3271,6 +3271,26 @@
           "description": "在模型请求到达上游提供商之前，脱敏其中的个人数据与密钥：包含邮箱、电话、西班牙 DNI/NIE、美国 SSN、IBAN、银行卡、IP、出生日期、密码及 API 密钥（内置 Gitleaks 规则）。支持英语与西班牙语，并在 CPA v8 上实现原地请求体修改。"
         }
       }
+    },
+    {
+      "id": "deepinfra-autoscale",
+      "name": "DeepInfra Autoscale",
+      "description": "Serve your own Hugging Face models on DeepInfra dedicated GPUs through CPA. A dashboard page sets the DeepInfra API key and adds models; deployments start on the first request and scale to zero when idle.",
+      "author": "Pandoks",
+      "repository": "https://github.com/Pandoks/cpa-plugin-deepinfra-autoscale",
+      "homepage": "https://github.com/Pandoks/cpa-plugin-deepinfra-autoscale",
+      "license": "MIT",
+      "tags": [
+        "Provider",
+        "DeepInfra",
+        "Autoscaling",
+        "Dashboard"
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "通过 CPA 在 DeepInfra 专用 GPU 上运行你自己的 Hugging Face 模型。仪表盘页面用于设置 DeepInfra API 密钥并添加模型；部署在首次请求时启动，空闲时自动缩容至零。"
+        }
+      }
     }
   ]
 }

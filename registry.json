@@ -2314,6 +2314,16 @@
       "homepage": "https://github.com/ivanarifin/CPA-Combo-Plugin",
       "license": "MIT",
       "tags": ["Model Router", "Fallback", "Management", "Dashboard"]
+    },
+    {
+      "id": "pii-filter",
+      "name": "PII Filter (EN/ES)",
+      "description": "Redacts personal data and secrets from model requests before they reach upstream providers: emails, phones, Spanish DNI/NIE, US SSN, IBAN, cards, IPs, dates of birth, passwords, and API keys (embedded Gitleaks rules). English and Spanish, in-place body edits on CPA v8.",
+      "author": "helixnebulatech",
+      "repository": "https://github.com/helixnebulatech/cpa-plugin-pii-filter",
+      "homepage": "https://github.com/helixnebulatech/cpa-plugin-pii-filter",
+      "license": "MIT",
+      "tags": ["Interceptor", "Security", "Privacy"]
     }
   ]
 }

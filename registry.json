@@ -3271,6 +3271,26 @@
           "description": "在模型请求到达上游提供商之前，脱敏其中的个人数据与密钥：包含邮箱、电话、西班牙 DNI/NIE、美国 SSN、IBAN、银行卡、IP、出生日期、密码及 API 密钥（内置 Gitleaks 规则）。支持英语与西班牙语，并在 CPA v8 上实现原地请求体修改。"
         }
       }
+    },
+    {
+      "id": "prompt-admin",
+      "name": "Prompt Admin",
+      "description": "Per-model system prompts with Git prompt-repo auto-matching and a Management Center page.",
+      "author": "Tx13758627780",
+      "version": "0.1.0",
+      "repository": "https://github.com/Tx13758627780/cpa-plugin-prompt-admin",
+      "homepage": "https://github.com/Tx13758627780/cpa-plugin-prompt-admin",
+      "license": "MIT",
+      "tags": [
+        "Interceptor",
+        "Prompt",
+        "Management"
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "按模型注入系统提示词，自动匹配 Git 提示词仓库，并在管理中心提供管理页面。"
+        }
+      }
     }
   ]
 }

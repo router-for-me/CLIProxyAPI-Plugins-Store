@@ -3271,6 +3271,25 @@
           "description": "在模型请求到达上游提供商之前，脱敏其中的个人数据与密钥：包含邮箱、电话、西班牙 DNI/NIE、美国 SSN、IBAN、银行卡、IP、出生日期、密码及 API 密钥（内置 Gitleaks 规则）。支持英语与西班牙语，并在 CPA v8 上实现原地请求体修改。"
         }
       }
+    },
+    {
+      "id": "ustc",
+      "name": "USTC Token Plan",
+      "description": "Adds USTC TokenWorks models through university SSO or API keys, automatic iWAN networking, web settings, and CLIProxyAPI's native multi-account pool. Community plugin, not an official university client.",
+      "author": "njzjz",
+      "repository": "https://github.com/njzjz/cpa-ustc",
+      "homepage": "https://github.com/njzjz/cpa-ustc",
+      "tags": [
+        "Provider",
+        "Auth",
+        "Management"
+      ],
+      "locales": {
+        "zh-CN": {
+          "name": "中科大词元计划",
+          "description": "通过科大统一认证或 API Key 使用词元工坊模型，支持自动 iWAN、网页设置及 CPA 原生多账号号池。社区插件，非学校官方客户端。"
+        }
+      }
     }
   ]
 }

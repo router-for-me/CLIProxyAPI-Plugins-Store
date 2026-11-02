@@ -3277,7 +3277,7 @@
       "name": "Prompt Admin",
       "description": "Per-model system prompts with Git prompt-repo auto-matching and a Management Center page.",
       "author": "Tx13758627780",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "repository": "https://github.com/Tx13758627780/cpa-plugin-prompt-admin",
       "homepage": "https://github.com/Tx13758627780/cpa-plugin-prompt-admin",
       "license": "MIT",

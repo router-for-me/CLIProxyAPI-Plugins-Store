@@ -3271,6 +3271,28 @@
           "description": "在模型请求到达上游提供商之前，脱敏其中的个人数据与密钥：包含邮箱、电话、西班牙 DNI/NIE、美国 SSN、IBAN、银行卡、IP、出生日期、密码及 API 密钥（内置 Gitleaks 规则）。支持英语与西班牙语，并在 CPA v8 上实现原地请求体修改。"
         }
       }
+    },
+    {
+      "id": "aistudio2api",
+      "name": "AIStudio2API",
+      "description": "Port of Mag1cFall/AIStudio2API as a native CLIProxyAPI plugin. Proxies Google AI Studio Playground & Build models (Gemini 3.8 Flash, Build, Veo, Imagen, TTS) via in-process SpiderMonkey BotGuard WAA VM.",
+      "author": "jianli9158 (Upstream: Mag1cFall)",
+      "version": "1.0.1",
+      "repository": "https://github.com/jianli9158/cpa-plugin-aistudio2api",
+      "homepage": "https://github.com/jianli9158/cpa-plugin-aistudio2api",
+      "license": "MIT",
+      "tags": [
+        "Provider",
+        "Executor",
+        "Scheduler",
+        "Management",
+        "Gemini"
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "Mag1cFall/AIStudio2API 的 CLIProxyAPI 原生插件移植版。通过进程内 SpiderMonkey BotGuard WAA 虚拟机将 Google AI Studio Playground 与 Build 通道（Gemini 3.8 Flash、Build、Veo、Imagen、TTS 等）反代为多协议兼容接口。"
+        }
+      }
     }
   ]
 }

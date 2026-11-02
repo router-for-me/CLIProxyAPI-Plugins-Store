@@ -3271,6 +3271,21 @@
           "description": "在模型请求到达上游提供商之前，脱敏其中的个人数据与密钥：包含邮箱、电话、西班牙 DNI/NIE、美国 SSN、IBAN、银行卡、IP、出生日期、密码及 API 密钥（内置 Gitleaks 规则）。支持英语与西班牙语，并在 CPA v8 上实现原地请求体修改。"
         }
       }
+    },
+    {
+      "id": "cpa-cc-billing",
+      "name": "CPA CC Billing",
+      "description": "Splits one Claude subscription's quota between downstream API keys: fixed weekly keys plus remainder keys with dynamic reservations, estimated from response headers, with a new-api balance endpoint.",
+      "author": "sketchain",
+      "repository": "https://github.com/sketchain/cpa-cc-billing",
+      "homepage": "https://github.com/sketchain/cpa-cc-billing",
+      "license": "MIT",
+      "tags": ["Management", "Billing", "Quota", "Claude"],
+      "locales": {
+        "zh-CN": {
+          "description": "把一个 Claude 订阅账号的额度分给多个下游 API Key：固定周额度 + 余量动态预留，基于响应头估算额度，并为 new-api 提供余额接口。"
+        }
+      }
     }
   ]
 }

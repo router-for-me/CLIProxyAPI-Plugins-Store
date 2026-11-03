@@ -3283,6 +3283,25 @@
           "description": "按模型注入系统提示词，自动匹配 Git 提示词仓库，并在管理中心提供管理页面。"
         }
       }
+    },
+    {
+      "id": "ustc",
+      "name": "USTC Token Plan",
+      "description": "Adds USTC TokenWorks models through university SSO or API keys, automatic iWAN networking, web settings, and CLIProxyAPI's native multi-account pool. Community plugin, not an official university client.",
+      "author": "njzjz",
+      "repository": "https://github.com/njzjz/cpa-ustc",
+      "homepage": "https://github.com/njzjz/cpa-ustc",
+      "tags": [
+        "Provider",
+        "Auth",
+        "Management"
+      ],
+      "locales": {
+        "zh-CN": {
+          "name": "中科大词元计划",
+          "description": "通过科大统一认证或 API Key 使用词元工坊模型，支持自动 iWAN、网页设置及 CPA 原生多账号号池。社区插件，非学校官方客户端。"
+        }
+      }
     }
   ]
 }

@@ -3263,6 +3263,31 @@
           "description": "Mag1cFall/AIStudio2API 的 CLIProxyAPI 原生插件移植版。通过进程内 SpiderMonkey BotGuard WAA 虚拟机将 Google AI Studio Playground 与 Build 通道（Gemini 3.8 Flash、Build、Veo、Imagen、TTS 等）反代为多协议兼容接口。"
         }
       }
+    },
+    {
+      "id": "relaywarden",
+      "name": "RelayWarden",
+      "description": "Compresses tool output before it reaches the upstream, records relay degradation signals such as model substitution and stripped reasoning, and picks the fastest healthy auth with session affinity. Every feature has its own switch and a built-in management UI.",
+      "author": "Kyresn",
+      "version": "0.1.0",
+      "repository": "https://github.com/Kyresn/relaywarden",
+      "homepage": "https://github.com/Kyresn/relaywarden",
+      "license": "MIT",
+      "tags": [
+        "Interceptor",
+        "Scheduler",
+        "Management",
+        "Dashboard",
+        "Statistics",
+        "Routing",
+        "Codex",
+        "Responses"
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "在请求发往上游前压缩工具输出，记录中转降智信号（模型替换、推理被剥离、缓存失效等），并按延迟与会话亲和选择最健康的上游凭证。所有功能均可独立开关，内置管理界面。"
+        }
+      }
     }
   ]
 }

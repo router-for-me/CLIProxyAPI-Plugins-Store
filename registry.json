@@ -2979,10 +2979,10 @@
     },
     {
       "id": "model-list-tweaker",
-      "name": "Model List Tweaker",
-      "description": "Reorder, rename display names, append remaining quota percentages, and hide models in the global model catalog across Claude Code, OpenAI, Codex, Gemini, and Grok clients, with a built-in web editor.",
+      "name": "Reorder/Rename Models",
+      "description": "Reorder, rename display names, and hide models in the global model catalog across Claude Code, Claude, OpenAI, Codex, Gemini, and Grok clients, with a built-in web editor. Set management_key in the plugin config. Made to work alongside Safeguard Killer (https://github.com/esauvisky/CLIProxyAPI-Safeguard-Killer-Plugin).",
       "author": "esauvisky",
-      "version": "0.3.5",
+      "version": "0.5.3",
       "repository": "https://github.com/esauvisky/CLIProxyAPI-Model-List-Tweaker-Plugin",
       "homepage": "https://github.com/esauvisky/CLIProxyAPI-Model-List-Tweaker-Plugin",
       "license": "MIT",
@@ -3263,6 +3263,24 @@
           "description": "Mag1cFall/AIStudio2API 的 CLIProxyAPI 原生插件移植版。通过进程内 SpiderMonkey BotGuard WAA 虚拟机将 Google AI Studio Playground 与 Build 通道（Gemini 3.8 Flash、Build、Veo、Imagen、TTS 等）反代为多协议兼容接口。"
         }
       }
+    },
+    {
+      "id": "safeguard-killer",
+      "name": "Safeguard Killer",
+      "description": "Neutralizes model safeguards, refusal taint, and auto-mode classifiers across Claude Code, Claude models, OpenAI/Codex models, and Gemini models, and routes Smart Groups that automatically fail over around refusals with 5m cache stickiness and quota balancing. Set management_key in the plugin config. Made to work alongside Reorder/Rename Models (https://github.com/esauvisky/CLIProxyAPI-Model-List-Tweaker-Plugin).",
+      "author": "esauvisky",
+      "version": "0.5.4",
+      "repository": "https://github.com/esauvisky/CLIProxyAPI-Safeguard-Killer-Plugin",
+      "homepage": "https://github.com/esauvisky/CLIProxyAPI-Safeguard-Killer-Plugin",
+      "license": "MIT",
+      "tags": [
+        "Scheduler",
+        "Router",
+        "Executor",
+        "Quota",
+        "Management"
+      ],
+      "logo": "https://raw.githubusercontent.com/esauvisky/CLIProxyAPI-Safeguard-Killer-Plugin/main/assets/logo.png"
     }
   ]
 }

@@ -2611,36 +2611,6 @@
       }
     },
     {
-      "id": "freetier2api",
-      "name": "FreeTier 2API",
-      "description": "Integrates multiple free-tier providers (WorkBuddy CN/Intl, Qoder CN/Intl, OpenCode ZEN, Cline, ZCode, TRAE SOLO, Trae CN/Intl, CodeArts, and MiniMax Code CN/Intl) into CLIProxyAPI across auth, model, executor, quota, and management capabilities, with per-provider instrumentation, credential ownership isolation, dynamic model discovery, quota queries, daily check-ins, growth-task automation, and prompt defense.",
-      "author": "jiandanc",
-      "repository": "https://github.com/jiandanc/CLIProxyAPI-freetier2api-plugin",
-      "homepage": "https://github.com/jiandanc/CLIProxyAPI-freetier2api-plugin",
-      "license": "GPL-3.0",
-      "tags": [
-        "Provider",
-        "WorkBuddy",
-        "CodeBuddy",
-        "Qoder",
-        "OpenCode",
-        "Cline",
-        "ZCode",
-        "Trae",
-        "CodeArts",
-        "MiniMaxCode",
-        "Auth",
-        "Quota",
-        "Management",
-        "Tasks"
-      ],
-      "locales": {
-        "zh-CN": {
-          "description": "把多个免费额度供应商（WorkBuddy 国内版/国际版、Qoder 国内版/国际版、OpenCode ZEN、Cline、ZCode、TRAE SOLO、Trae 国内版/国际版、CodeArts、MiniMax Code 国内版/国际版）接入 CLIProxyAPI：auth / model / executor / quota / management 五类能力，按供应商插桩，支持凭证归属隔离、模型清单动态探测、额度查询、每日签到、成长任务闭环与提示词防御。"
-        }
-      }
-    },
-    {
       "id": "gflow",
       "name": "GFlow (Google Flow 图片与视频)",
       "description": "Google Flow image and video model integration through the CPA host endpoint, with account-pool management, quota queries, and model routing.",
@@ -3269,6 +3239,28 @@
       "locales": {
         "zh-CN": {
           "description": "在模型请求到达上游提供商之前，脱敏其中的个人数据与密钥：包含邮箱、电话、西班牙 DNI/NIE、美国 SSN、IBAN、银行卡、IP、出生日期、密码及 API 密钥（内置 Gitleaks 规则）。支持英语与西班牙语，并在 CPA v8 上实现原地请求体修改。"
+        }
+      }
+    },
+    {
+      "id": "aistudio2api",
+      "name": "AIStudio2API",
+      "description": "Port of Mag1cFall/AIStudio2API as a native CLIProxyAPI plugin. Proxies Google AI Studio Playground & Build models (Gemini 3.8 Flash, Build, Veo, Imagen, TTS) via in-process SpiderMonkey BotGuard WAA VM.",
+      "author": "jianli9158 (Upstream: Mag1cFall)",
+      "version": "1.0.1",
+      "repository": "https://github.com/jianli9158/cpa-plugin-aistudio2api",
+      "homepage": "https://github.com/jianli9158/cpa-plugin-aistudio2api",
+      "license": "MIT",
+      "tags": [
+        "Provider",
+        "Executor",
+        "Scheduler",
+        "Management",
+        "Gemini"
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "Mag1cFall/AIStudio2API 的 CLIProxyAPI 原生插件移植版。通过进程内 SpiderMonkey BotGuard WAA 虚拟机将 Google AI Studio Playground 与 Build 通道（Gemini 3.8 Flash、Build、Veo、Imagen、TTS 等）反代为多协议兼容接口。"
         }
       }
     },

@@ -3263,6 +3263,23 @@
           "description": "Mag1cFall/AIStudio2API 的 CLIProxyAPI 原生插件移植版。通过进程内 SpiderMonkey BotGuard WAA 虚拟机将 Google AI Studio Playground 与 Build 通道（Gemini 3.8 Flash、Build、Veo、Imagen、TTS 等）反代为多协议兼容接口。"
         }
       }
+    },
+    {
+      "id": "abliteration",
+      "name": "Abliteration.ai",
+      "description": "Adds the Abliteration.ai gateway (api.abliteration.ai) as an API-key provider with interactive login, live model catalog discovery from GET /v1/models, and OpenAI Chat Completions execution.",
+      "author": "esauvisky",
+      "version": "0.1.3",
+      "repository": "https://github.com/esauvisky/CLIProxyAPI-Abliteration-Plugin",
+      "homepage": "https://github.com/esauvisky/CLIProxyAPI-Abliteration-Plugin",
+      "license": "MIT",
+      "tags": [
+        "Provider",
+        "OAuth",
+        "Executor",
+        "Management"
+      ],
+      "logo": "https://raw.githubusercontent.com/esauvisky/CLIProxyAPI-Abliteration-Plugin/main/assets/logo.png"
     }
   ]
 }

@@ -3263,6 +3263,16 @@
           "description": "Mag1cFall/AIStudio2API 的 CLIProxyAPI 原生插件移植版。通过进程内 SpiderMonkey BotGuard WAA 虚拟机将 Google AI Studio Playground 与 Build 通道（Gemini 3.8 Flash、Build、Veo、Imagen、TTS 等）反代为多协议兼容接口。"
         }
       }
+    },
+    {
+      "id": "llm-tracing",
+      "name": "LLM Tracing",
+      "description": "Exports every proxied request as an OpenTelemetry trace (OTLP/HTTP JSON) with one child span per upstream attempt, so retries and fallbacks are visible. Records models, providers, tokens, latency, TTFT and errors with client keys hashed and secrets redacted. Works with Langfuse, Jaeger, Grafana Tempo, Datadog, Honeycomb and any OTLP backend.",
+      "author": "abdulmoiz65",
+      "repository": "https://github.com/abdulmoiz65/LLM-Tracing-Plugin",
+      "homepage": "https://github.com/abdulmoiz65/LLM-Tracing-Plugin",
+      "license": "MIT",
+      "tags": ["Observability", "Tracing", "Usage", "Monitoring"]
     }
   ]
 }

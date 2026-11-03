@@ -3269,7 +3269,6 @@
       "name": "RelayWarden",
       "description": "Compresses tool output before it reaches the upstream, records relay degradation signals such as model substitution and stripped reasoning, and picks the fastest healthy auth with session affinity. Every feature has its own switch and a built-in management UI.",
       "author": "Kyresn",
-      "version": "0.1.0",
       "repository": "https://github.com/Kyresn/relaywarden",
       "homepage": "https://github.com/Kyresn/relaywarden",
       "license": "MIT",

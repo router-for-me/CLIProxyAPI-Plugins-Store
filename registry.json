@@ -3293,6 +3293,26 @@
           "description": "Mag1cFall/AIStudio2API 的 CLIProxyAPI 原生插件移植版。通过进程内 SpiderMonkey BotGuard WAA 虚拟机将 Google AI Studio Playground 与 Build 通道（Gemini 3.8 Flash、Build、Veo、Imagen、TTS 等）反代为多协议兼容接口。"
         }
       }
+    },
+    {
+      "id": "prompt-admin",
+      "name": "Prompt Admin",
+      "description": "Per-model system prompts with Git prompt-repo auto-matching and a Management Center page.",
+      "author": "Tx13758627780",
+      "version": "0.1.2",
+      "repository": "https://github.com/Tx13758627780/cpa-plugin-prompt-admin",
+      "homepage": "https://github.com/Tx13758627780/cpa-plugin-prompt-admin",
+      "license": "MIT",
+      "tags": [
+        "Interceptor",
+        "Prompt",
+        "Management"
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "按模型注入系统提示词，自动匹配 Git 提示词仓库，并在管理中心提供管理页面。"
+        }
+      }
     }
   ]
 }

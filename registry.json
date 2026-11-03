@@ -3302,6 +3302,26 @@
           "description": "通过科大统一认证或 API Key 使用词元工坊模型，支持自动 iWAN、网页设置及 CPA 原生多账号号池。社区插件，非学校官方客户端。"
         }
       }
+    },
+    {
+      "id": "llm-tracing",
+      "name": "LLM Tracing",
+      "description": "Exports every proxied request as an OpenTelemetry trace (OTLP/HTTP JSON) with one child span per upstream attempt, so retries and fallbacks are visible. Records models, providers, tokens, latency, TTFT and errors with client keys hashed and secrets redacted. Works with Langfuse, Jaeger, Grafana Tempo, Datadog, Honeycomb and any OTLP backend.",
+      "author": "abdulmoiz65",
+      "repository": "https://github.com/abdulmoiz65/LLM-Tracing-Plugin",
+      "homepage": "https://github.com/abdulmoiz65/LLM-Tracing-Plugin",
+      "license": "MIT",
+      "tags": [
+        "Observability",
+        "Tracing",
+        "Usage",
+        "Monitoring"
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "将所有代理的请求导出为 OpenTelemetry 追踪（OTLP/HTTP JSON），每个上游重试与凭据回退均记录为独立的子 Span。完整记录模型、提供商、Token 消耗、延迟、首字时间（TTFT）及错误信息，同时对客户端密钥进行哈希处理并脱敏敏感凭据。兼容 Langfuse、Jaeger、Grafana Tempo、Datadog、Honeycomb 等任意 OTLP 后端。"
+        }
+      }
     }
   ]
 }

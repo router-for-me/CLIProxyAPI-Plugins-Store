@@ -3344,6 +3344,29 @@
           "description": "添加 Abliteration.ai 网关（api.abliteration.ai）作为 API Key 凭据提供商，支持交互式登录、基于 GET /v1/models 的实时模型目录发现以及 OpenAI Chat Completions 执行。"
         }
       }
+    },
+    {
+      "id": "experiential-labs",
+      "name": "Experiential Labs",
+      "description": "Adds the Experiential Labs gateway (api.experientiallabs.ai) as an API-key provider with interactive login, live model catalog discovery, multi-protocol routing (Chat Completions, Responses, Anthropic Messages), and credit balance quota reporting.",
+      "author": "esauvisky",
+      "version": "0.1.4",
+      "repository": "https://github.com/esauvisky/CLIProxyAPI-Experiential-Labs-Plugin",
+      "homepage": "https://github.com/esauvisky/CLIProxyAPI-Experiential-Labs-Plugin",
+      "license": "MIT",
+      "tags": [
+        "Provider",
+        "OAuth",
+        "Executor",
+        "Quota",
+        "Management"
+      ],
+      "logo": "https://raw.githubusercontent.com/esauvisky/CLIProxyAPI-Experiential-Labs-Plugin/main/assets/logo.png",
+      "locales": {
+        "zh-CN": {
+          "description": "添加 Experiential Labs 网关（api.experientiallabs.ai）作为 API Key 凭据提供商，支持交互式登录、实时模型目录发现、多协议路由（Chat Completions、Responses、Anthropic Messages）以及额度余额配额查询。"
+        }
+      }
     }
   ]
 }

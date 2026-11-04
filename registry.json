@@ -3410,6 +3410,28 @@
           "description": "把每个 OpenAI 兼容网关自己 /v1/models 返回的模型参数（显示名、上下文长度、输入/输出模态、思考档位）同步写回 CPA 供应商配置，支持 dry-run 预览和按供应商的运行报告。"
         }
       }
+    },
+    {
+      "id": "gemini-web2api",
+      "name": "Gemini-Web2API",
+      "description": "Port of Mag1cFall/Gemini-Web2API as a native CLIProxyAPI plugin. Proxies Google Gemini Web (Gemini 3.0 Pro/Flash/Thinking, Image, Video, Music, Deep Research, Canvas, TTS/STT) via Chrome 131 TLS/HTTP2 fingerprint emulation, automatic Cookie rotation, and keyless Guest sessions into OpenAI Chat, Responses, Claude Messages, and Gemini Native protocols.",
+      "author": "jianli9158 (Upstream: Mag1cFall)",
+      "version": "1.0.0",
+      "repository": "https://github.com/jianli9158/cpa-plugin-gemini-web2api",
+      "homepage": "https://github.com/jianli9158/cpa-plugin-gemini-web2api",
+      "license": "MIT",
+      "tags": [
+        "Provider",
+        "Executor",
+        "Scheduler",
+        "Management",
+        "Gemini"
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "Mag1cFall/Gemini-Web2API 的 CLIProxyAPI 原生插件移植版。通过 Chrome 131 TLS/HTTP2 指纹伪装、后台 Cookie 自动轮换与免登录访客会话，将 Google Gemini 网页版（Gemini 3.0 Pro/Flash/Thinking、绘图、视频、音乐、深度研究、Canvas、语音等）反代为 OpenAI Chat、Responses、Claude Messages 与 Gemini Native 多协议兼容接口。"
+        }
+      }
     }
   ]
 }

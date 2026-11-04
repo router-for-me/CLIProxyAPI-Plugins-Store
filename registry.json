@@ -3390,6 +3390,27 @@
           "description": "消除跨 Claude Code、Claude 系列模型、OpenAI/Codex 系列模型以及 Gemini 系列模型的安全拦截、拒绝标记（Refusal Taint）与自动模式分类器，并通过智能分组（Smart Groups）提供具备 5 分钟缓存粘性与配额均衡的拒绝自动故障转移路由。请在插件配置中设置 management_key。推荐与 Reorder/Rename Models (https://github.com/esauvisky/CLIProxyAPI-Model-List-Tweaker-Plugin) 搭配使用。"
         }
       }
+    },
+    {
+      "id": "cpa-pools-and-aliases",
+      "name": "Pools and Aliases",
+      "description": "Pool every subscription and API key that serves the same model under its plain model id: new accounts join automatically, model lists drop provider suffixes, optional 'pools only' view. Uses CPA's native aliases; routing stays untouched.",
+      "author": "ngvoicu",
+      "repository": "https://github.com/ngvoicu/cpa-pools-and-aliases",
+      "logo": "https://raw.githubusercontent.com/ngvoicu/cpa-pools-and-aliases/main/assets/logo.svg",
+      "homepage": "https://github.com/ngvoicu/cpa-pools-and-aliases",
+      "license": "MIT",
+      "tags": [
+        "Management",
+        "Model Alias",
+        "Pool",
+        "Dashboard"
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "将提供同一模型的所有订阅与 API Key 合并到以模型原生 ID 命名的池中：新账号自动加入，模型列表去掉提供商后缀，可选“仅显示池”视图。使用 CPA 原生别名，不改变路由。"
+        }
+      }
     }
   ]
 }

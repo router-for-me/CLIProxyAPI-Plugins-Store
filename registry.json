@@ -3390,6 +3390,26 @@
           "description": "消除跨 Claude Code、Claude 系列模型、OpenAI/Codex 系列模型以及 Gemini 系列模型的安全拦截、拒绝标记（Refusal Taint）与自动模式分类器，并通过智能分组（Smart Groups）提供具备 5 分钟缓存粘性与配额均衡的拒绝自动故障转移路由。请在插件配置中设置 management_key。推荐与 Reorder/Rename Models (https://github.com/esauvisky/CLIProxyAPI-Model-List-Tweaker-Plugin) 搭配使用。"
         }
       }
+    },
+    {
+      "id": "model-meta-sync",
+      "name": "Model Meta Sync",
+      "description": "Fills per-provider model metadata (display name, context length, input/output modalities, thinking levels) from each OpenAI-compatible gateway's own /v1/models into the CLIProxyAPI provider config, with a dry-run preview and a per-provider report.",
+      "author": "LIEGU0317",
+      "version": "0.3.1",
+      "repository": "https://github.com/LIEGU0317/cpa-plugin-model-meta-sync",
+      "homepage": "https://github.com/LIEGU0317/cpa-plugin-model-meta-sync",
+      "license": "MIT",
+      "tags": [
+        "Management",
+        "Models"
+      ],
+      "logo": "https://raw.githubusercontent.com/LIEGU0317/cpa-plugin-model-meta-sync/main/assets/logo.png",
+      "locales": {
+        "zh-CN": {
+          "description": "把每个 OpenAI 兼容网关自己 /v1/models 返回的模型参数（显示名、上下文长度、输入/输出模态、思考档位）同步写回 CPA 供应商配置，支持 dry-run 预览和按供应商的运行报告。"
+        }
+      }
     }
   ]
 }

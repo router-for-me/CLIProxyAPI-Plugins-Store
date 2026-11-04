@@ -3390,6 +3390,28 @@
           "description": "消除跨 Claude Code、Claude 系列模型、OpenAI/Codex 系列模型以及 Gemini 系列模型的安全拦截、拒绝标记（Refusal Taint）与自动模式分类器，并通过智能分组（Smart Groups）提供具备 5 分钟缓存粘性与配额均衡的拒绝自动故障转移路由。请在插件配置中设置 management_key。推荐与 Reorder/Rename Models (https://github.com/esauvisky/CLIProxyAPI-Model-List-Tweaker-Plugin) 搭配使用。"
         }
       }
+    },
+    {
+      "id": "gemini-web2api",
+      "name": "Gemini-Web2API",
+      "description": "Port of Mag1cFall/Gemini-Web2API as a native CLIProxyAPI plugin. Proxies Google Gemini Web (Gemini 3.0 Pro/Flash/Thinking, Image, Video, Music, Deep Research, Canvas, TTS/STT) via Chrome 131 TLS/HTTP2 fingerprint emulation, automatic Cookie rotation, and keyless Guest sessions into OpenAI Chat, Responses, Claude Messages, and Gemini Native protocols.",
+      "author": "jianli9158 (Upstream: Mag1cFall)",
+      "version": "1.0.0",
+      "repository": "https://github.com/jianli9158/cpa-plugin-gemini-web2api",
+      "homepage": "https://github.com/jianli9158/cpa-plugin-gemini-web2api",
+      "license": "MIT",
+      "tags": [
+        "Provider",
+        "Executor",
+        "Scheduler",
+        "Management",
+        "Gemini"
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "Mag1cFall/Gemini-Web2API 的 CLIProxyAPI 原生插件移植版。通过 Chrome 131 TLS/HTTP2 指纹伪装、后台 Cookie 自动轮换与免登录访客会话，将 Google Gemini 网页版（Gemini 3.0 Pro/Flash/Thinking、绘图、视频、音乐、深度研究、Canvas、语音等）反代为 OpenAI Chat、Responses、Claude Messages 与 Gemini Native 多协议兼容接口。"
+        }
+      }
     }
   ]
 }

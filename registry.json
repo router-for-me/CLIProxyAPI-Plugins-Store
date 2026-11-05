@@ -3477,6 +3477,27 @@
           "description": "将提供同一模型的所有订阅与 API Key 合并到以模型原生 ID 命名的池中：新账号自动加入，模型列表去掉提供商后缀，可选“仅显示池”视图。使用 CPA 原生别名，不改变路由。"
         }
       }
+    },
+    {
+      "id": "opencode-cpa-plus",
+      "name": "OpenCode Plus",
+      "description": "OpenCode Go provider for CLIProxyAPI and CPA Manager Plus. Every API key becomes a CPA credential that is created, restored and removed together with the key list, with per-credential quota. Stable session IDs per conversation, optional model whitelist, and a Chinese/English settings page under plugin pages. Unofficial; tested only on the OpenCode Go plan.",
+      "author": "sodiseng",
+      "repository": "https://github.com/sodiseng/opencode-cpa-plus",
+      "logo": "https://opencode.ai/favicon.svg",
+      "homepage": "https://github.com/sodiseng/opencode-cpa-plus",
+      "license": "MIT",
+      "tags": [
+        "Provider",
+        "OpenCode",
+        "Quota",
+        "Management"
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "面向 CLIProxyAPI 与 CPA Manager Plus 的 OpenCode Go Provider。每个 API Key 对应一个 CPA 凭证，随 Key 列表自动创建、恢复和删除，并按凭证显示额度。同一对话的会话 ID 保持稳定，支持模型白名单，插件页面中提供中英文设置页。非官方插件，仅在 OpenCode Go 套餐测试。"
+        }
+      }
     }
   ]
 }

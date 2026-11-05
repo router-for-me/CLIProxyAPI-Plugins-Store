@@ -3477,6 +3477,27 @@
           "description": "将提供同一模型的所有订阅与 API Key 合并到以模型原生 ID 命名的池中：新账号自动加入，模型列表去掉提供商后缀，可选“仅显示池”视图。使用 CPA 原生别名，不改变路由。"
         }
       }
+    },
+    {
+      "id": "ollama-quota",
+      "name": "Ollama Quota",
+      "description": "Ollama Cloud balance and quota windows in the CPA credential quota page. Linux arm64 release package.",
+      "author": "Newoahil",
+      "version": "0.2.1",
+      "repository": "https://github.com/Newoahil/cpa-plugin-ollama-quota",
+      "homepage": "https://github.com/Newoahil/cpa-plugin-ollama-quota",
+      "license": "MIT",
+      "tags": [
+        "Quota",
+        "Management",
+        "Ollama"
+      ],
+      "locales": {
+        "zh-CN": {
+          "name": "Ollama 额度",
+          "description": "在 CPA 凭证额度页显示 Ollama Cloud 余额和额度窗口。发布包支持 Linux arm64。"
+        }
+      }
     }
   ]
 }

@@ -3498,6 +3498,26 @@
           "description": "面向 CLIProxyAPI 与 CPA Manager Plus 的 OpenCode Go Provider。每个 API Key 对应一个 CPA 凭证，随 Key 列表自动创建、恢复和删除，并按凭证显示额度。同一对话的会话 ID 保持稳定，支持模型白名单，插件页面中提供中英文设置页。非官方插件，仅在 OpenCode Go 套餐测试。"
         }
       }
+    },
+    {
+      "id": "cpa-mistral-normalizer",
+      "name": "Mistral Reasoning Normalizer",
+      "description": "Makes Mistral reasoning output OpenAI-shaped: flattens the content chunk list (thinking + text) into content plus a reasoning_content string, streaming and non-streaming, so Responses, Claude and Gemini clients get clean text.",
+      "author": "batuhan4",
+      "repository": "https://github.com/Batuhan4/cpa-mistral-normalizer",
+      "homepage": "https://github.com/Batuhan4/cpa-mistral-normalizer",
+      "license": "MIT",
+      "tags": [
+        "Response Normalizer",
+        "Mistral",
+        "Reasoning",
+        "OpenAI Compatibility"
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "让 Mistral 的推理输出符合 OpenAI 格式：将 content 分块列表（thinking + text）展平为 content 字符串和 reasoning_content 字符串，支持流式与非流式，使 Responses、Claude 和 Gemini 客户端获得干净的文本。"
+        }
+      }
     }
   ]
 }

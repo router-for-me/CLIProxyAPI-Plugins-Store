@@ -3477,6 +3477,90 @@
           "description": "将提供同一模型的所有订阅与 API Key 合并到以模型原生 ID 命名的池中：新账号自动加入，模型列表去掉提供商后缀，可选“仅显示池”视图。使用 CPA 原生别名，不改变路由。"
         }
       }
+    },
+    {
+      "id": "cpa-opencode-go",
+      "name": "OpenCode Go",
+      "description": "Adds OpenCode Go as a single CLIProxyAPI provider with dynamic model discovery and a shared API-key pool. Selects native protocols or translates between OpenAI Chat Completions, OpenAI Responses, Anthropic Messages, and Gemini GenerateContent, with streaming and reasoning support. Uses CLIProxyAPI for key rotation, retries, cooldowns, and rolling, weekly, and monthly quota queries.",
+      "author": "dillonzq",
+      "repository": "https://github.com/dillonzq/cpa-opencode-go",
+      "logo": "https://raw.githubusercontent.com/dillonzq/cpa-opencode-go/main/assets/logo.png",
+      "homepage": "https://github.com/dillonzq/cpa-opencode-go",
+      "license": "MIT",
+      "tags": [
+        "Provider",
+        "OpenCode Go",
+        "Protocol Translation",
+        "Quota"
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "将 OpenCode Go 作为单一 CLIProxyAPI 服务商接入，支持动态模型发现和共享 API 密钥池。按需选择原生协议，或在 OpenAI Chat Completions、OpenAI Responses、Anthropic Messages 与 Gemini GenerateContent 之间转换，支持流式响应和推理。借助 CLIProxyAPI 完成密钥轮换、重试与冷却，并支持滚动、每周和每月额度查询。"
+        }
+      }
+    },
+    {
+      "id": "cpa-opencode",
+      "name": "OpenCode",
+      "description": "Adds OpenCode pay-as-you-go as a single CLIProxyAPI provider with dynamic model discovery and a shared API-key pool. Supports OpenAI Chat Completions, OpenAI Responses, Anthropic Messages, and Gemini GenerateContent, with native routing, protocol conversion, streaming, and reasoning. Uses CLIProxyAPI for key rotation, retries, and cooldowns, with member budget, balance, and available-credit queries.",
+      "author": "dillonzq",
+      "repository": "https://github.com/dillonzq/cpa-opencode",
+      "logo": "https://raw.githubusercontent.com/dillonzq/cpa-opencode/main/assets/logo.png",
+      "homepage": "https://github.com/dillonzq/cpa-opencode",
+      "license": "MIT",
+      "tags": [
+        "Provider",
+        "OpenCode",
+        "Protocol Translation",
+        "Quota"
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "将 OpenCode 按量付费作为单一 CLIProxyAPI 服务商接入，支持动态模型发现和共享 API 密钥池。支持 OpenAI Chat Completions、OpenAI Responses、Anthropic Messages 与 Gemini GenerateContent，提供原生路由、协议转换、流式响应和推理。借助 CLIProxyAPI 完成密钥轮换、重试与冷却，并支持成员预算、余额和可用额度查询。"
+        }
+      }
+    },
+    {
+      "id": "cpa-minimax",
+      "name": "MiniMax",
+      "description": "Adds MiniMax subscription and pay-as-you-go APIs as a single CLIProxyAPI provider with international and China mainland credentials in one pool. Supports OpenAI Chat Completions, OpenAI Responses, Anthropic Messages, and Gemini GenerateContent, with streaming and thinking controls. Uses CLIProxyAPI for subscription-first scheduling, key rotation, retries, and cooldowns, with rolling and weekly subscription quota queries.",
+      "author": "dillonzq",
+      "repository": "https://github.com/dillonzq/cpa-minimax",
+      "logo": "https://raw.githubusercontent.com/dillonzq/cpa-minimax/main/assets/logo.png",
+      "homepage": "https://github.com/dillonzq/cpa-minimax",
+      "license": "MIT",
+      "tags": [
+        "Provider",
+        "MiniMax",
+        "Protocol Translation",
+        "Quota"
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "将 MiniMax 订阅与按量付费 API 作为单一 CLIProxyAPI 服务商接入，国际站与中国大陆凭证共用一个池。支持 OpenAI Chat Completions、OpenAI Responses、Anthropic Messages 与 Gemini GenerateContent，提供流式响应和思考控制。借助 CLIProxyAPI 实现订阅优先调度、密钥轮换、重试与冷却，并支持滚动和每周订阅额度查询。"
+        }
+      }
+    },
+    {
+      "id": "cpa-deepseek",
+      "name": "DeepSeek",
+      "description": "Adds the official DeepSeek API as a single CLIProxyAPI provider with dynamic model discovery and a shared API-key pool. Supports native OpenAI Chat Completions, OpenAI Responses, and Anthropic Messages, plus Gemini GenerateContent conversion, with streaming, tools, and reasoning. Uses CLIProxyAPI for key rotation, retries, and cooldowns, with selected-credential account balance queries and separate CNY/USD summaries.",
+      "author": "dillonzq",
+      "repository": "https://github.com/dillonzq/cpa-deepseek",
+      "logo": "https://raw.githubusercontent.com/dillonzq/cpa-deepseek/main/assets/logo.png",
+      "homepage": "https://github.com/dillonzq/cpa-deepseek",
+      "license": "MIT",
+      "tags": [
+        "Provider",
+        "DeepSeek",
+        "Protocol Translation",
+        "Quota"
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "将 DeepSeek 官方 API 作为单一 CLIProxyAPI 服务商接入，支持动态模型发现和共享 API 密钥池。原生支持 OpenAI Chat Completions、OpenAI Responses 与 Anthropic Messages，并可转换 Gemini GenerateContent，支持流式响应、工具调用和推理。借助 CLIProxyAPI 完成密钥轮换、重试与冷却，可查询所选凭证的账户余额，并分别汇总人民币和美元余额。"
+        }
+      }
     }
   ]
 }

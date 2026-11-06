@@ -3477,6 +3477,28 @@
           "description": "将提供同一模型的所有订阅与 API Key 合并到以模型原生 ID 命名的池中：新账号自动加入，模型列表去掉提供商后缀，可选“仅显示池”视图。使用 CPA 原生别名，不改变路由。"
         }
       }
+    },
+    {
+      "id": "step2api",
+      "name": "Step2API",
+      "description": "StepFun AI Studio (studio.stepfun.com) native CLIProxyAPI C ABI plugin. Proxies StepFun Playground & Reasoning models (step-3.5-flash, step-3.7-flash, step-5-preview) via native SSE stream with thinking, tools, multi-account pool and token auto-refresh.",
+      "author": "WenPaul",
+      "version": "1.0.1",
+      "repository": "https://github.com/wenbaolu6666-design/cpa-plugin-step2api",
+      "homepage": "https://github.com/wenbaolu6666-design/cpa-plugin-step2api",
+      "license": "MIT",
+      "tags": [
+        "Provider",
+        "Executor",
+        "Scheduler",
+        "Management",
+        "StepFun"
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "阶跃星辰 AI Studio (studio.stepfun.com) 的 CLIProxyAPI 原生插件。将网页端漫游与思考模型（step-3.5-flash、step-3.7-flash、step-5-preview）反代为 OpenAI/Claude/Responses 多协议兼容接口，支持长上下文缓存、思考流式透传与 Token 自动续期。"
+        }
+      }
     }
   ]
 }

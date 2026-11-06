@@ -3477,6 +3477,30 @@
           "description": "将提供同一模型的所有订阅与 API Key 合并到以模型原生 ID 命名的池中：新账号自动加入，模型列表去掉提供商后缀，可选“仅显示池”视图。使用 CPA 原生别名，不改变路由。"
         }
       }
+    },
+    {
+      "id": "omc-zcode-oauth",
+      "name": "OMC ZCode OAuth",
+      "description": "Native ZCode provider for CLIProxyAPI with dual-portal Z.ai / BigModel OAuth login, model discovery, Anthropic Messages execution, Coding Plan and gift routing, and normalized quota. Developed as part of the Oh-My-CPA ecosystem.",
+      "author": "JUNZE",
+      "version": "0.2.2",
+      "repository": "https://github.com/WizisCool/omc-zcode-oauth",
+      "logo": "https://raw.githubusercontent.com/WizisCool/omc-zcode-oauth/main/assets/logo.png",
+      "homepage": "https://github.com/WizisCool/omc-zcode-oauth",
+      "license": "MIT",
+      "tags": [
+        "Provider",
+        "OAuth",
+        "Quota",
+        "GLM",
+        "ZCode",
+        "Oh-My-CPA"
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "CLIProxyAPI 的原生 ZCode 提供商插件，支持 Z.ai / BigModel 双入口 OAuth 登录、模型发现、Anthropic Messages 请求、Coding Plan 与赠送额度路由，以及标准化配额展示，由 Oh-My-CPA 生态开发维护。"
+        }
+      }
     }
   ]
 }

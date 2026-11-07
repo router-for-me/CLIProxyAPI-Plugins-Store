@@ -3605,7 +3605,7 @@
     },
     {
       "id": "cpa-codex-reset-manager",
-      "name": "CPA Codex Reset Manager",
+      "name": "Codex Quota Steward",
       "description": "Persistent per-account Codex reset policies, crash-safe redemption journals, and quota pace reminders in a bilingual dashboard.",
       "author": "Autsunset",
       "repository": "https://github.com/Autsunset/cpa-codex-reset-manager",
@@ -3619,9 +3619,11 @@
       ],
       "locales": {
         "zh-CN": {
-          "description": "持久保存每个 Codex 账号的自动重置策略，通过兑换日志防止重启后重复消耗，并在双语看板中提醒何时加快或减缓用量。"
+          "description": "持久保存每个 Codex 账号的自动重置策略，通过兑换日志防止重启后重复消耗，并在双语看板中提醒何时加快或减缓用量。",
+          "name": "Codex 额度管家"
         }
-      }
+      },
+      "logo": "https://raw.githubusercontent.com/Autsunset/cpa-codex-reset-manager/main/logo.png"
     }
   ]
 }

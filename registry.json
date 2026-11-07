@@ -3390,6 +3390,27 @@
           "description": "消除跨 Claude Code、Claude 系列模型、OpenAI/Codex 系列模型以及 Gemini 系列模型的安全拦截、拒绝标记（Refusal Taint）与自动模式分类器，并通过智能分组（Smart Groups）提供具备 5 分钟缓存粘性与配额均衡的拒绝自动故障转移路由。请在插件配置中设置 management_key。推荐与 Reorder/Rename Models (https://github.com/esauvisky/CLIProxyAPI-Model-List-Tweaker-Plugin) 搭配使用。"
         }
       }
+    },
+    {
+      "id": "freetier2api",
+      "name": "FreeTier 2API",
+      "description": "Adds free-tier AI provider accounts, quota tracking, check-in tasks, OAuth/API-key login, and OpenAI/Anthropic-compatible routing to CLIProxyAPI.",
+      "author": "Kyresn",
+      "version": "0.1.24",
+      "repository": "https://github.com/Kyresn/CLIProxyAPI-freetier2api-plugin",
+      "homepage": "https://github.com/Kyresn/CLIProxyAPI-freetier2api-plugin",
+      "license": "MIT",
+      "tags": [
+        "Provider",
+        "Quota",
+        "Management",
+        "OAuth"
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "为 CLIProxyAPI 接入多个免费额度 AI 提供商，支持账号登录、额度查询、签到任务、套餐领取及 OpenAI/Anthropic 兼容路由。"
+        }
+      }
     }
   ]
 }

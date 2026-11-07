@@ -3602,6 +3602,28 @@
           "description": "将 DeepSeek 官方 API 作为单一 CLIProxyAPI 服务商接入，支持动态模型发现和共享 API 密钥池。原生支持 OpenAI Chat Completions、OpenAI Responses 与 Anthropic Messages，并可转换 Gemini GenerateContent，支持流式响应、工具调用和推理。借助 CLIProxyAPI 完成密钥轮换、重试与冷却，可查询所选凭证的账户余额，并分别汇总人民币和美元余额。"
         }
       }
+    },
+    {
+      "id": "mistral",
+      "name": "Mistral",
+      "description": "Connects the Mistral API to CLIProxyAPI for OpenAI Chat Completions, Responses, Claude, and Gemini clients. Manages multiple API keys with priority, failover, and cooldown backoff, plus upstream model discovery, model tests, reasoning controls, and request statistics.",
+      "author": "kaecho",
+      "version": "0.3.2",
+      "repository": "https://github.com/kaecho/mistral",
+      "logo": "https://avatars.githubusercontent.com/u/315656146?s=64&v=4",
+      "homepage": "https://github.com/kaecho/mistral",
+      "license": "MIT",
+      "tags": [
+        "Provider",
+        "Mistral",
+        "Failover",
+        "Reasoning"
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "把 Mistral API 接入 CLIProxyAPI，支持 OpenAI Chat Completions、Responses、Claude 和 Gemini 客户端。提供多凭据优先级与失败切换、冷却退避、上游模型发现、模型测试、思考档位覆盖和请求统计。"
+        }
+      }
     }
   ]
 }

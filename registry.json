@@ -3602,6 +3602,29 @@
           "description": "将 DeepSeek 官方 API 作为单一 CLIProxyAPI 服务商接入，支持动态模型发现和共享 API 密钥池。原生支持 OpenAI Chat Completions、OpenAI Responses 与 Anthropic Messages，并可转换 Gemini GenerateContent，支持流式响应、工具调用和推理。借助 CLIProxyAPI 完成密钥轮换、重试与冷却，可查询所选凭证的账户余额，并分别汇总人民币和美元余额。"
         }
       }
+    },
+    {
+      "id": "step2api",
+      "name": "Step2API",
+      "description": "StepFun AI Studio (studio.stepfun.com) native CLIProxyAPI C ABI plugin. Proxies StepFun Playground & Reasoning models (step-3.5-flash, step-3.7-flash, step-5-preview) via native SSE stream with thinking, tools, multi-account pool and token auto-refresh.",
+      "author": "WenPaul",
+      "version": "1.0.9",
+      "repository": "https://github.com/wenbaolu6666-design/cpa-plugin-step2api",
+      "homepage": "https://github.com/wenbaolu6666-design/cpa-plugin-step2api",
+      "license": "MIT",
+      "tags": [
+        "Provider",
+        "Executor",
+        "Scheduler",
+        "Management",
+        "StepFun",
+        "Quota"
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "阶跃星辰 AI Studio (studio.stepfun.com) 的 CLIProxyAPI 原生插件。将网页端漫游与思考模型（step-3.5-flash、step-3.7-flash、step-5-preview）反代为 OpenAI/Claude/Responses 多协议兼容接口，支持长上下文缓存、思考流式透传与 Token 自动续期。"
+        }
+      }
     }
   ]
 }

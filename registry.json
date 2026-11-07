@@ -3309,6 +3309,7 @@
       "description": "Exports every proxied request as an OpenTelemetry trace (OTLP/HTTP JSON) with one child span per upstream attempt, so retries and fallbacks are visible. Records models, providers, tokens, latency, TTFT and errors with client keys hashed and secrets redacted. Works with Langfuse, Jaeger, Grafana Tempo, Datadog, Honeycomb and any OTLP backend.",
       "author": "abdulmoiz65",
       "repository": "https://github.com/abdulmoiz65/LLM-Tracing-Plugin",
+      "logo": "https://raw.githubusercontent.com/abdulmoiz65/LLM-Tracing-Plugin/main/assets/logo.png",
       "homepage": "https://github.com/abdulmoiz65/LLM-Tracing-Plugin",
       "license": "MIT",
       "tags": [

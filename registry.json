@@ -3247,7 +3247,7 @@
       "name": "AIStudio2API",
       "description": "Port of Mag1cFall/AIStudio2API as a native CLIProxyAPI plugin. Proxies Google AI Studio Playground & Build models (Gemini 3.8 Flash, Build, Veo, Imagen, TTS) via in-process SpiderMonkey BotGuard WAA VM.",
       "author": "jianli9158 (Upstream: Mag1cFall)",
-      "version": "1.1.4",
+      "version": "1.1.8",
       "repository": "https://github.com/jianli9158/cpa-plugin-aistudio2api",
       "homepage": "https://github.com/jianli9158/cpa-plugin-aistudio2api",
       "license": "MIT",

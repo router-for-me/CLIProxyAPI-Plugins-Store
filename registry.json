@@ -3392,13 +3392,13 @@
       }
     },
     {
-      "id": "freetier2api",
+      "id": "freetier2api-fork",
       "name": "FreeTier 2API",
       "description": "Adds free-tier AI provider accounts, quota tracking, check-in tasks, OAuth/API-key login, and OpenAI/Anthropic-compatible routing to CLIProxyAPI.",
       "author": "Kyresn",
-      "version": "0.1.24",
-      "repository": "https://github.com/Kyresn/CLIProxyAPI-freetier2api-plugin",
-      "homepage": "https://github.com/Kyresn/CLIProxyAPI-freetier2api-plugin",
+      "version": "0.1.26",
+      "repository": "https://github.com/Kyresn/FreeTier-2API-Plugin-fork",
+      "homepage": "https://github.com/Kyresn/FreeTier-2API-Plugin-fork",
       "license": "MIT",
       "tags": [
         "Provider",

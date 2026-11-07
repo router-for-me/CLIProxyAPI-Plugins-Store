@@ -3602,6 +3602,26 @@
           "description": "将 DeepSeek 官方 API 作为单一 CLIProxyAPI 服务商接入，支持动态模型发现和共享 API 密钥池。原生支持 OpenAI Chat Completions、OpenAI Responses 与 Anthropic Messages，并可转换 Gemini GenerateContent，支持流式响应、工具调用和推理。借助 CLIProxyAPI 完成密钥轮换、重试与冷却，可查询所选凭证的账户余额，并分别汇总人民币和美元余额。"
         }
       }
+    },
+    {
+      "id": "cpa-codex-reset-manager",
+      "name": "CPA Codex Reset Manager",
+      "description": "Persistent per-account Codex reset policies, crash-safe redemption journals, and quota pace reminders in a bilingual dashboard.",
+      "author": "Autsunset",
+      "repository": "https://github.com/Autsunset/cpa-codex-reset-manager",
+      "homepage": "https://github.com/Autsunset/cpa-codex-reset-manager",
+      "license": "MIT",
+      "tags": [
+        "Management",
+        "Codex",
+        "Quota",
+        "Dashboard"
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "持久保存每个 Codex 账号的自动重置策略，通过兑换日志防止重启后重复消耗，并在双语看板中提醒何时加快或减缓用量。"
+        }
+      }
     }
   ]
 }

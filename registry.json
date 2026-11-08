@@ -3608,7 +3608,7 @@
       "name": "Step2API",
       "description": "StepFun AI Studio (studio.stepfun.com) native CLIProxyAPI C ABI plugin. Proxies StepFun Playground & Reasoning models (step-3.5-flash, step-3.7-flash, step-5-preview) via native SSE stream with thinking, tools, multi-account pool and token auto-refresh.",
       "author": "WenPaul",
-      "version": "1.0.13",
+      "version": "1.0.14",
       "repository": "https://github.com/wenbaolu6666-design/cpa-plugin-step2api",
       "homepage": "https://github.com/wenbaolu6666-design/cpa-plugin-step2api",
       "license": "MIT",

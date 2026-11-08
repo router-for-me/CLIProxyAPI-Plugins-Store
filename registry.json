@@ -3480,30 +3480,6 @@
       }
     },
     {
-      "id": "omc-zcode-oauth",
-      "name": "OMC ZCode OAuth",
-      "description": "Native ZCode provider for CLIProxyAPI with dual-portal Z.ai / BigModel OAuth login, model discovery, Anthropic Messages execution, Coding Plan and gift routing, and normalized quota. Developed as part of the Oh-My-CPA ecosystem.",
-      "author": "JUNZE",
-      "version": "0.2.2",
-      "repository": "https://github.com/WizisCool/omc-zcode-oauth",
-      "logo": "https://raw.githubusercontent.com/WizisCool/omc-zcode-oauth/main/assets/logo.png",
-      "homepage": "https://github.com/WizisCool/omc-zcode-oauth",
-      "license": "MIT",
-      "tags": [
-        "Provider",
-        "OAuth",
-        "Quota",
-        "GLM",
-        "ZCode",
-        "Oh-My-CPA"
-      ],
-      "locales": {
-        "zh-CN": {
-          "description": "CLIProxyAPI 的原生 ZCode 提供商插件，支持 Z.ai / BigModel 双入口 OAuth 登录、模型发现、Anthropic Messages 请求、Coding Plan 与赠送额度路由，以及标准化配额展示，由 Oh-My-CPA 生态开发维护。"
-        }
-      }
-    },
-    {
       "id": "opencode-cpa-plus",
       "name": "OpenCode Plus",
       "description": "OpenCode Go provider for CLIProxyAPI and CPA Manager Plus. Every API key becomes a CPA credential that is created, restored and removed together with the key list, with per-credential quota. Stable session IDs per conversation, optional model whitelist, and a Chinese/English settings page under plugin pages. Unofficial; tested only on the OpenCode Go plan.",

@@ -3650,6 +3650,27 @@
         }
       },
       "logo": "https://raw.githubusercontent.com/Autsunset/cpa-codex-reset-manager/main/logo.png"
+    },
+    {
+      "id": "freetier2api-fork",
+      "name": "FreeTier 2API",
+      "description": "Adds free-tier AI provider accounts, quota tracking, check-in tasks, OAuth/API-key login, and OpenAI/Anthropic-compatible routing to CLIProxyAPI.",
+      "author": "Kyresn",
+      "version": "0.1.27",
+      "repository": "https://github.com/Kyresn/FreeTier-2API-Plugin-fork",
+      "homepage": "https://github.com/Kyresn/FreeTier-2API-Plugin-fork",
+      "license": "MIT",
+      "tags": [
+        "Provider",
+        "Quota",
+        "Management",
+        "OAuth"
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "为 CLIProxyAPI 接入多个免费额度 AI 提供商，支持账号登录、额度查询、签到任务、套餐领取及 OpenAI/Anthropic 兼容路由。"
+        }
+      }
     }
   ]
 }

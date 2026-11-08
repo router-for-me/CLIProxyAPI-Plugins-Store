@@ -3650,6 +3650,26 @@
         }
       },
       "logo": "https://raw.githubusercontent.com/Autsunset/cpa-codex-reset-manager/main/logo.png"
+    },
+    {
+      "id": "claude-cache-keepalive",
+      "name": "CPA Cache Keep",
+      "description": "Keeps selected Claude conversation prompt caches warm through scheduled 1-token replays, with persistent sessions and an embedded light/dark management UI.",
+      "author": "YHonc (based on Banben07)",
+      "repository": "https://github.com/YHonc/cpa-cache-keep",
+      "homepage": "https://github.com/YHonc/cpa-cache-keep",
+      "license": "MIT",
+      "tags": [
+        "Management",
+        "Interceptor",
+        "Claude",
+        "Cache"
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "按对话选择并定时重放最小生成请求，为 Claude prompt cache 续期；支持新请求自动顺延、会话持久化和内嵌明暗主题管理界面。"
+        }
+      }
     }
   ]
 }

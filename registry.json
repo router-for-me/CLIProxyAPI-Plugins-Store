@@ -3657,6 +3657,8 @@
       "description": "A CLIProxyAPI provider plugin that manages Loomy accounts and routes compatible chat requests through the available accounts.",
       "author": "MYSTERY2019",
       "repository": "https://github.com/MYSTERY2019/Loomy2api-CPAMC",
+      "logo": "https://raw.githubusercontent.com/MYSTERY2019/Loomy2api-CPAMC/main/docs/assets/logo.png",
+      "version": "1.0.1",
       "homepage": "https://github.com/MYSTERY2019/Loomy2api-CPAMC",
       "license": "MIT",
       "tags": [

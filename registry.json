@@ -3650,6 +3650,25 @@
         }
       },
       "logo": "https://raw.githubusercontent.com/Autsunset/cpa-codex-reset-manager/main/logo.png"
+    },
+    {
+      "id": "image-param-injector",
+      "name": "CPA Image Parameter Injector",
+      "description": "Injects image request parameters such as size, image count, aspect ratio, and quality into prompts for CLIProxyAPI image generation and editing requests.",
+      "author": "kjx372124896",
+      "repository": "https://github.com/kjx372124896/CPA-Image-Parameter-Injector",
+      "homepage": "https://github.com/kjx372124896/CPA-Image-Parameter-Injector",
+      "license": "MIT",
+      "tags": [
+        "Interceptor",
+        "Image Generation",
+        "Prompt"
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "将图片请求中的 size、n、比例、质量等参数转换为明确的 Prompt 约束，支持 /v1/images/generations 与 /v1/images/edits；保留原始请求参数及 multipart 图片/MASK 文件。"
+        }
+      }
     }
   ]
 }

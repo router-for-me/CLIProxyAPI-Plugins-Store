@@ -3650,6 +3650,22 @@
         }
       },
       "logo": "https://raw.githubusercontent.com/Autsunset/cpa-codex-reset-manager/main/logo.png"
+    },
+    {
+      "id": "ollama-usage-monitor",
+      "name": "Ollama Cloud Usage Monitor",
+      "description": "Adds a read-only Ollama Usage sidebar dashboard showing session and weekly quotas, reset times, and credit balances through Ollama's official API, protected by a separate dashboard access token. Works with stock CPA without backend patches.",
+      "author": "seabee33",
+      "repository": "https://github.com/seabee33/CPA-ollama-usage-monitor-plugin",
+      "homepage": "https://github.com/seabee33/CPA-ollama-usage-monitor-plugin",
+      "license": "MIT",
+      "tags": [
+        "Management",
+        "Quota",
+        "Monitoring",
+        "Ollama",
+        "Dashboard"
+      ]
     }
   ]
 }

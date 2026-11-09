@@ -3656,7 +3656,7 @@
       "name": "Mistral",
       "description": "Connects the Mistral API to CLIProxyAPI for OpenAI Chat Completions, Responses, Claude, and Gemini clients. Manages multiple API keys with priority, failover, and cooldown backoff, plus upstream model discovery, model tests, reasoning controls, and request statistics.",
       "author": "kaecho",
-      "version": "0.4.1",
+      "version": "0.4.3",
       "repository": "https://github.com/kaecho/mistral",
       "logo": "https://avatars.githubusercontent.com/u/315656146?s=64&v=4",
       "homepage": "https://github.com/kaecho/mistral",

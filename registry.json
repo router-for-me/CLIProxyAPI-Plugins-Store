@@ -3650,6 +3650,21 @@
         }
       },
       "logo": "https://raw.githubusercontent.com/Autsunset/cpa-codex-reset-manager/main/logo.png"
+    },
+    {
+      "id": "cliproxy-speedometer",
+      "name": "Token Speedometer",
+      "description": "Live tokens-per-second speedometer with an embedded dashboard, broken down by provider, client, model, and credential.",
+      "author": "dizys",
+      "repository": "https://github.com/dizys/cliproxycli-speedometer-plugin",
+      "logo": "https://raw.githubusercontent.com/dizys/cliproxycli-speedometer-plugin/main/assets/icon.svg",
+      "homepage": "https://github.com/dizys/cliproxycli-speedometer-plugin",
+      "license": "MIT",
+      "tags": [
+        "Usage",
+        "Monitoring",
+        "Dashboard"
+      ]
     }
   ]
 }

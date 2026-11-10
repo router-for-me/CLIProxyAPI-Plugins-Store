@@ -3668,6 +3668,26 @@
           "description": "按对话选择并定时重放最小生成请求，为 Claude prompt cache 续期；支持新请求自动顺延、会话持久化和内嵌明暗主题管理界面。"
         }
       }
+    },
+    {
+      "id": "newapi-checkin",
+      "name": "NewAPI Daily Check-in",
+      "description": "Schedules daily check-ins for multiple NewAPI site accounts, with PAT or session binding, manual runs, credential status, execution history, and site-reported reward totals in the CPA management UI.",
+      "author": "5ifish",
+      "repository": "https://github.com/5iFish/cpa-plugin-newapi-checkin",
+      "homepage": "https://github.com/5iFish/cpa-plugin-newapi-checkin",
+      "license": "MIT",
+      "tags": [
+        "Management",
+        "NewAPI",
+        "Check-in"
+      ],
+      "locales": {
+        "zh-CN": {
+          "name": "NewAPI 自动签到",
+          "description": "在 CPA 管理界面绑定多个 NewAPI 站点账号，支持 PAT 或独立会话绑定、每日自动签到、手动执行、凭证状态、执行历史和站点累计奖励查询。"
+        }
+      }
     }
   ]
 }

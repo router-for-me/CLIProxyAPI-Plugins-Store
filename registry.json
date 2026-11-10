@@ -3679,10 +3679,16 @@
       "homepage": "https://github.com/dizys/cliproxycli-speedometer-plugin",
       "license": "MIT",
       "tags": [
+        "Management",
         "Usage",
         "Monitoring",
         "Dashboard"
-      ]
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "实时显示每秒生成令牌数的速度计，内置仪表盘，可按服务商、客户端、模型和凭证拆分查看。"
+        }
+      }
     }
   ]
 }

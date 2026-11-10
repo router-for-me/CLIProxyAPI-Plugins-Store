@@ -3668,6 +3668,27 @@
           "description": "按对话选择并定时重放最小生成请求，为 Claude prompt cache 续期；支持新请求自动顺延、会话持久化和内嵌明暗主题管理界面。"
         }
       }
+    },
+    {
+      "id": "cliproxy-speedometer",
+      "name": "Token Speedometer",
+      "description": "Live tokens-per-second speedometer with an embedded dashboard, broken down by provider, client, model, and credential.",
+      "author": "dizys",
+      "repository": "https://github.com/dizys/cliproxycli-speedometer-plugin",
+      "logo": "https://raw.githubusercontent.com/dizys/cliproxycli-speedometer-plugin/main/assets/icon.svg",
+      "homepage": "https://github.com/dizys/cliproxycli-speedometer-plugin",
+      "license": "MIT",
+      "tags": [
+        "Management",
+        "Usage",
+        "Monitoring",
+        "Dashboard"
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "实时显示每秒生成令牌数的速度计，内置仪表盘，可按服务商、客户端、模型和凭证拆分查看。"
+        }
+      }
     }
   ]
 }

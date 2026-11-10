@@ -3654,9 +3654,9 @@
     {
       "id": "doujie-oauth",
       "name": "Doujie OAuth",
-      "description": "Adds Doubao/Doujie provider support to CLIProxyAPI with explicit domestic and Dola QR entries, desktop session import, native Anthropic/Chat/Responses execution, quota windows, and reset cards.",
+      "description": "Adds Doubao/Doujie provider support to CLIProxyAPI with explicit domestic and Dola browser/desktop sign-in, native Anthropic/Chat/Responses execution, video generation, quota windows, and reset cards.",
       "author": "wangxiaoshuai136",
-      "version": "0.1.1",
+      "version": "0.2.0",
       "repository": "https://github.com/wangxiaoshuai136/doujie-oauth",
       "logo": "https://raw.githubusercontent.com/wangxiaoshuai136/doujie-oauth/main/assets/logo.png",
       "homepage": "https://github.com/wangxiaoshuai136/doujie-oauth",
@@ -3670,7 +3670,7 @@
       ],
       "locales": {
         "zh-CN": {
-          "description": "为 CLIProxyAPI 增加豆包/豆姐提供商支持，包含国内版与 Dola 国际版显式扫码入口、桌面会话导入、原生 Anthropic/Chat/Responses 执行、配额窗口与重置卡。"
+          "description": "为 CLIProxyAPI 增加豆包/豆姐提供商支持，包含国内版与 Dola 国际版显式浏览器/桌面端登录、原生 Anthropic/Chat/Responses 执行、视频生成、配额窗口与重置卡。"
         }
       }
     }

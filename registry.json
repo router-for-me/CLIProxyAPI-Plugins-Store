@@ -3710,6 +3710,26 @@
           "description": "通过 CLIProxyAPI 使用 Loomy 账号池：管理多个 Loomy 账号，把兼容的聊天请求路由到可用账号，支持会话续期、每日签到、余额与用量查看和双语控制台。"
         }
       }
+    },
+    {
+      "id": "newapi-checkin",
+      "name": "NewAPI Daily Check-in",
+      "description": "Schedules daily check-ins for multiple NewAPI site accounts, with PAT or session binding, manual runs, credential status, execution history, and site-reported reward totals in the CPA management UI.",
+      "author": "5ifish",
+      "repository": "https://github.com/5iFish/cpa-plugin-newapi-checkin",
+      "homepage": "https://github.com/5iFish/cpa-plugin-newapi-checkin",
+      "license": "MIT",
+      "tags": [
+        "Management",
+        "NewAPI",
+        "Check-in"
+      ],
+      "locales": {
+        "zh-CN": {
+          "name": "NewAPI 自动签到",
+          "description": "在 CPA 管理界面绑定多个 NewAPI 站点账号，支持 PAT 或独立会话绑定、每日自动签到、手动执行、凭证状态、执行历史和站点累计奖励查询。"
+        }
+      }
     }
   ]
 }

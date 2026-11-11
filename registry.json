@@ -3689,6 +3689,27 @@
           "description": "实时显示每秒生成令牌数的速度计，内置仪表盘，可按服务商、客户端、模型和凭证拆分查看。"
         }
       }
+    },
+    {
+      "id": "loomy",
+      "name": "Loomy2api-CPAMC",
+      "description": "A CLIProxyAPI provider plugin that manages Loomy accounts and routes compatible chat requests through the available accounts.",
+      "author": "MYSTERY2019",
+      "repository": "https://github.com/MYSTERY2019/Loomy2api-CPAMC",
+      "logo": "https://raw.githubusercontent.com/MYSTERY2019/Loomy2api-CPAMC/main/docs/assets/logo.png",
+      "version": "1.0.4",
+      "homepage": "https://github.com/MYSTERY2019/Loomy2api-CPAMC",
+      "license": "MIT",
+      "tags": [
+        "Provider",
+        "Loomy",
+        "Quota"
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "通过 CLIProxyAPI 使用 Loomy 账号池：管理多个 Loomy 账号，把兼容的聊天请求路由到可用账号，支持会话续期、每日签到、余额与用量查看和双语控制台。"
+        }
+      }
     }
   ]
 }

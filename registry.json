@@ -3737,6 +3737,7 @@
       "description": "Per-client-key names and notes stored server-side, binding of each CPA API key to specific upstream credentials (fail closed), model allow/deny with wildcards, and per-key filtered /v1/models lists across OpenAI, Claude, Gemini and Codex formats, with a management page.",
       "author": "iiimabbie",
       "repository": "https://github.com/iiimabbie/cpa-keyring",
+      "logo": "https://raw.githubusercontent.com/iiimabbie/cpa-keyring/main/logo.png",
       "homepage": "https://github.com/iiimabbie/cpa-keyring",
       "license": "MIT",
       "tags": [

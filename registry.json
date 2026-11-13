@@ -3730,6 +3730,27 @@
           "description": "在 CPA 管理界面绑定多个 NewAPI 站点账号，支持 PAT 或独立会话绑定、每日自动签到、手动执行、凭证状态、执行历史和站点累计奖励查询。"
         }
       }
+    },
+    {
+      "id": "cliproxy-tracing",
+      "name": "CLIProxy Tracing",
+      "description": "Exports every proxied request as an OpenTelemetry trace over OTLP/HTTP, with one server span per request and one client span per upstream attempt, so retries and credential fallbacks appear as separate spans. Spans follow the OpenTelemetry GenAI conventions: operation name, session ID, token counts, TTFT, model and tool definitions, plus prompts, completions, tool calls and reasoning as message parts when content capture is enabled. Works with PostHog, Langfuse, Grafana Tempo, Jaeger and any OTLP backend.",
+      "author": "dizys",
+      "repository": "https://github.com/dizys/cliproxycli-tracing-plugin",
+      "logo": "https://raw.githubusercontent.com/dizys/cliproxycli-tracing-plugin/main/assets/icon.svg",
+      "homepage": "https://github.com/dizys/cliproxycli-tracing-plugin",
+      "license": "MIT",
+      "tags": [
+        "Observability",
+        "Tracing",
+        "Monitoring",
+        "Usage"
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "将经由 CLIProxyAPI 的每个请求导出为 OTLP/HTTP OpenTelemetry 追踪，每个请求一个服务端 Span，每次上游尝试（含重试与凭据回退）各一个客户端 Span。Span 遵循 OpenTelemetry GenAI 语义约定，包含操作名、会话 ID、Token 用量、首字时间（TTFT）、模型与工具定义；开启内容捕获后还会记录提示词、补全、工具调用与推理内容。兼容 PostHog、Langfuse、Grafana Tempo、Jaeger 等任意 OTLP 后端。"
+        }
+      }
     }
   ]
 }

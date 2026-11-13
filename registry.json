@@ -3733,7 +3733,7 @@
     },
     {
       "id": "keyring",
-      "name": "Keyring",
+      "name": "CPA Keyring",
       "description": "Per-client-key names and notes stored server-side, binding of each CPA API key to specific upstream credentials (fail closed), model allow/deny with wildcards, and per-key filtered /v1/models lists across OpenAI, Claude, Gemini and Codex formats, with a management page.",
       "author": "iiimabbie",
       "repository": "https://github.com/iiimabbie/cpa-keyring",
@@ -3747,7 +3747,7 @@
       ],
       "locales": {
         "zh-CN": {
-          "name": "Keyring 密钥管理",
+          "name": "CPA Keyring 密钥管理",
           "description": "为每个 CPA API Key 在服务端保存名称与备注、绑定指定上游账号（无可用账号时直接拒绝）、按通配符允许或禁止模型，并按 Key 过滤 /v1/models 模型列表，附管理页面。"
         }
       }

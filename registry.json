@@ -3730,6 +3730,27 @@
           "description": "在 CPA 管理界面绑定多个 NewAPI 站点账号，支持 PAT 或独立会话绑定、每日自动签到、手动执行、凭证状态、执行历史和站点累计奖励查询。"
         }
       }
+    },
+    {
+      "id": "keyring",
+      "name": "CPA Keyring",
+      "description": "Per-client-key names and notes stored server-side, binding of each CPA API key to specific upstream credentials (fail closed), model allow/deny with wildcards, and per-key filtered /v1/models lists across OpenAI, Claude, Gemini and Codex formats, with a management page.",
+      "author": "iiimabbie",
+      "repository": "https://github.com/iiimabbie/cpa-keyring",
+      "logo": "https://raw.githubusercontent.com/iiimabbie/cpa-keyring/main/logo.png",
+      "homepage": "https://github.com/iiimabbie/cpa-keyring",
+      "license": "MIT",
+      "tags": [
+        "Management",
+        "Access",
+        "Routing"
+      ],
+      "locales": {
+        "zh-CN": {
+          "name": "CPA Keyring 密钥管理",
+          "description": "为每个 CPA API Key 在服务端保存名称与备注、绑定指定上游账号（无可用账号时直接拒绝）、按通配符允许或禁止模型，并按 Key 过滤 /v1/models 模型列表，附管理页面。"
+        }
+      }
     }
   ]
 }

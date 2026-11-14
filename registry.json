@@ -3730,6 +3730,27 @@
           "description": "在 CPA 管理界面绑定多个 NewAPI 站点账号，支持 PAT 或独立会话绑定、每日自动签到、手动执行、凭证状态、执行历史和站点累计奖励查询。"
         }
       }
+    },
+    {
+      "id": "abliteratedllm",
+      "name": "AbliteratedLLM",
+      "description": "Adds AbliteratedLLM (api.abliteratedllm.dev) as an API-key provider with interactive login, live model catalog discovery from the public GET /v1/models, and OpenAI Chat Completions execution with streaming and reasoning levels.",
+      "author": "abliteratedllm",
+      "repository": "https://github.com/abliteratedllm/cliproxyapi-plugin",
+      "logo": "https://raw.githubusercontent.com/abliteratedllm/cliproxyapi-plugin/main/assets/logo.png",
+      "homepage": "https://github.com/abliteratedllm/cliproxyapi-plugin",
+      "license": "MIT",
+      "tags": [
+        "Provider",
+        "Auth",
+        "Executor",
+        "Management"
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "添加 AbliteratedLLM（api.abliteratedllm.dev）作为 API Key 凭据提供商，支持交互式登录、基于公开 GET /v1/models 的实时模型目录发现，以及支持流式响应和推理档位的 OpenAI Chat Completions 执行。"
+        }
+      }
     }
   ]
 }

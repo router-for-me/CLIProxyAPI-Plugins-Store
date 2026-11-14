@@ -3750,6 +3750,27 @@
           "description": "将 Claude 与 Codex 订阅请求优先路由至每周配额最先重置的账号；用尽 5 小时或每周配额的账号会移至队尾，直到配额重置后再恢复使用，并通过状态页展示各账号的剩余配额。"
         }
       }
+    },
+    {
+      "id": "abliteratedllm",
+      "name": "AbliteratedLLM",
+      "description": "Adds AbliteratedLLM (api.abliteratedllm.dev) as an API-key provider with interactive login, live model catalog discovery from the public GET /v1/models, and OpenAI Chat Completions execution with streaming and reasoning levels.",
+      "author": "abliteratedllm",
+      "repository": "https://github.com/abliteratedllm/cliproxyapi-plugin",
+      "logo": "https://raw.githubusercontent.com/abliteratedllm/cliproxyapi-plugin/main/assets/logo.png",
+      "homepage": "https://github.com/abliteratedllm/cliproxyapi-plugin",
+      "license": "MIT",
+      "tags": [
+        "Provider",
+        "Auth",
+        "Executor",
+        "Management"
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "添加 AbliteratedLLM（api.abliteratedllm.dev）作为 API Key 凭据提供商，支持交互式登录、基于公开 GET /v1/models 的实时模型目录发现，以及支持流式响应和推理档位的 OpenAI Chat Completions 执行。"
+        }
+      }
     }
   ]
 }

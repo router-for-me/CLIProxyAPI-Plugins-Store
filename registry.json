@@ -3730,6 +3730,18 @@
           "description": "在 CPA 管理界面绑定多个 NewAPI 站点账号，支持 PAT 或独立会话绑定、每日自动签到、手动执行、凭证状态、执行历史和站点累计奖励查询。"
         }
       }
+    },
+    {
+      "id": "media-studio",
+      "name": "Media Studio",
+      "description": "Image, speech, realtime voice and video playground using the proxy's existing models and authenticated media routes. Includes model discovery and capability checks; access depends on configured backends.",
+      "author": "Yousha-dev",
+      "repository": "https://github.com/Yousha-dev/media-studio",
+      "homepage": "https://github.com/Yousha-dev/media-studio",
+      "license": "MIT",
+      "tags": [
+        "Management"
+      ]
     }
   ]
 }

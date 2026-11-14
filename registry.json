@@ -3730,6 +3730,26 @@
           "description": "在 CPA 管理界面绑定多个 NewAPI 站点账号，支持 PAT 或独立会话绑定、每日自动签到、手动执行、凭证状态、执行历史和站点累计奖励查询。"
         }
       }
+    },
+    {
+      "id": "reset-first",
+      "name": "Reset First",
+      "description": "Routes Claude and Codex subscription requests to the account whose weekly quota resets soonest, moves accounts that use up their 5-hour or weekly limit to the end until the limit resets, and shows each account's remaining quota on a status page.",
+      "author": "hosmelq",
+      "repository": "https://github.com/hosmelq/cliproxyapi-reset-first",
+      "license": "MIT",
+      "tags": [
+        "Scheduler",
+        "Quota",
+        "Dashboard",
+        "Claude",
+        "Codex"
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "将 Claude 与 Codex 订阅请求优先路由至每周配额最先重置的账号；用尽 5 小时或每周配额的账号会移至队尾，直到配额重置后再恢复使用，并通过状态页展示各账号的剩余配额。"
+        }
+      }
     }
   ]
 }

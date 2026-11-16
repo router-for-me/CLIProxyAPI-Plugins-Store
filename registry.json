@@ -3815,6 +3815,18 @@
           "description": "使用代理现有模型和经身份验证的媒体接口体验图像、语音、实时语音及视频功能，支持模型发现和能力检查；可用性取决于已配置的后端。"
         }
       }
+    },
+    {
+      "id": "expose-quota",
+      "name": "Expose Quota",
+      "description": "Exposes redacted OAuth provider quota snapshots over an authenticated resource endpoint.",
+      "author": "mauriciozaffari",
+      "repository": "https://github.com/mauriciozaffari/expose-quota",
+      "license": "MIT",
+      "tags": [
+        "Quota",
+        "Monitoring"
+      ]
     }
   ]
 }

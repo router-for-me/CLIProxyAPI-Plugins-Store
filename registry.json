@@ -3788,6 +3788,21 @@
           "description": "使用代理现有模型和经身份验证的媒体接口体验图像、语音、实时语音及视频功能，支持模型发现和能力检查；可用性取决于已配置的后端。"
         }
       }
+    },
+    {
+      "id": "weekly-quota-router",
+      "name": "Weekly Quota Router",
+      "description": "Claude scheduler: earliest weekly reset among usable accounts, five-hour fallback, and return after fresh quota evidence. Verified on CLIProxyAPI 8.0.72, Apple Silicon macOS.",
+      "author": "Carl Moebis",
+      "repository": "https://github.com/moebis/cliproxyapi-weekly-quota-router",
+      "homepage": "https://github.com/moebis/cliproxyapi-weekly-quota-router",
+      "license": "MIT",
+      "tags": [
+        "Scheduler",
+        "Routing",
+        "Quota",
+        "Claude"
+      ]
     }
   ]
 }

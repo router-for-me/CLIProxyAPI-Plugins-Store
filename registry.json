@@ -3815,6 +3815,27 @@
           "description": "使用代理现有模型和经身份验证的媒体接口体验图像、语音、实时语音及视频功能，支持模型发现和能力检查；可用性取决于已配置的后端。"
         }
       }
+    },
+    {
+      "id": "cpa-workbuddy",
+      "name": "CPA WorkBuddy",
+      "description": "CLIProxyAPI dual-site (CN & Global) WorkBuddy provider plugin with browser OAuth login, dynamic model discovery, configurable wb/ and wb-ai/ prefixes, OpenAI/Responses/Claude/Gemini protocol support, quota tracking, and scheduled daily check-in/bonus.",
+      "author": "ygq-future",
+      "repository": "https://github.com/ygq-future/cpa-workbuddy",
+      "homepage": "https://github.com/ygq-future/cpa-workbuddy",
+      "license": "MIT",
+      "tags": [
+        "Provider",
+        "Auth",
+        "Executor",
+        "Quota",
+        "Management"
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "CLIProxyAPI 的 WorkBuddy 国内 / 国际双站点插件，支持浏览器登录、动态模型发现与 wb/、wb-ai/ 前缀配置、OpenAI/Responses/Claude/Gemini 四种协议、配额查询，以及每日定时签到与活跃点亮。"
+        }
+      }
     }
   ]
 }

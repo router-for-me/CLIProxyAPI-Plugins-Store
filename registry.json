@@ -2284,8 +2284,8 @@
       "name": "CodexReflow",
       "description": "Built to address GPT reasoning truncation and keep unfinished thinking going. Detects 518n-2 patterns (such as 516 tokens), continues eligible requests, and merges responses over HTTP/SSE and WebSocket. Fresh configurations automatically match standard GPT-5+ text model names, without manual lists.",
       "author": "LaoPiLao",
-      "repository": "https://github.com/LaoPiLao/cpa-plugin-codexreflow",
-      "homepage": "https://github.com/LaoPiLao/cpa-plugin-codexreflow",
+      "repository": "https://github.com/chatwithgod/reflow",
+      "homepage": "https://github.com/chatwithgod/reflow",
       "license": "MIT",
       "tags": [
         "Executor",

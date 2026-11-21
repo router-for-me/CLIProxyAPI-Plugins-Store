@@ -3852,6 +3852,29 @@
           "description": "简洁、美观、易用的 Mistral 接入面板，将 Mistral API 接入 CLIProxyAPI，提供 OpenAI 兼容的 Chat Completions，支持凭证管理、模型映射与请求日志。"
         }
       }
+    },
+    {
+      "id": "cpa-reductant",
+      "name": "CPA Reductant",
+      "description": "Reversible secret and PII redaction plugin for CLIProxyAPI powered by Magpie. Redacts requests and restores placeholders in JSON and SSE streaming responses across Claude, OpenAI, Responses, Gemini, and media protocols, with custom rules, local in-process AstrLink Guard NER inference, and a built-in management dashboard.",
+      "author": "Moraxyc",
+      "version": "0.1.0",
+      "repository": "https://github.com/Moraxyc/cpa-reductant",
+      "homepage": "https://github.com/Moraxyc/cpa-reductant",
+      "license": "MIT",
+      "tags": [
+        "Security",
+        "Privacy",
+        "Interceptor",
+        "Model Router",
+        "Streaming",
+        "Management"
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "基于 Magpie 的 CLIProxyAPI 可逆脱敏与响应还原插件。支持在 Claude、OpenAI、Responses、Gemini 及媒体协议的 JSON 与 SSE 流式请求/响应中自动脱敏密钥与个人隐私并还原占位符，提供自定义规则、进程内 AstrLink Guard 本地 PII 模型推理以及内置管理看板。"
+        }
+      }
     }
   ]
 }

@@ -3836,6 +3836,22 @@
           "description": "CLIProxyAPI 的 WorkBuddy 国内 / 国际双站点插件，支持浏览器登录、动态模型发现与 wb/、wb-ai/ 前缀配置、OpenAI/Responses/Claude/Gemini 四种协议、配额查询，以及每日定时签到与活跃点亮。"
         }
       }
+    },
+    {
+      "id": "mistral-bridge",
+      "name": "Mistral Bridge",
+      "description": "Simple, beautiful and easy-to-use Mistral access panel. Connects the Mistral API to CLIProxyAPI as an OpenAI-compatible Chat Completions provider, with credential management, model mapping, and request logs.",
+      "author": "RzMY",
+      "repository": "https://github.com/RzMY/MistralBridge",
+      "logo": "https://raw.githubusercontent.com/RzMY/MistralBridge/main/logo.png",
+      "homepage": "https://github.com/RzMY/MistralBridge",
+      "license": "MIT",
+      "tags": ["Provider", "Mistral", "Management", "Usage", "Logs"],
+      "locales": {
+        "zh-CN": {
+          "description": "简洁、美观、易用的 Mistral 接入面板，将 Mistral API 接入 CLIProxyAPI，提供 OpenAI 兼容的 Chat Completions，支持凭证管理、模型映射与请求日志。"
+        }
+      }
     }
   ]
 }

@@ -3842,7 +3842,7 @@
       "name": "Quota Auto-Balance",
       "description": "Automatically balances credential priority and weight based on remaining quota windows (5h, 7d, and per-model groups), while preserving and restoring manual user settings.",
       "author": "brownsoo",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "repository": "https://github.com/brownsoo/cpa-quota-auto-balance",
       "logo": "https://avatars.githubusercontent.com/u/5244407?s=64&v=4",
       "homepage": "https://github.com/brownsoo/cpa-quota-auto-balance",

@@ -3875,6 +3875,41 @@
           "description": "基于 Magpie 的 CLIProxyAPI 可逆脱敏与响应还原插件。支持在 Claude、OpenAI、Responses、Gemini 及媒体协议的 JSON 与 SSE 流式请求/响应中自动脱敏密钥与个人隐私并还原占位符，提供自定义规则、进程内 AstrLink Guard 本地 PII 模型推理以及内置管理看板。"
         }
       }
+    },
+    {
+      "id": "freecredits2api",
+      "name": "FreeCredits2API",
+      "description": "Connects multiple AI providers to CLIProxyAPI, with account and quota management, model discovery, inference, and scheduled tasks.",
+      "author": "jiandanc/Likhixang/UangSC",
+      "version": "0.2.0",
+      "repository": "https://github.com/UangSC/cpa-freecredits2api-plugin",
+      "homepage": "https://github.com/UangSC/cpa-freecredits2api-plugin",
+      "license": "MIT",
+      "tags": [
+        "Provider",
+        "WorkBuddy",
+        "Raccoon",
+        "AutoClaw",
+        "CodeBuddy",
+        "Qoder",
+        "QwenWork",
+        "OpenCode",
+        "Cline",
+        "ZCode",
+        "Trae",
+        "CodeArts",
+        "MiniMaxCode",
+        "TokenPlan",
+        "Auth",
+        "Quota",
+        "Management",
+        "Tasks"
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "将多个 AI 供应商接入 CLIProxyAPI，支持凭证管理、模型发现、推理、额度查询、每日签到以及可独立扩展的活动任务。"
+        }
+      }
     }
   ]
 }

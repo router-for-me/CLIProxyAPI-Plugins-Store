@@ -3846,7 +3846,13 @@
       "logo": "https://raw.githubusercontent.com/RzMY/MistralBridge/main/logo.png",
       "homepage": "https://github.com/RzMY/MistralBridge",
       "license": "MIT",
-      "tags": ["Provider", "Mistral", "Management", "Usage", "Logs"],
+      "tags": [
+        "Provider",
+        "Mistral",
+        "Management",
+        "Usage",
+        "Logs"
+      ],
       "locales": {
         "zh-CN": {
           "description": "简洁、美观、易用的 Mistral 接入面板，将 Mistral API 接入 CLIProxyAPI，提供 OpenAI 兼容的 Chat Completions，支持凭证管理、模型映射与请求日志。"
@@ -3873,6 +3879,28 @@
       "locales": {
         "zh-CN": {
           "description": "基于 Magpie 的 CLIProxyAPI 可逆脱敏与响应还原插件。支持在 Claude、OpenAI、Responses、Gemini 及媒体协议的 JSON 与 SSE 流式请求/响应中自动脱敏密钥与个人隐私并还原占位符，提供自定义规则、进程内 AstrLink Guard 本地 PII 模型推理以及内置管理看板。"
+        }
+      }
+    },
+    {
+      "id": "hkdf-meoo",
+      "name": "Meoo Panel (hkdf-meoo)",
+      "description": "Read-only Meoo (meoo.com) panel plugin: every account's points, plan, project and project-level AK, the gateway model catalogue with per-model availability, and the daily 2,000-point login reward driven by the account's own web session (stored locally, never echoed). Management-api only; it never touches model traffic.",
+      "author": "KISSHKDF",
+      "version": "2026.11.22.2",
+      "repository": "https://github.com/KISSHKDF/cpa-plugin-hkdf-meoo",
+      "logo": "https://raw.githubusercontent.com/KISSHKDF/cpa-plugin-hkdf-meoo/main/assets/logo.png",
+      "homepage": "https://github.com/KISSHKDF/cpa-plugin-hkdf-meoo",
+      "license": "MIT",
+      "tags": [
+        "Management",
+        "Panel",
+        "Meoo",
+        "Usage"
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "秒悟（meoo.com）只读面板插件：展示每个账号的积分、套餐、所属项目与项目级 AK、网关模型目录及各模型可用性，并支持用账号自身的网页会话（本地存储、从不回显）领取每日 2000 积分登录奖励。仅 management_api，不碰模型流量。"
         }
       }
     }

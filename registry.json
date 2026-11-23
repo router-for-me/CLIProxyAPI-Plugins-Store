@@ -3896,6 +3896,16 @@
           "description": "基于 Magpie 的 CLIProxyAPI 可逆脱敏与响应还原插件。支持在 Claude、OpenAI、Responses、Gemini 及媒体协议的 JSON 与 SSE 流式请求/响应中自动脱敏密钥与个人隐私并还原占位符，提供自定义规则、进程内 AstrLink Guard 本地 PII 模型推理以及内置管理看板。"
         }
       }
+    },
+    {
+      "id": "tailscale-identity",
+      "name": "Tailscale Identity",
+      "description": "通过 Tailscale 身份认证 CPA 客户端：tailnet 设备按登录身份映射到 API 主体，无需 API key；支持主机 tailscaled、内嵌 tsnet 节点（适用于 Docker）或 Tailscale Serve 身份头。 / Authenticates CPA clients by their Tailscale identity: tailnet devices map to API principals by login, with no API keys. Works with the host tailscaled, an embedded tsnet node (for Docker), or Tailscale Serve identity headers.",
+      "author": "1fc0nfig",
+      "repository": "https://github.com/1fc0nfig/cliproxy-tailscale",
+      "homepage": "https://github.com/1fc0nfig/cliproxy-tailscale",
+      "license": "MIT",
+      "tags": ["Auth", "Tailscale", "Network", "Identity"]
     }
   ]
 }

@@ -3896,6 +3896,26 @@
           "description": "基于 Magpie 的 CLIProxyAPI 可逆脱敏与响应还原插件。支持在 Claude、OpenAI、Responses、Gemini 及媒体协议的 JSON 与 SSE 流式请求/响应中自动脱敏密钥与个人隐私并还原占位符，提供自定义规则、进程内 AstrLink Guard 本地 PII 模型推理以及内置管理看板。"
         }
       }
+    },
+    {
+      "id": "codex-reorder",
+      "name": "Codex Reorder",
+      "description": "Codex multi-account scheduler: keeps each session on one account, spreads new sessions across accounts, and spends the weekly quota that expires soonest first. Includes a web dashboard, optional weekly-window warmup, and quota probing.",
+      "author": "Ca11back",
+      "repository": "https://github.com/Ca11back/cpa-codex-reorder",
+      "homepage": "https://github.com/Ca11back/cpa-codex-reorder",
+      "license": "MIT",
+      "tags": [
+        "Scheduler",
+        "Codex",
+        "Quota",
+        "Dashboard"
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "Codex 多账号调度：会话粘性、新会话分散、优先消耗临期周额度，附带 Web 面板、自动开窗与额度查询。"
+        }
+      }
     }
   ]
 }

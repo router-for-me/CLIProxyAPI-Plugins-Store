@@ -3911,6 +3911,22 @@
           "description": "通过 Tailscale 身份认证 CPA 客户端：tailnet 设备按登录身份映射到 API 主体，无需 API key；支持主机 tailscaled、内嵌 tsnet 节点（适用于 Docker）或 Tailscale Serve 身份头。"
         }
       }
+    },
+    {
+      "id": "antigravity-prompt-bridge",
+      "name": "Antigravity Prompt Bridge",
+      "description": "Normalizes system-instruction turns and optionally splits tool declarations for requests routed to Antigravity by CLIProxyAPI. The prompt restructuring is intended to avoid HTTP 429 risk controls potentially triggered by the request structure.",
+      "author": "ukiyo-dev",
+      "repository": "https://github.com/ukiyo-dev/antigravity-prompt-bridge",
+      "tags": [
+        "Antigravity",
+        "Request Normalizer"
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "在 CLIProxyAPI 中对发往 Antigravity 的请求进行系统提示词结构规范化，并可选地拆分工具声明。通过调整发往 Antigravity 的系统提示词结构，规避可能由请求结构触发的 HTTP 429 风控。"
+        }
+      }
     }
   ]
 }

@@ -3915,7 +3915,7 @@
     {
       "id": "antigravity-prompt-bridge",
       "name": "Antigravity Prompt Bridge",
-      "description": "Normalizes system-instruction turns and optionally splits tool declarations for requests routed to Antigravity by CLIProxyAPI.",
+      "description": "Normalizes system-instruction turns and optionally splits tool declarations for requests routed to Antigravity by CLIProxyAPI. The prompt restructuring is intended to avoid HTTP 429 risk controls potentially triggered by the request structure.",
       "author": "ukiyo-dev",
       "repository": "https://github.com/ukiyo-dev/antigravity-prompt-bridge",
       "tags": [
@@ -3924,7 +3924,7 @@
       ],
       "locales": {
         "zh-CN": {
-          "description": "在 CLIProxyAPI 中对发往 Antigravity 的请求进行系统提示词结构规范化，并可选地拆分工具声明。"
+          "description": "在 CLIProxyAPI 中对发往 Antigravity 的请求进行系统提示词结构规范化，并可选地拆分工具声明。通过调整发往 Antigravity 的系统提示词结构，规避可能由请求结构触发的 HTTP 429 风控。"
         }
       }
     }

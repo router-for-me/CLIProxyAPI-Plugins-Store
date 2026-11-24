@@ -3927,6 +3927,24 @@
           "description": "在 CLIProxyAPI 中对发往 Antigravity 的请求进行系统提示词结构规范化，并可选地拆分工具声明。通过调整发往 Antigravity 的系统提示词结构，规避可能由请求结构触发的 HTTP 429 风控。"
         }
       }
+    },
+    {
+      "id": "model-fingerprint-guard",
+      "name": "Model Fingerprint Guard",
+      "description": "Runs locally scored lm-detector challenges against selected OAuth credentials, tracks model mismatches and temporarily quarantines unhealthy credentials.",
+      "author": "Sh4peshifting",
+      "repository": "https://github.com/Sh4peshifting/cpa-model-fingerprint-guard",
+      "homepage": "https://github.com/Sh4peshifting/cpa-model-fingerprint-guard",
+      "license": "MIT",
+      "tags": [
+        "Management",
+        "Scheduler"
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "使用 lm-detector 在本地评分，检测指定 OAuth 认证的模型指纹，记录不一致结果并临时隔离异常认证。"
+        }
+      }
     }
   ]
 }

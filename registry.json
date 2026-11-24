@@ -3927,6 +3927,26 @@
           "description": "在 CLIProxyAPI 中对发往 Antigravity 的请求进行系统提示词结构规范化，并可选地拆分工具声明。通过调整发往 Antigravity 的系统提示词结构，规避可能由请求结构触发的 HTTP 429 风控。"
         }
       }
+    },
+    {
+      "id": "codex-reorder",
+      "name": "Codex Reorder",
+      "description": "Codex multi-account scheduler: keeps each session on one account, spreads new sessions across accounts, and spends the weekly quota that expires soonest first. Includes a web dashboard, optional weekly-window warmup, and quota probing.",
+      "author": "Ca11back",
+      "repository": "https://github.com/Ca11back/cpa-codex-reorder",
+      "homepage": "https://github.com/Ca11back/cpa-codex-reorder",
+      "license": "MIT",
+      "tags": [
+        "Scheduler",
+        "Codex",
+        "Quota",
+        "Dashboard"
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "Codex 多账号调度：会话粘性、新会话分散、优先消耗临期周额度，附带 Web 面板、自动开窗与额度查询。"
+        }
+      }
     }
   ]
 }

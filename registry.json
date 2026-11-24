@@ -3929,6 +3929,26 @@
       }
     },
     {
+      "id": "codex-reorder",
+      "name": "Codex Reorder",
+      "description": "Codex multi-account scheduler: keeps each session on one account, spreads new sessions across accounts, and spends the weekly quota that expires soonest first. Includes a web dashboard, optional weekly-window warmup, and quota probing.",
+      "author": "Ca11back",
+      "repository": "https://github.com/Ca11back/cpa-codex-reorder",
+      "homepage": "https://github.com/Ca11back/cpa-codex-reorder",
+      "license": "MIT",
+      "tags": [
+        "Scheduler",
+        "Codex",
+        "Quota",
+        "Dashboard"
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "Codex 多账号调度：会话粘性、新会话分散、优先消耗临期周额度，附带 Web 面板、自动开窗与额度查询。"
+        }
+      }
+    },
+    {
       "id": "model-fingerprint-guard",
       "name": "Model Fingerprint Guard",
       "description": "Runs locally scored lm-detector challenges against selected OAuth credentials, tracks model mismatches and temporarily quarantines unhealthy credentials.",

@@ -3465,27 +3465,6 @@
       }
     },
     {
-      "id": "cpa-pools-and-aliases",
-      "name": "Pools and Aliases",
-      "description": "Pool every subscription and API key that serves the same model under its plain model id: new accounts join automatically, model lists drop provider suffixes, optional 'pools only' view. Uses CPA's native aliases; routing stays untouched.",
-      "author": "ngvoicu",
-      "repository": "https://github.com/ngvoicu/cpa-pools-and-aliases",
-      "logo": "https://raw.githubusercontent.com/ngvoicu/cpa-pools-and-aliases/main/assets/logo.svg",
-      "homepage": "https://github.com/ngvoicu/cpa-pools-and-aliases",
-      "license": "MIT",
-      "tags": [
-        "Management",
-        "Model Alias",
-        "Pool",
-        "Dashboard"
-      ],
-      "locales": {
-        "zh-CN": {
-          "description": "将提供同一模型的所有订阅与 API Key 合并到以模型原生 ID 命名的池中：新账号自动加入，模型列表去掉提供商后缀，可选“仅显示池”视图。使用 CPA 原生别名，不改变路由。"
-        }
-      }
-    },
-    {
       "id": "opencode-cpa-plus",
       "name": "OpenCode Plus",
       "description": "OpenCode Go provider for CLIProxyAPI and CPA Manager Plus. Every API key becomes a CPA credential that is created, restored and removed together with the key list, with per-credential quota. Stable session IDs per conversation, optional model whitelist, and a Chinese/English settings page under plugin pages. Unofficial; tested only on the OpenCode Go plan.",

@@ -3965,6 +3965,28 @@
           "description": "使用 lm-detector 在本地评分，检测指定 OAuth 认证的模型指纹，记录不一致结果并临时隔离异常认证。"
         }
       }
+    },
+    {
+      "id": "codex-timezone-sync-local",
+      "name": "Codex Offline Timezone Sync",
+      "description": "Corrects Codex request timezones and dates using an embedded offline IANA timezone database, with local and target timezone selectors in the CPA management panel. The panel can reuse saved CPA management credentials. No external services or network lookups are required.",
+      "author": "azmiao",
+      "repository": "https://github.com/azmiao/codex-timezone-sync-local",
+      "homepage": "https://github.com/azmiao/codex-timezone-sync-local",
+      "license": "MIT",
+      "tags": [
+        "Codex",
+        "Timezone",
+        "Management",
+        "Interceptor",
+        "Offline"
+      ],
+      "locales": {
+        "zh-CN": {
+          "name": "Codex 离线时区同步",
+          "description": "使用内置离线 IANA 时区表校正 Codex 请求中的时区与日期，通过 CPA 管理面板选择本地与目标时区，并自动复用 CPA 已保存的管理凭据；无需辅助服务或外网查询。"
+        }
+      }
     }
   ]
 }

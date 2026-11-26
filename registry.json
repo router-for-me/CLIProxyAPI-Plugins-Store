@@ -3966,6 +3966,24 @@
           "description": "使用内置离线 IANA 时区表校正 Codex 请求中的时区与日期，通过 CPA 管理面板选择本地与目标时区，并自动复用 CPA 已保存的管理凭据；无需辅助服务或外网查询。"
         }
       }
+    },
+    {
+      "id": "quota-first-router",
+      "name": "Quota First Router",
+      "description": "Routes Codex OAuth requests by account priority tier, preferring the nearest five-hour quota reset within the highest usable tier.",
+      "author": "kazimshah39",
+      "repository": "https://github.com/kazimshah39/quota-first-router",
+      "homepage": "https://github.com/kazimshah39/quota-first-router",
+      "license": "MIT",
+      "tags": [
+        "Scheduler",
+        "Quota",
+        "Codex",
+        "OAuth"
+      ],
+      "install": {
+        "type": "github-release"
+      }
     }
   ]
 }

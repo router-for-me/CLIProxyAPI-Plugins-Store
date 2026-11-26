@@ -3966,6 +3966,27 @@
           "description": "使用内置离线 IANA 时区表校正 Codex 请求中的时区与日期，通过 CPA 管理面板选择本地与目标时区，并自动复用 CPA 已保存的管理凭据；无需辅助服务或外网查询。"
         }
       }
+    },
+    {
+      "id": "step2api",
+      "name": "Step2API",
+      "description": "Connects StepFun AI Studio to CLIProxyAPI with streaming, tool calls, image input, an account pool, and one-click isolated-browser sign-in.",
+      "author": "wenbaolu6666-design",
+      "version": "1.0.59",
+      "repository": "https://github.com/wenbaolu6666-design/cpa-plugin-step2api",
+      "logo": "https://raw.githubusercontent.com/wenbaolu6666-design/cpa-plugin-step2api/main/assets/logo.png",
+      "homepage": "https://github.com/wenbaolu6666-design/cpa-plugin-step2api",
+      "license": "MIT",
+      "tags": [
+        "Provider",
+        "Auth",
+        "Management"
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "将阶跃星辰 AI Studio 接入 CLIProxyAPI，支持流式响应、工具调用、图片输入与账号池，并提供一键无痕登录。"
+        }
+      }
     }
   ]
 }

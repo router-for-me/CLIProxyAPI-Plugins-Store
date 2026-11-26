@@ -3983,6 +3983,11 @@
       ],
       "install": {
         "type": "github-release"
+      },
+      "locales": {
+        "zh-CN": {
+          "description": "按账号优先级层级路由 Codex OAuth 请求，在最高可用层级内优先选择五小时额度重置时间最近的账号。"
+        }
       }
     }
   ]

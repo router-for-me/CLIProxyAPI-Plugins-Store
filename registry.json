@@ -3966,6 +3966,23 @@
           "description": "使用内置离线 IANA 时区表校正 Codex 请求中的时区与日期，通过 CPA 管理面板选择本地与目标时区，并自动复用 CPA 已保存的管理凭据；无需辅助服务或外网查询。"
         }
       }
+    },
+    {
+      "id": "qwenwork",
+      "name": "QWork OAuth",
+      "description": "QwenWork (千问办公) provider for CLIProxyAPI with OAuth device login, 14 native models, streaming tools and images, quota lookup and an admin panel.",
+      "author": "王小帅",
+      "version": "0.1.0",
+      "repository": "https://github.com/wangxiaoshuai136/cpa-plugin-qwork-oauth",
+      "logo": "https://raw.githubusercontent.com/wangxiaoshuai136/cpa-plugin-qwork-oauth/main/assets/icon.png",
+      "homepage": "https://github.com/wangxiaoshuai136/cpa-plugin-qwork-oauth",
+      "license": "MIT",
+      "tags": ["Provider", "Auth", "Quota", "Management"],
+      "locales": {
+        "zh-CN": {
+          "description": "将千问办公（QwenWork）接入 CLIProxyAPI：OAuth 设备码登录、14 个模型、流式与工具调用、图片输入、额度查询和插件面板。"
+        }
+      }
     }
   ]
 }

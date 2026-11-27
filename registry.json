@@ -3989,6 +3989,27 @@
           "description": "按账号优先级层级路由 Codex OAuth 请求，在最高可用层级内优先选择五小时额度重置时间最近的账号。"
         }
       }
+    },
+    {
+      "id": "step2api",
+      "name": "Step2API",
+      "description": "Connects StepFun AI Studio to CLIProxyAPI with streaming, tool calls, image input, an account pool, and one-click isolated-browser sign-in.",
+      "author": "wenbaolu6666-design",
+      "version": "1.0.62",
+      "repository": "https://github.com/wenbaolu6666-design/cpa-plugin-step2api",
+      "logo": "https://raw.githubusercontent.com/wenbaolu6666-design/cpa-plugin-step2api/main/assets/logo.png",
+      "homepage": "https://github.com/wenbaolu6666-design/cpa-plugin-step2api",
+      "license": "MIT",
+      "tags": [
+        "Provider",
+        "Auth",
+        "Management"
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "将阶跃星辰 AI Studio 接入 CLIProxyAPI，支持流式响应、工具调用、图片输入与账号池，并提供一键无痕登录。"
+        }
+      }
     }
   ]
 }

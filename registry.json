@@ -3989,6 +3989,23 @@
           "description": "按账号优先级层级路由 Codex OAuth 请求，在最高可用层级内优先选择五小时额度重置时间最近的账号。"
         }
       }
+    },
+    {
+      "id": "qwenwork",
+      "name": "QWork OAuth",
+      "description": "QwenWork provider for CLIProxyAPI with OAuth device login, 14 native models, streaming tools and images, and quota lookup. Ships macOS, Linux and Windows builds (amd64 and arm64).",
+      "author": "王小帅",
+      "version": "0.2.1",
+      "repository": "https://github.com/wangxiaoshuai136/cpa-plugin-qwork-oauth",
+      "logo": "https://raw.githubusercontent.com/wangxiaoshuai136/cpa-plugin-qwork-oauth/main/assets/icon.png?v=2",
+      "homepage": "https://github.com/wangxiaoshuai136/cpa-plugin-qwork-oauth",
+      "license": "MIT",
+      "tags": ["Provider", "Auth", "Quota"],
+      "locales": {
+        "zh-CN": {
+          "description": "将千问办公（QwenWork）接入 CLIProxyAPI：OAuth 设备码登录、14 个模型、流式与工具调用、图片输入和额度查询，提供 macOS / Linux / Windows 的 amd64 与 arm64 构建。"
+        }
+      }
     }
   ]
 }

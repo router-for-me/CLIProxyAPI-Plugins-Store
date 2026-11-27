@@ -3989,6 +3989,28 @@
           "description": "按账号优先级层级路由 Codex OAuth 请求，在最高可用层级内优先选择五小时额度重置时间最近的账号。"
         }
       }
+    },
+    {
+      "id": "commandcode-studio",
+      "name": "Command Code Studio",
+      "description": "Command Code accounts: plans and quota, per-account models, Studio sign-in, OpenAI and Anthropic formats.",
+      "author": "MyuriKanao",
+      "repository": "https://github.com/MyuriKanao/cpa-plugin-commandcode-studio",
+      "logo": "https://raw.githubusercontent.com/MyuriKanao/cpa-plugin-commandcode-studio/main/assets/logo.svg",
+      "homepage": "https://github.com/MyuriKanao/cpa-plugin-commandcode-studio",
+      "license": "MIT",
+      "tags": [
+        "Provider",
+        "OAuth",
+        "Quota",
+        "Management",
+        "commandcode"
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "Command Code 账号：套餐与额度、按账号启用模型、Studio 登录、OpenAI 与 Anthropic 格式。"
+        }
+      }
     }
   ]
 }

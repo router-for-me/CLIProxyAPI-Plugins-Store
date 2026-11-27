@@ -4006,6 +4006,27 @@
           "description": "将千问办公（QwenWork）接入 CLIProxyAPI：OAuth 设备码登录、14 个模型、流式与工具调用、图片输入和额度查询，提供 macOS / Linux / Windows 的 amd64 与 arm64 构建。"
         }
       }
+    },
+    {
+      "id": "step2api",
+      "name": "Step2API",
+      "description": "Connects StepFun AI Studio to CLIProxyAPI with streaming, tool calls, image input, an account pool, and one-click isolated-browser sign-in.",
+      "author": "wenbaolu6666-design",
+      "version": "1.0.63",
+      "repository": "https://github.com/wenbaolu6666-design/cpa-plugin-step2api",
+      "logo": "https://raw.githubusercontent.com/wenbaolu6666-design/cpa-plugin-step2api/main/assets/logo.png",
+      "homepage": "https://github.com/wenbaolu6666-design/cpa-plugin-step2api",
+      "license": "MIT",
+      "tags": [
+        "Provider",
+        "Auth",
+        "Management"
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "将阶跃星辰 AI Studio 接入 CLIProxyAPI，支持流式响应、工具调用、图片输入与账号池，并提供一键无痕登录。"
+        }
+      }
     }
   ]
 }

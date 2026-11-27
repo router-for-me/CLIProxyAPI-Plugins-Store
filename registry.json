@@ -3995,7 +3995,7 @@
       "name": "QWork OAuth",
       "description": "QwenWork (千问办公) provider for CLIProxyAPI with OAuth device login, 14 native models, streaming tools and images, and quota lookup. Ships macOS, Linux and Windows builds (amd64 and arm64).",
       "author": "王小帅",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "repository": "https://github.com/wangxiaoshuai136/cpa-plugin-qwork-oauth",
       "logo": "https://raw.githubusercontent.com/wangxiaoshuai136/cpa-plugin-qwork-oauth/main/assets/icon.png?v=2",
       "homepage": "https://github.com/wangxiaoshuai136/cpa-plugin-qwork-oauth",

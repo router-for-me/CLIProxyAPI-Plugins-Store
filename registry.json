@@ -3989,6 +3989,21 @@
           "description": "按账号优先级层级路由 Codex OAuth 请求，在最高可用层级内优先选择五小时额度重置时间最近的账号。"
         }
       }
-    }
+    },
+    {
+      "id": "coding-plan-5h-quota-warmer",
+      "name": "AI Coding Plan 配额预热器",
+      "description": "按日程预热 CPA 托管账号，模型可输入或点选，同时支持手动 API Key。",
+      "author": "Becase",
+      "repository": "https://github.com/Becase/ai-coding-plan-5h-quota-warmer",
+      "tags": [
+        "warmup",
+        "codex",
+        "antigravity",
+        "coding plan",
+        "配额预热",
+        "预热"
+  ]
+}
   ]
 }

@@ -3995,7 +3995,7 @@
       "name": "Step2API",
       "description": "Connects StepFun AI Studio to CLIProxyAPI with streaming, tool calls, image input, an account pool, and one-click isolated-browser sign-in.",
       "author": "wenbaolu6666-design",
-      "version": "1.0.62",
+      "version": "1.0.63",
       "repository": "https://github.com/wenbaolu6666-design/cpa-plugin-step2api",
       "logo": "https://raw.githubusercontent.com/wenbaolu6666-design/cpa-plugin-step2api/main/assets/logo.png",
       "homepage": "https://github.com/wenbaolu6666-design/cpa-plugin-step2api",

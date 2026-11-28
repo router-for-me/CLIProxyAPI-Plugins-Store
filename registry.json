@@ -4027,6 +4027,28 @@
           "description": "将阶跃星辰 AI Studio 接入 CLIProxyAPI，支持流式响应、工具调用、图片输入与账号池，并提供一键无痕登录。"
         }
       }
+    },
+    {
+      "id": "commandcode-studio",
+      "name": "Command Code Studio",
+      "description": "Command Code accounts: plans and quota, per-account models, Studio sign-in, OpenAI and Anthropic formats.",
+      "author": "MyuriKanao",
+      "repository": "https://github.com/MyuriKanao/cpa-plugin-commandcode-studio",
+      "logo": "https://raw.githubusercontent.com/MyuriKanao/cpa-plugin-commandcode-studio/main/assets/logo.svg",
+      "homepage": "https://github.com/MyuriKanao/cpa-plugin-commandcode-studio",
+      "license": "MIT",
+      "tags": [
+        "Provider",
+        "OAuth",
+        "Quota",
+        "Management",
+        "commandcode"
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "Command Code 账号：套餐与额度、按账号启用模型、Studio 登录、OpenAI 与 Anthropic 格式。"
+        }
+      }
     }
   ]
 }
